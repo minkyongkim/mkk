@@ -37,7 +37,7 @@ body, html{
 
 .parallax {
 	height: 100%;
-	background-image: url("../Images/NUVents Images/NUVents.png");
+	background-image: url("Images/NUVents Images/NUVents.png");
 	opacity: 30%;
 	background-attachment: fixed;
 	background-position: center;
