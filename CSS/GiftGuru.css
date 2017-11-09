@@ -37,7 +37,7 @@ body, html{
 
 .parallax{
 	background-color: rgba(190,155,123, 0.2);
-	background-image: url("../Images/Giftguru Images/GiftGuru Logo.png");
+	background-image: url("Images/Giftguru Images/GiftGuru Logo.png");
 	opacity: 50%;
 	background-attachment: fixed;
 	background-position: center;
