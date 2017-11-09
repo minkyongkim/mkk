@@ -1,0 +1,191 @@
+
+* {
+	box-sizing: border-box;
+}
+
+.navbar {
+	overflow: hidden;
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+}
+
+@font-face{
+	font-family: "codepro";
+	src: url("../codepro/codeprolight.woff") format("woff");
+}
+
+.navbar a {
+	float: left;
+	display: block;
+	color: #3c2f2f;
+	text-align: right;
+	padding: 14px 16px;
+	font-weight: 700;
+	text-decoration: none;
+	letter-spacing: 3px;
+	font-family: "codepro";
+}
+
+
+body, html{
+	margin: 0;
+	height: 100%;
+	background-color: #fff4e6;
+	font-family:"Quicksand", sans-serif;
+}
+
+.parallax {
+	height: 100%;
+	background-image: url("../Images/NUVents Images/NUVents.png");
+	opacity: 30%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 35% 85%;
+	font-size: 30px;
+	background-color: rgba(190,155,123, 0.2);
+}
+
+.titletext{
+	margin: 0 auto;
+	color: #3c2f2f;
+	padding-top: 80px;
+	max-width: 500px;
+	font-weight: bolder;
+	object-position: relative;
+}
+
+video{
+	width: 100%;
+}
+
+h2{
+	font-size: 30px;
+}
+
+h3{
+	margin-left: 40px;
+	font-size: 22px;
+	text-decoration: underline;
+}
+
+p{
+	margin-left: 40px;
+	width: 60%;
+	font-size: 18px;
+}
+
+li{
+	margin-left: 80px;
+	line-height: 15px;
+	font-size: 18px;
+}
+
+.Problem{
+	padding: 25px 40px 40px 40px;
+	min-height: 100%;
+	font-size: 20px;
+
+}
+
+.Journey{
+	padding-top: 50px;
+	margin-left: 100px;
+}
+
+.Research{
+	padding: 20px 0px 40px 40px;
+	background-color: rgba(190,155,123, 0.2);
+	font-size: 20px;
+	width: 100%;
+}
+
+.Research li {
+	line-height: 30px;
+}
+
+
+.Prototypes{
+	padding: 15px 40px 40px 40px;
+	height: 100%;
+	
+}
+
+.blueprint{
+	padding: 300px 40px 150px 40px;
+	font-size: 20px;
+}
+
+.Mockups-container{
+	max-width: 600px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-bottom: 30px;
+}
+
+.screens{
+	background-color: rgba(190,155,123, 0.2);
+	width: 100%;
+	min-height: 100%;
+	padding: 40px 0px 40px 40px;
+}
+
+.slick-next:before, .slick-prev:before {
+	color: #4a4a4a;
+}
+
+.mockup{
+	display: none;
+}
+
+.mySlides{
+	display: none;
+}
+
+.slideshow-container {
+	max-width: 700px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-bottom: 100px;
+}
+
+
+.text{
+	color: "black";
+	font-size: 15px;
+	padding: 0px 0px;
+	margin-left: 370px;
+	position: relative;
+	bottom: 140px;
+	width: 30%;
+	text-align: right;
+}
+
+.text1{
+	color: "black";
+	font-size: 15px;
+	padding: 0px 10px;
+	margin-left: 320px;
+	position: absolute;
+	bottom: 150px;
+	width: 50%%;
+	text-align: right;
+
+}
+
+.numbertext{
+	color: "black";
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+.demo{
+	margin-left: 40px;
+	padding-top: 25px;
+	height: 700px;
+}
