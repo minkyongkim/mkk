@@ -90,7 +90,7 @@ div[class*="projectitem"] .overlay:hover {
 .projectitem-2{
 	grid-column: 3 / 4;
 	grid-row: 2 / 3;
-	background-image: url("../Images/Work Images/Giftguru mockup.jpeg");
+	background-image: url("../Images/Work Images/GiftGuru mockup.jpeg");
 	background-size: cover;
 }
 
