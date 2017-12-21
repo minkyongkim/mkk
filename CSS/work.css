@@ -72,7 +72,7 @@ h2{
 }
 
 div[class*="projectitem"] {
-	height: 100%;
+	height: 350px;
 	width: 100%;
 }
 
