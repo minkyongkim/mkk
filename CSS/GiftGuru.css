@@ -28,14 +28,14 @@
 
 
 body, html{
-	background-color: #fff4e6;
+	background-color: #ffffff;
 	font-family: Quicksand, sans-serif;
 	margin: 0;
 	height: 80%;
 }
 
 .parallax{
-	background-color: rgba(190,155,123, 0.2);
+	background-color: #eeeeee;
 	background-image: url("../Images/GiftGuru Images/GiftGuru Logo.png");
 	opacity: 50%;
 	background-attachment: fixed;
@@ -93,7 +93,7 @@ li{
 .Research{
 	padding: 25px 40px 40px 40px;
 	min-height: 100%;
-	background-color: rgba(190,155,123, 0.2);
+	background-color: #eeeeee;
 	
 }
 
@@ -190,7 +190,7 @@ li{
 .Testing{
 	padding: 25px 40px 40px 40px;
 	min-height: 100%;
-	background-color: rgba(190,155,123, 0.2);
+	background-color: #eeeeee;
 }
 
 
@@ -223,5 +223,5 @@ ol{
 
 .FinalPrototype{
 	padding: 25px 40px 40px 40px;
-	background-color: rgba(190,155,123, 0.2);
+	background-color: #eeeeee;
 }
