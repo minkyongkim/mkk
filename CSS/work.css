@@ -67,7 +67,6 @@ h2{
 	justify-self: end;
 	align-self: center;
 	position: relative;
-	background-image: url("../Images/Work Images/NUVents Mockup.jpeg");
 	background-size: cover;
 }
 
@@ -76,6 +75,10 @@ div[class*="projectitem"] {
 	width: 100%;
 }
 
+div[class*="projectitem"] .image:hover {
+	opacity: 0.3
+}
+	
 div[class*="projectitem"] .overlay:hover {
 	opacity: 1;
 }
