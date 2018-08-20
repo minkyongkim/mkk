@@ -67,6 +67,8 @@ h2{
 	justify-self: end;
 	align-self: center;
 	position: relative;
+	background-image: url("../Images/Work Images/NUVents Mockup.jpeg");
+	background-size: cover;
 }
 
 div[class*="projectitem"] {
