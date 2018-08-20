@@ -76,9 +76,6 @@ div[class*="projectitem"] {
 	width: 100%;
 }
 
-div[class*="projectitem"] .image:hover {
-	opacity: 0.3
-}
 	
 div[class*="projectitem"] .overlay:hover {
 	opacity: 1;
