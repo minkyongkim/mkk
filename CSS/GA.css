@@ -6,7 +6,7 @@
 }
 
 @font-face{
-	font-family: "codepro";
+	font-family: "dosis";
 	src: url("../dosis/dosisregular.ttf") format("ttf");
 }
 
@@ -19,7 +19,7 @@
 	font-weight: 700;
 	text-decoration: none;
 	letter-spacing: 3px;
-	font-family: "codepro";
+	font-family: "dosis";
 }
 
 body, html{
