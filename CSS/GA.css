@@ -7,7 +7,7 @@
 
 @font-face{
 	font-family: "codepro";
-	src: url("../codepro/codeprolight.woff") format("woff");
+	src: url("../dosis/dosisregular.ttf") format("ttf");
 }
 
 .navbar a {
