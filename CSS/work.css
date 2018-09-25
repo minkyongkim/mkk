@@ -1,17 +1,17 @@
 @font-face{
-	font-family: "codepro";
-	src: url("../codepro/codeprolight.woff") format("woff");
+	font-family: "dosis";
+	src: url("../dosis/dosisregular.ttf") format("ttf");
 }
 
 body {
 	margin: 0;
-	font-family: "codepro";
+	font-family: "dosis";
 	background-color: #ffffff;
 }
 
 
 h2{
-	font-family: "codepro";
+	font-family: "dosis";
 	padding: 90px 0px 5px 70px;
 	letter-spacing: 6px;
 	font-weight: 900;
