@@ -1,11 +1,11 @@
 @font-face{
-	font-family: "codepro";
-	src: url("../codepro/codeprolight.woff") format("woff");
+	font-family: "dosis";
+	src: url("../dosis/dosismedium.ttf") format("ttf");
 }
 
 body {
 	margin: 0;
-	font-family: "codepro";
+	font-family: "dosis";
 	background-color: #ffffff;
 }
 
@@ -15,7 +15,7 @@ body {
 	top: 0;
 	z-index: 100;
 	width: 100%;
-	margin-bottom: 20px;
+	padding: 20px;
 }
 
 .navbar a {
@@ -32,7 +32,7 @@ body {
 
 
 .description{
-	font-family: 'Quicksand', sans-serif;
+	font-family: "dosis";
 	font-weight: lighter;
 	position: relative;
 	transform: translate(45%,20%);
