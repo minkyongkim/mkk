@@ -8,11 +8,12 @@
 	z-index: 100;
 	width: 100%;
 	background-color: #ffffff;
+	padding: 20px;
 }
 
 @font-face{
-	font-family: "codepro";
-	src: url("../codepro/codeprolight.woff") format("woff");
+	font-family: "dosis";
+	src: url("../dosis/dosislight.ttf") format("ttf");
 }
 
 .navbar a {
@@ -24,13 +25,13 @@
 	font-weight: 700;
 	text-decoration: none;
 	letter-spacing: 3px;
-	font-family: "codepro";
+	font-family: "dosis";
 }
 
 
 body, html{
 	background-color: #ffffff;
-	font-family: Quicksand, sans-serif;
+	font-family: "dosis";
 	margin: 0;
 	height: 80%;
 }
