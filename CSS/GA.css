@@ -7,7 +7,7 @@
 
 @font-face{
 	font-family: "dosis";
-	src: url("../dosis/dosisregular.ttf") format("ttf");
+	src: url("../dosis/dosislight.ttf") format("ttf");
 }
 
 .navbar a {
