@@ -16,7 +16,8 @@ body {
 	top: 0;
 	z-index: 100;
 	width: 100%;
-	margin-bottom: 20px;
+	background-color: #ffffff;
+	padding: 20px;
 }
 
 .navbar a {
