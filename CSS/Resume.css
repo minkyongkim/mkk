@@ -1,11 +1,11 @@
 @font-face{
-	font-family: "codepro";
-	src: url("../codepro/codeprolight.woff") format("woff");
+	font-family: "dosis";
+	src: url("../dosis/dosislight.ttf") format("ttf");
 }
 
 body {
 	margin: 0;
-	font-family: "codepro";
+	font-family: "dosis";
 	background-color: #fff4e6;
 }
 
