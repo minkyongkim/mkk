@@ -35,7 +35,7 @@ body {
 	font-family: "dosis";
 	font-weight: lighter;
 	position: absolute;
-	top: 20%;
+	padding-top: 100px;
 	padding-left: 20%
 	width: 40%;
 	line-height: 30px;
@@ -43,6 +43,6 @@ body {
 
 .dp{
 	position: absolute;
-	top: 20%; 
-	padding-left: calc(70% - 25px);
+	margin-top: 116px; 
+	padding-left: calc(70% - 20px);
 }
