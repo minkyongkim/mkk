@@ -184,8 +184,7 @@ li{
 
 .text{
 	width: 70%;
-	margin-left: 80px;
-	position: center;
+	transform: translateX(50%);
 }
 
 .Testing{
