@@ -4,6 +4,7 @@
 	z-index: 100;
 	width: 100%;
 	padding: 20px;
+	background-color: #fff;
 }
 
 @font-face{
@@ -36,8 +37,6 @@ body, html{
 }
 
 .parallax{
-	background-color: rgba(255, 128, 128, 0.6);
-	opacity: 50%;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -124,7 +123,6 @@ ol{
 	text-align: center;
 	padding-top: 10px;
 }
-
 
 
 .CA{
