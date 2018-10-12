@@ -12,7 +12,8 @@ body {
 
 h2{
 	font-family: "dosis";
-	padding: 90px 0px 5px 70px;
+	text-align: center;
+	padding: 90px 0px 0px 70px;
 	letter-spacing: 6px;
 	font-weight: 700;
 	font-size: 40px;
