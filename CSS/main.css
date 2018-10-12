@@ -43,6 +43,6 @@ body {
 
 .dp{
 	position: absolute;
-	margin-top: 116px; 
-	padding-left: calc(70% - 20px);
+	top: 116px; 
+	left: 65%;
 }
