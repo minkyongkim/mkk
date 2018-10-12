@@ -87,6 +87,11 @@ li{
 	font-size: 18px;
 }
 
+
+hr{
+	width: 80%;
+}
+
 .Problem{
 	padding: 25px 40px 40px 40px;
 	min-height: 100%;
