@@ -75,13 +75,15 @@ h3{
 }
 
 p{
-	transform: translate(40%);
-	width: 60%;
+	transform: translate(50%);
+	text-align: center;
+	width: 50%;
 	font-size: 18px;
 }
 
 li{
-	margin-left: 80px;
+	transform: translateX(50%);
+	width: 50%;
 	line-height: 15px;
 	font-size: 18px;
 }
@@ -129,7 +131,6 @@ li{
 }
 
 .screens{
-	background-color: #eeeeee;
 	width: 100%;
 	min-height: 100%;
 	padding: 40px 0px 40px 40px;
