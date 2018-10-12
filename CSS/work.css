@@ -48,7 +48,7 @@ h2{
 	grid-template-columns: 50px calc(50% - 72.5px) calc(50% - 72.5px) 50px;
 	grid-template-rows: 400px 350px 350px 100px;
 	grid-gap: 15px;
-	margin-top: -370px;
+	margin-top: -350px;
 
 }
 
