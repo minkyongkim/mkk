@@ -37,7 +37,6 @@ body, html{
 }
 
 .parallax{
-	background-color: #eeeeee;
 	background-image: url("../Images/GiftGuru Images/GiftGuru Logo.png");
 	opacity: 50%;
 	background-attachment: fixed;
@@ -62,10 +61,13 @@ h1 {
 
 h2 {
 	font-size: 30px;
+	text-align: center;
+	padding-bottom: 30px;
 }
 
 h3{
-	margin-left: 40px; 
+	position: relative;
+	left: 25%;
 	font-size: 22px;
 }
 
@@ -75,14 +77,16 @@ h4{
 }
 
 p{
-	margin-left: 40px; 
-	width: 60%;
+	transform: translateX(50%);
+	width: 50%;
 	font-size: 18px;
 }
 
 
 li{
-	margin-left: 80px;
+	transform: translateX(50%);
+	width: 50%;
+	line-height: 15px;
 	font-size: 18px;
 }
 
@@ -112,7 +116,7 @@ li{
 	max-width: 500px;
 	position: relative;
 	left: 50%;
-    transform: translateX(-50%);
+    	transform: translateX(-50%);
 	margin-top: 20px;
 	margin-bottom: 30px;
 }
@@ -144,7 +148,7 @@ li{
 	max-width: 600px;
 	position: relative;
 	left: 50%;
-    transform: translateX(-50%);
+    	transform: translateX(-50%);
 	margin-top: 50px;
 	margin-bottom: 30px;
 }
@@ -203,7 +207,7 @@ li{
 }
 
 ol{
-	margin-left: 40px; 
+	transform: translateX(50%);
 	width: 60%;
 }
 
