@@ -95,7 +95,6 @@ li{
 .Research{
 	padding: 25px 40px 40px 40px;
 	min-height: 100%;
-	background-color: #eeeeee;
 	
 }
 
@@ -192,7 +191,6 @@ li{
 .Testing{
 	padding: 25px 40px 40px 40px;
 	min-height: 100%;
-	background-color: #eeeeee;
 }
 
 
@@ -225,5 +223,4 @@ ol{
 
 .FinalPrototype{
 	padding: 25px 40px 40px 40px;
-	background-color: #eeeeee;
 }
