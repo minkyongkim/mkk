@@ -69,14 +69,14 @@ h2{
 }
 
 h3{
+	position: relative;
+	left: 25%;
 	font-size: 22px;
-	text-align: center;
 	text-decoration: underline;
 }
 
 p{
 	transform: translate(50%);
-	text-align: center;
 	width: 50%;
 	font-size: 18px;
 }
