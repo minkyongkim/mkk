@@ -64,16 +64,18 @@ video{
 
 h2{
 	font-size: 30px;
+	text-align: center;
 }
 
 h3{
 	margin-left: 40px;
 	font-size: 22px;
+	text-align: center;
 	text-decoration: underline;
 }
 
 p{
-	margin-left: 40px;
+	transform: translate(40%);
 	width: 60%;
 	font-size: 18px;
 }
@@ -98,7 +100,6 @@ li{
 
 .Research{
 	padding: 20px 0px 40px 40px;
-	background-color: #eeeeee;
 	font-size: 20px;
 	width: 100%;
 }
@@ -187,7 +188,6 @@ li{
 }
 
 .demo{
-	margin-left: 40px;
 	padding-top: 25px;
 	height: 700px;
 }
