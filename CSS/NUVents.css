@@ -194,4 +194,6 @@ hr{
 	padding-top: 25px;
 	height: 700px;
 	width: 80%;
+	position: absolute;
+	left: 10%;
 }
