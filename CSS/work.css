@@ -8,6 +8,7 @@
 @font-face{
 	font-family: "lato";
 	src: url("../Lato/Lato-Regular.ttf") format("ttf");
+}
 
 #header{
 	font-family: "mayton";
