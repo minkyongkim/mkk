@@ -5,15 +5,8 @@
 	src: url("../Mayton.woff") format("woff");
 }
 
-body {
-	margin: 0;
-	font-family: "dosis";
-	src: url("../dosis/dosisregular.ttf") format("ttf");
-	background-color: #ffffff;
-}
 
-
-.header{
+#header{
 	font-family: "mayton";
 	text-align: center;
 	padding: 90px 0px 0px 70px;
@@ -22,6 +15,12 @@ body {
 	font-size: 40px;
 }
 
+body {
+	margin: 0;
+	font-family: "dosis";
+	src: url("../dosis/dosisregular.ttf") format("ttf");
+	background-color: #ffffff;
+}
 
 .navbar {
 	overflow: hidden;
