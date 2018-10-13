@@ -1,6 +1,8 @@
 @font-face{
 	font-family: "mayton";
 	src: url("../Mayton.ttf") format("ttf");
+	src: url("../Mayton.otf") format("otf");
+	src: url("../Mayton.woff") format("woff");
 }
 
 body {
