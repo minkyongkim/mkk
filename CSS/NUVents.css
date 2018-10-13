@@ -17,12 +17,12 @@
 	src: url("../Montserrat/Montserrat-Light.ttf") format("ttf");
 }
 @font-face{
-	font-family: "lato"'
+	font-family: "lato";
 	src: url("../Lato/Lato-Regular.ttf") format("ttf");
 }
 
 @font-face{
-	font-family: "latolight"
+	font-family: "latolight";
 	src: url("../Lato/Lato-Light.ttf") format("ttf");
 }
 
