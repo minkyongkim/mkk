@@ -43,7 +43,7 @@
 	color: #b2b248;
 }
 
-body {
+body, html {
 	margin: 0;
 	font-family: "lato";
 	background-color: #ffffff;
