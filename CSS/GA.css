@@ -81,6 +81,7 @@ h4{
 }
 
 p{
+	position: relative;
 	transform: translate(50%);
 	font-family: "Lato", sans-serif;
 	font-weight: lighter;
