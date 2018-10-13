@@ -13,8 +13,17 @@
 }
 
 @font-face{
-	font-family: "dosis";
-	src: url("../dosis/dosislight.ttf") format("ttf");
+	font-family: "mont";
+	src: url("../Montserrat/Montserrat-Light.ttf") format("ttf");
+}
+@font-face{
+	font-family: "lato"'
+	src: url("../Lato/Lato-Regular.ttf") format("ttf");
+}
+
+@font-face{
+	font-family: "latolight"
+	src: url("../Lato/Lato-Light.ttf") format("ttf");
 }
 
 .navbar a {
@@ -26,7 +35,7 @@
 	font-weight: 700;
 	text-decoration: none;
 	letter-spacing: 3px;
-	font-family: "dosis";
+	font-family: "lato";
 }
 
 
@@ -34,7 +43,7 @@ body, html{
 	margin: 0;
 	height: 100%;
 	background-color: #ffffff;
-	font-family:"dosis";
+	font-family:"latolight";
 }
 
 .parallax {
@@ -63,6 +72,7 @@ video{
 }
 
 h2{
+	font-family: "mont";
 	font-size: 30px;
 	text-align: center;
 	padding-bottom: 30px;
@@ -71,6 +81,7 @@ h2{
 h3{
 	position: relative;
 	left: 25%;
+	font-family: "lato";
 	font-size: 22px;
 	text-decoration: underline;
 }
