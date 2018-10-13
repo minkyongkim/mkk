@@ -1,11 +1,7 @@
-@font-face{
-	font-family: "dosis";
-	src: url("../dosis/dosislight.ttf") format("ttf");
-}
 
 body {
 	margin: 0;
-	font-family: "dosis";
+	font-family: "Lato", sans-serif;
 	background-color: #fff4e6;
 }
 
