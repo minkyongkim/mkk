@@ -1,8 +1,11 @@
 
-body {
+body, html {
 	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
 	font-family: "Lato", sans-serif;
-	background-color: #fff4e6;
 }
 
 
@@ -24,8 +27,9 @@ body {
 	font-weight: 700;
 	text-decoration: none;
 	letter-spacing: 3px;
-
 }
+
+
 
 
 .resume{
