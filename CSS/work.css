@@ -9,28 +9,6 @@
 	font-family: "lato";
 	src: url("../Lato/Lato-Regular.ttf") format("ttf");
 }
-.navbar {
-	overflow: hidden;
-	position: fixed;
-	top: 0;
-	z-index: 100;
-	width: 100%;
-	padding: 20px;
-	background-color: #ffffff;
-}
-
-.navbar a {
-	float: left;
-	display: block;
-	color: #3c2f2f;
-	font-family: "lato";
-	text-align: right;
-	padding: 14px 16px;
-	font-weight: 700;
-	text-decoration: none;
-	letter-spacing: 3px;
-
-}
 
 
 #header{
@@ -49,6 +27,27 @@ body, html {
 	background-color: #ffffff;
 }
 
+.navbar {
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	width: 100%;
+	padding: 20px;
+	background-color: #ffffff;
+}
+
+.navbar a {
+	float: left;
+	display: block;
+	color: #3c2f2f;
+	text-align: right;
+	padding: 14px 16px;
+	font-weight: 700;
+	text-decoration: none;
+	letter-spacing: 3px;
+
+}
 
 .container{
 	display: grid;
@@ -64,9 +63,9 @@ body, html {
 	transition: .5s ease;
 	opacity: 0.5;
 	position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    	top: 50%;
+    	left: 50%;
+    	transform: translate(-50%, -50%);
 }
 
 .projectitem-1{
