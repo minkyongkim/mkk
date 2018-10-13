@@ -44,7 +44,7 @@ span#initials{
 
 body, html{
 	background-color: #ffffff;
-	font-family: "dosis";
+	font-family: "Lato", sans-serif;
 	margin: 0;
 	height: 80%;
 }
@@ -84,7 +84,6 @@ h2 {
 h3{
 	position: relative;
 	left: 25%;
-	font-family: "Lato", sans-serif;
 	font-size: 22px;
 }
 
@@ -105,6 +104,8 @@ li{
 	transform: translateX(50%);
 	width: 50%;
 	line-height: 15px;
+	font-family: "Lato", sans-serif;
+	font-weight: lighter;
 	font-size: 18px;
 }
 
