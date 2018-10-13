@@ -9,23 +9,6 @@
 	font-family: "lato";
 	src: url("../Lato/Lato-Regular.ttf") format("ttf");
 }
-
-#header{
-	font-family: "mayton";
-	text-align: center;
-	padding: 90px 0px 0px 70px;
-	letter-spacing: 6px;
-	font-weight: 700;
-	font-size: 60px;
-	color: #b2b248;
-}
-
-body {
-	margin: 0;
-	font-family: "lato";
-	background-color: #ffffff;
-}
-
 .navbar {
 	overflow: hidden;
 	position: fixed;
@@ -45,8 +28,27 @@ body {
 	font-weight: 700;
 	text-decoration: none;
 	letter-spacing: 3px;
+	font-family: "lato";
 
 }
+
+
+#header{
+	font-family: "mayton";
+	text-align: center;
+	padding: 90px 0px 0px 70px;
+	letter-spacing: 6px;
+	font-weight: 700;
+	font-size: 60px;
+	color: #b2b248;
+}
+
+body {
+	margin: 0;
+	font-family: "lato";
+	background-color: #ffffff;
+}
+
 
 .container{
 	display: grid;
