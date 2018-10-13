@@ -62,7 +62,7 @@ video{
 
 h2{
 	font-family: "Montserrat", sans-serif;
-	font-weight: "bolder";
+	font-weight: bolder;
 	font-size: 30px;
 	text-align: center;
 	padding-bottom: 30px;
@@ -79,7 +79,7 @@ h3{
 p{
 	transform: translate(50%);
 	font-family: "Lato", sans-serif;
-	font-weight: "lighter";
+	font-weight: lighter;
 	width: 50%;
 	font-size: 18px;
 }
@@ -89,7 +89,7 @@ li{
 	width: 50%;
 	line-height: 15px;
 	font-family: "Lato", sans-serif;
-	font-weight: "lighter";
+	font-weight: lighter;
 	font-size: 18px;
 }
 
