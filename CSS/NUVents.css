@@ -3,15 +3,6 @@
 	box-sizing: border-box;
 }
 
-.navbar {
-	overflow: hidden;
-	position: fixed;
-	z-index: 100;
-	width: 100%;
-	background-color: #ffffff;
-	padding: 20px;
-}
-
 @font-face{
 	font-family: "mont";
 	src: url("../Montserrat/Montserrat-Light.ttf") format("ttf");
@@ -24,6 +15,16 @@
 @font-face{
 	font-family: "latolight";
 	src: url("../Lato/Lato-Light.ttf") format("ttf");
+}
+
+
+.navbar {
+	overflow: hidden;
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+	background-color: #ffffff;
+	padding: 20px;
 }
 
 .navbar a {
@@ -39,7 +40,7 @@
 }
 
 
-body, html{
+body{
 	margin: 0;
 	height: 100%;
 	background-color: #ffffff;
