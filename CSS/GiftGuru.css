@@ -28,6 +28,16 @@
 	font-family: "dosis";
 }
 
+span#initials{
+	position: absolute;
+	right: 7%;
+	top: 30%;
+	font-family: "mayton";
+	color: #b2b248;
+	font-size: 60px;
+	font-weight: 700;
+	letter-spacing: 6px;
+}
 
 body, html{
 	background-color: #ffffff;
