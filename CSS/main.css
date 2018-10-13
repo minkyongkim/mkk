@@ -63,7 +63,6 @@ p {
 
 span#dp{
 	position: absolute;
-	left: 70%;
-	top: 0;
-	transform: translateX(75%);
+	left: 10%;
+	top: 10%;
 }
