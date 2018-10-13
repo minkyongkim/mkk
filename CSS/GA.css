@@ -7,10 +7,6 @@
 	background-color: #fff;
 }
 
-@font-face{
-	font-family: "dosis";
-	src: url("../dosis/dosislight.ttf") format("ttf");
-}
 
 .navbar a {
 	float: left;
