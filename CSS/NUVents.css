@@ -118,7 +118,6 @@ hr{
 
 .Problem{
 	padding: 25px 40px 50px 40px;
-	min-height: 100%;
 	font-size: 20px;
 }
 
@@ -139,7 +138,6 @@ hr{
 
 .Prototypes{
 	padding: 15px 40px 40px 40px;
-	height: 100%;
 	
 }
 
@@ -199,7 +197,7 @@ hr{
 	margin-left: 320px;
 	position: absolute;
 	bottom: 150px;
-	width: 50%%;
+	width: 50%;
 	text-align: right;
 
 }
@@ -216,6 +214,6 @@ hr{
 	padding-top: 25px;
 	height: 500px;
 	width: 80%;
-	position: absolute;
+	position: relative;
 	left: 10%;
 }
