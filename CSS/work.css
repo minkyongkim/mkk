@@ -1,12 +1,12 @@
 @font-face{
 	font-family: "mayton";
-	src: url("./Mayton") format("ttf");
+	src: url("../Mayton.ttf") format("ttf");
 }
 
 body {
 	margin: 0;
 	font-family: "dosis";
-	src: url("../dosis/dosisregular") format("ttf");
+	src: url("../dosis/dosisregular.ttf") format("ttf");
 	background-color: #ffffff;
 }
 
