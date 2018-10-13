@@ -1,12 +1,19 @@
-* {
-	box-sizing: border-box;
-}
-
 @font-face{
 	font-family: "mayton";
 	src: url("../Mayton.ttf") format("ttf");
 	src: url("../Mayton.otf") format("otf");
 	src: url("../Mayton.woff") format("woff");
+}
+
+	
+body, html{
+	background-color: #ffffff;
+	font-family: "Lato", sans-serif;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	height: 100%l
+	width: 100%;	
 }
 
 .navbar {
@@ -42,13 +49,6 @@ span#initials{
 	letter-spacing: 6px;
 }
 
-body, html{
-	background-color: #ffffff;
-	font-family: "Lato", sans-serif;
-	margin: 0;
-	height: 80%;
-}
-
 .parallax{
 	background-image: url("../Images/GiftGuru Images/GiftGuru Logo.png");
 	opacity: 50%;
@@ -72,6 +72,8 @@ h1 {
 	margin-bottom: 60px;
 }
 
+
+
 h2 {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 100;
@@ -85,7 +87,6 @@ h3{
 	position: relative;
 	left: 25%;
 	font-size: 22px;
-}
 
 h4{
 	margin-left: 60px;
@@ -93,9 +94,11 @@ h4{
 }
 
 p{
-	transform: translateX(50%);
+	margin-left: auto;
+	margin-right: auto;
 	width: 50%;
 	font-family: "Lato", sans-serif;
+	font-weight: lighter;
 	font-size: 18px;
 }
 
@@ -103,8 +106,6 @@ p{
 li{
 	transform: translateX(50%);
 	width: 50%;
-	line-height: 15px;
-	font-family: "Lato", sans-serif;
 	font-weight: lighter;
 	font-size: 18px;
 }
