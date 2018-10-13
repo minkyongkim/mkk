@@ -38,6 +38,7 @@ body {
 span#initials{
 	position: absolute;
 	right: 7%;
+	top: 30%;
 	font-family: "mayton";
 	color: #b2b248;
 	font-size: 60px;
