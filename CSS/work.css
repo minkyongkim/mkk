@@ -5,6 +5,9 @@
 	src: url("../Mayton.woff") format("woff");
 }
 
+@font-face{
+	font-family: "lato";
+	src: url("../Lato/Lato-Regular.ttf") format("ttf");
 
 #header{
 	font-family: "mayton";
@@ -18,8 +21,7 @@
 
 body {
 	margin: 0;
-	font-family: "dosis";
-	src: url("../dosis/dosisregular.ttf") format("ttf");
+	font-family: "lato";
 	background-color: #ffffff;
 }
 
