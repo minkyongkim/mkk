@@ -13,8 +13,8 @@ body {
 }
 
 
-h2{
-	font-family: "sans-serif";
+.header{
+	font-family: "mayton";
 	text-align: center;
 	padding: 90px 0px 0px 70px;
 	letter-spacing: 6px;
