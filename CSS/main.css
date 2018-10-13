@@ -1,11 +1,11 @@
 @font-face{
-	font-family: "dosis";
-	src: url("../dosis/dosismedium.ttf") format("ttf");
-}
-
+	font-family: "mayton";
+	src: url("../Mayton.ttf") format("ttf");
+	
 body {
 	margin: 0;
-	font-family: "dosis";
+	font-family: "Lato", sans-serif;
+	font-weight: lighter;
 	background-color: #ffffff;
 }
 
@@ -30,6 +30,14 @@ body {
 
 }
 
+span#initials{
+	float: right;
+	font-family: "mayton";
+	color: #b2b248;
+	padding: 14px 16px;
+	font-weight: 700;
+	letter-spacing: 6px;
+}
 
 .description{
 	font-family: "dosis";
