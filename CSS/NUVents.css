@@ -62,10 +62,11 @@ video{
 
 h2{
 	font-family: "Montserrat", sans-serif;
-	font-weight: 700;
+	font-weight: 100;
 	font-size: 30px;
 	text-align: center;
 	padding-bottom: 30px;
+	letter-spacing: 2px;
 }
 
 h3{
@@ -126,7 +127,7 @@ hr{
 }
 
 .blueprint{
-	padding: 250px 40px 150px 40px;
+	padding: 0px 40px 150px 40px;
 	font-size: 20px;
 }
 
