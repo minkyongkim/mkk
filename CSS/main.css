@@ -50,10 +50,18 @@ span#initials{
 	font-family: "Lato", sans-serif;
 	font-weight: lighter;
 	position: absolute;
-	padding-top: 100px;
-	padding-left: 20%;
-	width: 40%;
-	line-height: 30px;
+	left: 50%;
+	top: 20%;
+	transform: translate(-75%, 0);
 }
 
+.p {
+	margin-top: 0;
+}
 
+span#dp{
+	position: absolute;
+	left: 75%;
+	top: 0;
+	transform: translateX(75%);
+}
