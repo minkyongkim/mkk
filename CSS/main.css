@@ -35,10 +35,11 @@ body {
 }
 
 span#initials{
-	float: right;
+	position: absolute;
+	right: 7%;
 	font-family: "mayton";
 	color: #b2b248;
-	padding: 14px 16px;
+	font-size: 60px;
 	font-weight: 700;
 	letter-spacing: 6px;
 }
