@@ -55,13 +55,14 @@ span#initials{
 	transform: translate(-75%, 0);
 }
 
-.p {
+.description p{
 	margin-top: 0;
 }
 
+
 span#dp{
 	position: absolute;
-	left: 75%;
+	left: 70%;
 	top: 0;
 	transform: translateX(75%);
 }
