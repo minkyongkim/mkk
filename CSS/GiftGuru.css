@@ -50,9 +50,7 @@ span#initials{
 }
 
 .logo {
-	position: relative;
-	left: 25%;
-	transform: translateY(60%);
+	transform: translate(30%, 70%);
 }
 
 .titletext{
@@ -60,7 +58,7 @@ span#initials{
 	color: #3c2f2f;
 	font-weight: bolder;
 	font-size: x-large;
-	padding-left: 50%;
+	left: 55%;
 }
 
 .overview{
