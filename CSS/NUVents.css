@@ -72,6 +72,7 @@ body, html{
 .overview h2{
 	margin-left: auto;
 	margin-right: auto;
+	text-align: center;
 }
 
 .overview h4{
@@ -79,6 +80,10 @@ body, html{
 	font-weight: lighter;
 	text-align: center;
 }
+
+.overview p{
+	text-align: center;
+	transform: translateY(-50%);
 
 video{
 	width: 100%;
@@ -149,7 +154,7 @@ hr{
 }
 
 .Research{
-	padding-top: 40px;
+	padding: 40px 0px 50px 0px;
 	width: 100%;
 }
 
@@ -159,7 +164,7 @@ hr{
 
 
 .Prototypes{
-	padding: 40px 0px 40px 0px;
+	padding: 40px 0px 50px 0px;
 	
 }
 
@@ -173,6 +178,9 @@ hr{
 	left: 50%;
 	transform: translateX(-50%);
 	margin-bottom: 30px;
+}
+.iterations{
+	padding: 40px 0px 50px 0px;
 }
 
 .screens{
@@ -198,7 +206,6 @@ hr{
 	left: 50%;
 	transform: translateX(-50%);
 }
-
 
 .text{
 	color: "black";
@@ -227,7 +234,7 @@ hr{
 }
 
 .demo{
-	padding-top: 40px;
+	padding: 40px 0px 50px 0px;
 	height: 500px;
 	width: 80%;
 	position: relative;
