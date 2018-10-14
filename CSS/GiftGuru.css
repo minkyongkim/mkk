@@ -51,12 +51,11 @@ span#initials{
 
 .parallax{
 	background-image: url("../Images/GiftGuru Images/GiftGuru Logo.png");
-	opacity: 50%;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 500px 500px;
-	font-size: 30px;
+	background-size: 300px 300px;
+	font-size: 24px;
 }
 
 .titletext{
@@ -113,13 +112,11 @@ li{
 .Motivation{
 	padding: 25px 40px 40px 40px;
 	min-height: 70%;
-	width: 70%;
 }
 
 .Research{
 	padding: 25px 40px 40px 40px;
 	min-height: 100%;
-	
 }
 
 .Prototypes{
