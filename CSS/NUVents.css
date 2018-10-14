@@ -102,7 +102,7 @@ p{
 	font-size: 18px;
 }
 
-li{
+li.ol{
 	transform: translateX(50%);
 	width: 50%;
 	line-height: 15px;
