@@ -52,7 +52,9 @@ body, html{
 }
 
 .logo {
-	position: center;
+	position: relative;
+	left: 30%;
+	transform: translateY(80%);
 }
 
 .titletext{
@@ -63,6 +65,9 @@ body, html{
 	font-weight: bolder;
 	object-position: relative;
 }
+
+.overview{
+	
 
 video{
 	width: 100%;
