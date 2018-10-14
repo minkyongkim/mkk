@@ -66,16 +66,18 @@ body, html{
 }
 
 .overview{
-	padding: 40px 0px 50px 0px;
+	padding: 100px 0px 50px 0px;
 }
 
 .overview h2{
-	transform: translateX(25%);
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .overview h4{
 	font-family: "Montserrat", sans-serif;
 	font-weight: lighter;
+	text-align: center;
 }
 
 video{
