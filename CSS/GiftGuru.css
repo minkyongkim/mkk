@@ -108,22 +108,27 @@ li{
 	font-size: 14px;
 }
 
+hr{
+	width: 80%;
+	border-width: 0.8px;
+}
+
 .Motivation{
-	padding: 25px 40px 40px 40px;
+	padding: 40px 40px 0px 40px;
 	
 }
 
 .Research{
-	padding: 25px 40px 40px 40px;
+	padding: 40px 40px 0px 40px;
 	
 }
 
 .Prototypes{
-	padding: 25px 40px 40px 40px;
+	padding: 40px 40px 0px 40px;
 }
 
 .PrototypeV1{
-	padding: 25px 40px 40px 40px;
+	padding: 40px 40px 40px 40px;
 	position: fixed;
 
 }
@@ -217,7 +222,7 @@ li{
 }
 
 .Findings{
-	padding: 25px 40px 40px 40px;
+	padding: 40px 40px 0px 40px;
 	min-height: 100%;
 }
 
