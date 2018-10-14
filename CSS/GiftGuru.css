@@ -58,6 +58,7 @@ span#initials{
 	color: #3c2f2f;
 	font-weight: bolder;
 	font-size: x-large;
+	position: relative;
 	left: 55%;
 }
 
