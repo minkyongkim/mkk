@@ -49,22 +49,40 @@ span#initials{
 	letter-spacing: 6px;
 }
 
-.parallax{
-	background-image: url("../Images/GiftGuru Images/GiftGuru Logo.png");
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: 300px 300px;
-	font-size: 24px;
+.logo {
+	position: relative;
+	left: 25%;
+	transform: translateY(60%);
 }
 
 .titletext{
-	margin: 0 auto;
-	padding-top: 210px;
-	max-width: 430px;
-	object-position: relative;
-
+	display: inline-block;
+	color: #3c2f2f;
+	font-weight: bolder;
+	font-size: x-large;
+	padding-left: 50%;
 }
+
+.overview{
+	padding: 100px 0px 50px 0px;
+}
+
+.overview h2{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.overview h4{
+	font-family: "Montserrat", sans-serif;
+	font-weight: lighter;
+	text-align: center;
+}
+
+.overview p{
+	text-align: center;
+	transform: translateY(-50%);
+
 
 h1 {
 	margin-left: 30px;
@@ -109,21 +127,21 @@ hr{
 }
 
 .Motivation{
-	padding: 40px 40px 0px 40px;
+	padding: 40px 0px 50px 40px;
 	
 }
 
 .Research{
-	padding: 40px 40px 0px 40px;
+	padding: 40px 0px 50px 0px;
 	
 }
 
 .Prototypes{
-	padding: 40px 40px 0px 40px;
+	padding: 40px 0px 50px 0px;
 }
 
 .PrototypeV1{
-	padding: 40px 40px 40px 40px;
+	padding: 40px 0px 50px 0px;
 	position: fixed;
 
 }
@@ -208,7 +226,7 @@ hr{
 }
 
 .Testing{
-	padding: 25px 40px 40px 40px;
+	padding: 40px 0px 50px 0px;
 	min-height: 100%;
 }
 
@@ -217,7 +235,7 @@ hr{
 }
 
 .Findings{
-	padding: 40px 40px 0px 40px;
+	padding: 40px 0px 50px 0px;
 	min-height: 100%;
 }
 
@@ -240,5 +258,5 @@ ol{
 	color: #fff;
 }
 .FinalPrototype{
-	padding: 25px 40px 40px 40px;
+	padding: 40px 0px 50px 0px;
 }
