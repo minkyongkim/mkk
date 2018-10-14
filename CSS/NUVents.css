@@ -51,16 +51,8 @@ body, html{
 	
 }
 
-.parallax {
-	height: 100%;
-	background-image: url("../Images/NUVents Images/NUVents.png");
-	opacity: 30%;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: 30% 75%;
-	font-size: 30px;
-	background-color: #ffffff;
+.logo {
+	position: center;
 }
 
 .titletext{
