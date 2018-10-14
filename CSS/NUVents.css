@@ -67,7 +67,8 @@ body, html{
 }
 
 .overview{
-	
+	padding: 25px 40px 50px 40px;
+}
 
 video{
 	width: 100%;
@@ -121,7 +122,6 @@ hr{
 
 .Problem{
 	padding: 25px 40px 50px 40px;
-	font-size: 20px;
 }
 
 .Journey{
@@ -130,7 +130,6 @@ hr{
 
 .Research{
 	padding-top: 30px;
-	font-size: 20px;
 	width: 100%;
 }
 
@@ -146,7 +145,6 @@ hr{
 
 .blueprint{
 	padding: 0px 40px 150px 40px;
-	font-size: 20px;
 }
 
 .Mockups-container{
