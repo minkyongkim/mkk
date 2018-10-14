@@ -151,13 +151,19 @@ hr{
 	width: 100%;
 }
 
-.Research li {
-	line-height: 30px;
-}
 
 .synthesis{
 	padding: 40px 0px 50px 0px;
 }
+
+.synthesis li{
+	position: relative;
+	left: 25%;
+	line-height: 15px;
+	font-weight: lighter;
+	font-size: 14px;
+}
+	
 .Prototypes{
 	padding: 40px 0px 50px 0px;
 	
