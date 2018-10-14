@@ -64,7 +64,7 @@ body, html{
 }
 
 .overview{
-	padding: 25px 40px 50px 40px;
+	padding: 40px 40px 50px 40px;
 }
 
 video{
@@ -91,7 +91,6 @@ h3{
 	left: 25%;
 	font-family: "Lato", sans-serif;
 	font-size: 22px;
-	text-decoration: underline;
 }
 
 p{
@@ -108,6 +107,14 @@ ol{
 	left: 25%;
 	line-height: 15px;
 	font-family: "Lato", sans-serif;
+	font-weight: lighter;
+	font-size: 14px;
+}
+
+li{
+	position: relative;
+	left: 25%;
+	line-height: 15px;
 	font-weight: lighter;
 	font-size: 14px;
 }
@@ -136,12 +143,12 @@ hr{
 
 
 .Prototypes{
-	padding: 15px 40px 40px 40px;
+	padding: 40px 40px 40px 40px;
 	
 }
 
 .blueprint{
-	padding: 0px 40px 150px 40px;
+	padding: 0px 40px 40px 40px;
 }
 
 .Mockups-container{
@@ -209,7 +216,7 @@ hr{
 }
 
 .demo{
-	padding-top: 25px;
+	padding-top: 40px;
 	height: 500px;
 	width: 80%;
 	position: relative;
