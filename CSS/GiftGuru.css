@@ -72,7 +72,6 @@ h1 {
 }
 
 
-
 h2 {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 100;
@@ -87,7 +86,7 @@ h3{
 	left: 25%;
 	font-size: 22px;
 
-h4{
+h4 {
 	margin-left: 60px;
 	font-size: 20px;
 }
@@ -100,7 +99,6 @@ p{
 	font-weight: lighter;
 	font-size: 18px;
 }
-
 
 li{
 	transform: translateX(50%);
@@ -213,7 +211,6 @@ li{
 	min-height: 100%;
 }
 
-
 .task {
 	margin-left: 80px;
 }
@@ -240,7 +237,6 @@ ol{
 	margin-top: -12.5px;
 	color: #fff;
 }
-
 .FinalPrototype{
 	padding: 25px 40px 40px 40px;
 }
