@@ -66,7 +66,7 @@ body, html{
 }
 
 .overview{
-	padding: 40px 40px 50px 40px;
+	padding: 40px 0px 50px 0px;
 }
 
 .overview h2{
@@ -137,7 +137,7 @@ hr{
 }
 
 .Problem{
-	padding: 25px 40px 50px 40px;
+	padding: 40px 0px 50px 0px;
 }
 
 .Journey{
@@ -155,12 +155,12 @@ hr{
 
 
 .Prototypes{
-	padding: 40px 40px 40px 40px;
+	padding: 40px 0px 40px 0px;
 	
 }
 
 .blueprint{
-	padding: 0px 40px 40px 40px;
+	padding: 0px 0px 40px 0px;
 }
 
 .Mockups-container{
@@ -173,7 +173,7 @@ hr{
 
 .screens{
 	width: 100%;
-	padding: 40px 0px 40px 40px;
+	padding: 40px 0px 40px 0px;
 }
 
 .slick-next:before, .slick-prev:before {
@@ -204,7 +204,7 @@ hr{
 	position: relative;
 	bottom: 140px;
 	width: 30%;
-	text-align: right;
+	text-align: center;
 }
 
 .text1{
