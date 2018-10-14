@@ -54,7 +54,7 @@ body, html{
 .logo {
 	position: relative;
 	left: 40%;
-	transform: translateY(80%);
+	transform: translateY(60%);
 }
 
 .titletext{
@@ -69,6 +69,7 @@ body, html{
 .overview{
 	padding: 40px 40px 50px 40px;
 }
+
 
 video{
 	width: 100%;
