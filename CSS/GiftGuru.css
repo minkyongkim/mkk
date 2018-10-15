@@ -126,21 +126,21 @@ hr{
 }
 
 .Motivation{
-	padding: 40px 0px 50px 40px;
+	padding: 50px 0px 50px 0px;
 	
 }
 
 .Research{
-	padding: 40px 0px 50px 0px;
+	padding: 50px 0px 50px 0px;
 	
 }
 
 .Prototypes{
-	padding: 40px 0px 50px 0px;
+	padding: 50px 0px 50px 0px;
 }
 
 .PrototypeV1{
-	padding: 40px 0px 50px 0px;
+	padding: 50px 0px 50px 0px;
 	position: fixed;
 
 }
@@ -257,5 +257,5 @@ ol{
 	color: #fff;
 }
 .FinalPrototype{
-	padding: 40px 0px 50px 0px;
+	padding: 50px 0px 50px 0px;
 }
