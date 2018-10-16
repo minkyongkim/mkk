@@ -113,6 +113,16 @@ div[class*="projectitem"] .overlay:hover {
 	background-size: cover;
 }
 
+.projectitem-4{
+	grid-column: 2 / 3;
+	grid-row: 3 / 4;
+	justify-self: end;
+	align-self: start;
+	position: relative;
+	background-image: url("../Images/Work Images/zalora.jpeg");
+	background-size: cover;
+}
+
 .canvas{
 	height: 1089.18px;
 	width: 850px;
