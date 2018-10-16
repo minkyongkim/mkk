@@ -13,7 +13,7 @@
 	letter-spacing: 6px;
 	font-weight: 700;
 	font-size: 60px;
-	color: #b2b248;
+	color: #d0826f;
 }
 
 body, html {
@@ -113,9 +113,7 @@ div[class*="projectitem"] .overlay:hover {
 }
 
 .footer{
-	position: fixed;
-	left: 0;
-	bottom: 0;
 	width: 100%;
 	color: #3b4358;
 	text-align: center;
+}
