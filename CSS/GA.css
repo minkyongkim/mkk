@@ -86,7 +86,7 @@ p{
 	font-family: "Lato", sans-serif;
 	font-weight: lighter;
 	width: 50%;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 li{
@@ -95,12 +95,12 @@ li{
 	line-height: 15px;
 	font-family: "Lato", sans-serif;
 	font-weight: lighter;
-	font-size: 18px;
+	font-size: 14px;
 }
 
 
 ol{
-	font-size: 18px;
+	font-size: 14px;
 }
 
 .Motivation{
@@ -120,7 +120,7 @@ ol{
 	
 
 .findings li{
-	line-height: 40px;
+	line-height: 15px;
 	width: 60%;
 }
 
@@ -148,9 +148,8 @@ ol{
 
 
 .Prototypes{
-	padding: 25px 40px 40px 40px;
+	padding: 50px 0px 50px 0px;
 	min-height: 100%;
-	background-color: rgba(190,155,123, 0.2);
 }
 
 .flowchart{
@@ -158,11 +157,6 @@ ol{
 	left: 30%;
 	padding-top: 40px;
 	padding-bottom: 30px;
-}
-
-.feature p, .cardsort p{
-	margin-left: 100px;
-	width: 60%;
 }
 
 .flowchart figcaption{
@@ -194,7 +188,7 @@ ol{
 
 
 .testing{
-	padding: 25px 40px 40px 40px;
+	padding: 50px 0px 50px 0px;
 	min-height: 100%;
 }
 
@@ -229,8 +223,8 @@ ol{
 }
 
 .Results{
-	padding: 25px 40px 0px 40px;
-	background-color: rgba(190,155,123, 0.2);
+	padding: 50px 0px 50px 0px;
+	
 }
 
 
@@ -271,6 +265,6 @@ ol{
 .demo{
 	position: relative;
 	left: 40%;
-	padding-top: 20px;
+	padding-top: 50px;
 }
 
