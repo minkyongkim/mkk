@@ -48,6 +48,12 @@ body, html {
 
 }
 
+.canvas{
+	height: 1089.18px;
+	width: 850px;
+	background-color: #3b4358;
+}
+
 .container{
 	display: grid;
 	grid-template-columns: 50px calc(50% - 72.5px) calc(50% - 72.5px) 50px;
