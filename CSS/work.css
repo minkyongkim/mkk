@@ -48,11 +48,6 @@ body, html {
 
 }
 
-.canvas{
-	height: 1089.18px;
-	width: 850px;
-	background-color: #3b4358;
-}
 
 .container{
 	display: grid;
@@ -116,6 +111,13 @@ div[class*="projectitem"] .overlay:hover {
 	position: relative;
 	background-image: url("../Images/Work Images/textbook compare mockup.jpeg");
 	background-size: cover;
+}
+
+.canvas{
+	height: 1089.18px;
+	width: 850px;
+	background-color: #3b4358;
+	z-index: -1;
 }
 
 .footer{
