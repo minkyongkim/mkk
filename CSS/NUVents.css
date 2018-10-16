@@ -139,12 +139,14 @@ hr{
 	padding: 50px 0px 50px 0px;
 }
 
+.hmw{
+	padding: 50px 0px 50px 0px;
+}
+
 .Journey{
 	padding-top: 40px;
 }
-.persona{
-	padding-top: 40px;
-}
+
 
 .Research{
 	padding: 40px 0px 50px 0px;
@@ -153,7 +155,7 @@ hr{
 
 
 .synthesis{
-	padding: 40px 0px 50px 0px;
+	padding: 50px 0px 50px 0px;
 }
 
 .synthesis li{
@@ -177,7 +179,7 @@ hr{
 }
 
 .blueprint{
-	padding: 0px 0px 40px 0px;
+	padding: 0px 0px 50px 0px;
 }
 
 .Mockups-container{
@@ -188,7 +190,7 @@ hr{
 	margin-bottom: 30px;
 }
 .iterations{
-	padding: 40px 0px 50px 0px;
+	padding: 50px 0px 50px 0px;
 }
 
 .screens{
