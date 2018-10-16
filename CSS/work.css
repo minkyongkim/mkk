@@ -123,12 +123,6 @@ div[class*="projectitem"] .overlay:hover {
 	background-size: cover;
 }
 
-.canvas{
-	height: 1089.18px;
-	width: 850px;
-	background-color: #3b4358;
-	z-index: -1;
-}
 
 .footer{
 	width: 100%;
