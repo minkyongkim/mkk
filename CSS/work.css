@@ -112,3 +112,10 @@ div[class*="projectitem"] .overlay:hover {
 	background-size: cover;
 }
 
+.footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: #3b4358;
+	text-align: center;
