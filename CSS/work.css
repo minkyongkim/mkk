@@ -116,4 +116,5 @@ div[class*="projectitem"] .overlay:hover {
 	width: 100%;
 	color: #3b4358;
 	text-align: center;
+	font-size: 14px;
 }
