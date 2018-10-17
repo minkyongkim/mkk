@@ -125,6 +125,7 @@ p{
 	font-family: "Lato", sans-serif;
 	font-weight: lighter;
 	font-size: 16px;
+	line-height: 25px;
 }
 
 li{
@@ -234,11 +235,10 @@ ol{
 	
 }
 
-.testing li{
-	position: relative;
-	left: 25%;
-	line-height: 5px;
+.testing ol, li{
 	font-size: 14px;
+	left: 0%;
+	width: 100%;
 }
 
 .testing p{
