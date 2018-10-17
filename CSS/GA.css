@@ -85,6 +85,7 @@ span#initials{
 	font-family: "Montserrat", sans-serif;
 	font-weight: lighter;
 	text-align: center;
+	left: 0%;
 }
 
 .overview p{
@@ -142,7 +143,7 @@ ol{
 	font-size: 14px;
 }
 
-.hr{
+hr{
 	width: 80%;
 }
 
