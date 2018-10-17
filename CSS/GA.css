@@ -40,12 +40,13 @@ body, html{
 	letter-spacing: 3px;	
 }
 
+
 span#initials{
 	position: absolute;
 	right: 7%;
 	top: 30%;
 	font-family: "mayton";
-	color: #b2b248;
+	color: #d0826f;
 	font-size: 60px;
 	font-weight: 700;
 	letter-spacing: 6px;
@@ -62,20 +63,43 @@ span#initials{
 
 
 .titletext{
-	padding: 200px 150px 200px 420px;
-	width: 40%;
-	object-position: relative;
+	display: inline-block;
+	color: #3c2f2f;
+	font-weight: bolder;
+	font-size: x-large;
+	position: relative;
+	left: 55%;
+}
+
+.overview{
+	padding: 100px 0px 50px 0px;
+}
+
+.overview h2{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.overview h4{
+	font-family: "Montserrat", sans-serif;
+	font-weight: lighter;
+	text-align: center;
+}
+
+.overview p{
+	text-align: center;
+	transform: translateY(-50%);
 }
 
 h1 {
-	margin-left: 30px;
 	margin-bottom: 60px;
 }
 
-h2{
+h2 {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 100;
-	font-size: 30px;
+	font-size: 24px;
 	text-align: center;
 	padding-bottom: 30px;
 	letter-spacing: 2px;
@@ -84,9 +108,7 @@ h2{
 h3{
 	position: relative;
 	left: 25%;
-	font-family: "Lato", sans-serif;
 	font-size: 22px;
-	text-decoration: underline;
 }
 
 h4{
@@ -95,36 +117,40 @@ h4{
 }
 
 p{
-	position: relative;
-	transform: translate(50%);
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 	font-family: "Lato", sans-serif;
 	font-weight: lighter;
-	width: 50%;
 	font-size: 16px;
 }
 
 li{
 	transform: translateX(50%);
 	width: 50%;
-	line-height: 15px;
-	font-family: "Lato", sans-serif;
 	font-weight: lighter;
 	font-size: 14px;
 }
 
-
 ol{
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 	font-size: 14px;
 }
 
+.hr{
+	width: 80%;
+}
+
 .Motivation{
-	padding: 25px 40px 40px 40px;
-	min-height: 70%;
+	padding: 50px 0px 50px 0px;
+	
 }
 
 .Research{
 	padding: 50px 0px 50px 0px;
-	min-height: 100%;
+	
 }
 
 .Research p{
@@ -133,13 +159,16 @@ ol{
 	
 
 .findings li{
-	line-height: 15px;
-	width: 60%;
+	position: relative;
+	left: 25%;
+	line-height: 5px;
+	font-weight: lighter;
+	font-size: 14px;
 }
 
 .findings p{
-	line-height: 30px;
-	width: 40%;
+	line-height: 20px;
+	width: 50%;
 	margin-left: 100px;
 }
 
@@ -205,12 +234,14 @@ ol{
 }
 
 .testing li{
-	margin-left: 80px;
-
+	position: relative;
+	left: 25%;
+	line-height: 5px;
+	font-size: 14px;
 }
 
 .testing p{
-	width: 60%;
+	width: 50%;
 }
 
 .videos{
@@ -241,7 +272,7 @@ ol{
 
 
 .Results p, li{
-	width: 40%;
+	width: 50%;
 }
 
 .iteration{
@@ -280,3 +311,10 @@ ol{
 	padding-top: 50px;
 }
 
+.footer{
+	width: 100%;
+	color: #3b4358;
+	text-align: center;
+	font-size: 14px;
+	padding: 15px;
+}
