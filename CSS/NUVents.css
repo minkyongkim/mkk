@@ -147,7 +147,7 @@ hr{
 
 
 .synthesis{
-	padding: 50px 0px 0px 0px;
+	padding: 50px 0px 50px 0px;
 }
 
 .synthesis li{
@@ -176,6 +176,11 @@ hr{
 	font-size: 16px;
 }
 
+#contd p{
+	position: relative;
+	left: 25%;
+	width: 100%;
+}
 #contd li{
 	position: relative;
 	left: 25%;
