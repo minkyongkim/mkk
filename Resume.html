@@ -17,14 +17,15 @@
 <body>
 
 		<div class="navbar">
-			<a href="index.html">Home</a>
-			<a href="About.html">About Me</a>
-			<a href="Resume.html">Resume</a>
+			<a href="index.html">HOME</a>
+			<a href="About.html">ABOUT</a>
+			<a href="Resume.html">RESUME</a>
 		</div>
 
-	<div id="resume">
-		<object data="../Images/Resume Images/102018Resume.pdf" type="application/pdf"></object>	
-	</div>
+	<div id="resume"></div>
+	
+	<script src="/js/pdfobject.js"></script>
+	<script>PDFObject.embed("../Images/Resume Images/102018Resume.pdf", "#resume");</script>
 
 </body>
 </html>
