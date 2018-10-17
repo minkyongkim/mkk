@@ -163,12 +163,12 @@ hr{
 }
 
 .persona img{
-	display: flex;
+	display: inline-block;
+	float: right;
+	padding-right: 80px;
+	transform: translateY(-70%);
 }
 
-.persona p{
-	padding-top: 5%;
-}
 	
 .Prototypes{
 	padding: 40px 0px 50px 0px;
