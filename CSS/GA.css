@@ -1,3 +1,23 @@
+
+
+@font-face{
+	font-family: "mayton";
+	src: url("../Mayton.ttf") format("ttf");
+	src: url("../Mayton.otf") format("otf");
+	src: url("../Mayton.woff") format("woff");
+}
+
+
+body, html{
+	background-color: #ffffff;
+	font-family: "Lato", sans-serif;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	height: 100%;
+	width: 100%;	
+}
+
 .navbar {
 	overflow: hidden;
 	position: fixed;
@@ -31,12 +51,6 @@ span#initials{
 	letter-spacing: 6px;
 }
 
-body{
-	margin: 0;
-	height: 100%;
-	background-color: #ffffff;
-	font-family:"Lato", sans-serif;
-}
 
 .parallax{
 	background-attachment: fixed;
