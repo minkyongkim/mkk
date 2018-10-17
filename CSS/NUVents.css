@@ -147,8 +147,7 @@ hr{
 
 
 .synthesis{
-	display: inline-block;
-	padding: 50px 0px 50px 0px;
+	padding: 50px 0px 0px 0px;
 }
 
 .synthesis li{
@@ -172,7 +171,7 @@ hr{
 	font-family: "Lato", sans-serif;
 	font-weight: lighter;
 	position: relative;
-	top: 60%;
+	transform: translateY(70%);
 	width: 100%;
 	font-size: 16px;
 }
