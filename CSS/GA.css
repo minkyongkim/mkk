@@ -112,8 +112,10 @@ h3{
 }
 
 h4{
-	margin-left: 60px;
-	font-size: 20px;
+	position: relative;
+    	font-size: 18px;
+   	font-weight: 600;
+    	left: 25%;
 }
 
 p{
@@ -160,16 +162,16 @@ ol{
 
 .findings li{
 	position: relative;
-	left: 25%;
-	line-height: 5px;
+	left: -45%;
+	line-height: 25px;
 	font-weight: lighter;
 	font-size: 14px;
+	width: 100%;
 }
 
 .findings p{
 	line-height: 20px;
 	width: 50%;
-	margin-left: 100px;
 }
 
 .findings{
@@ -194,28 +196,27 @@ ol{
 }
 
 .flowchart{
-	position: relative;
-	left: 30%;
+	margin-left: auto;
+    	margin-right: auto;
+    	text-align: center;
 	padding-top: 40px;
 	padding-bottom: 30px;
 }
 
 .flowchart figcaption{
 	position: relative;
-	left: 15%;
 	padding-top: 10px;
 }
 
 .sitemap{
-	position: relative;
-	left: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
 .sitemap figcaption{
-	position: relative;
-	left: 27%;
 	padding-top: 10px;
 }
 
@@ -281,7 +282,8 @@ ol{
 
 .iteration p, li{
 	line-height: 25px;
-	margin-left: 80px;
+	position: relative;
+	left: 5%;
 }
 
 .iteration1 {
