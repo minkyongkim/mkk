@@ -120,7 +120,7 @@ ol{
 	position: relative;
 	left: 25%;
 	width: 50%;
-	line-height: 15px;
+	line-height: 25px;
 	font-family: "Lato", sans-serif;
 	font-weight: lighter;
 	font-size: 14px;
@@ -157,7 +157,7 @@ hr{
 .synthesis li{
 	position: relative;
 	left: 25%;
-	line-height: 15px;
+	line-height: 25px;
 	font-weight: lighter;
 	font-size: 14px;
 }
@@ -171,13 +171,13 @@ hr{
 
 	
 .Prototypes{
-	padding: 40px 0px 50px 0px;
+	padding: 50px 0px 50px 0px;
 	
 }
 .Prototypes li{
 	position: relative;
 	left: 25%;
-	line-height: 15px;
+	line-height: 5px;
 	font-weight: lighter;
 	font-size: 14px;
 }
