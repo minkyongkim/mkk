@@ -281,21 +281,23 @@ hr{
 .iteration p{
 	line-height: 25px;
 	float: left;
-	transform: translateX(50%);
+	transform: translateX(30%);
 	
 }
 
 .iteration1 {
-	position: relative;
-	left: 100px;
+	display: inline-block;
 }
 
 .iteration img{
 	float: right;
-	display: inline-block;
-	transform: translateX(50%);
+	transform: translateX(-50%);
 }
 
+.it2 p{
+	width: 40%;
+	transform: translate(50%);
+	padding-top: 30px;
 .final{
 	padding-top: 30px;
 	padding-bottom: 30px;
