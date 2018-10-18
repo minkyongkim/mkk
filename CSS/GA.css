@@ -277,9 +277,6 @@ hr{
 	width: 50%;
 }
 
-.iteration{
-	margin-top: 120px;
-}
 
 .iteration p, li{
 	line-height: 25px;
@@ -309,8 +306,9 @@ hr{
 }
 
 .demo{
-	position: relative;
-	left: 40%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
 	padding-top: 50px;
 }
 
