@@ -14,7 +14,6 @@
   			gtag('config', 'UA-115096204-1');
 		</script>
 	
-	<script type="text/javascript" src="/js/pdfobject.js"></script>
 </head>
 <body>
 
@@ -24,11 +23,13 @@
 			<a href="Resume.html">RESUME</a>
 		</div>
 
-	<div id="resume">
 	
-	<script>PDFObject.embed("../Images/Resume Images/102018Resume.pdf","#resume");</script>
+	<div id="resume"></div>
+	
+	<script src="/js/pdfobject.js"></script>
+	<script>PDFObject.embed("../Images/Resume Images/102018Resume.pdf");</script>
 		
-      </div>
+    
 
 </body>
 </html>
