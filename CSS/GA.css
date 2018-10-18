@@ -278,22 +278,22 @@ hr{
 }
 
 
-.iteration p, li{
+.iteration p{
 	line-height: 25px;
-	position: relative;
-	left: 5%;
+	float: left;
+	transform: translateX(50%);
+	
 }
 
 .iteration1 {
 	position: relative;
 	left: 100px;
-	top: -20px;
 }
 
 .iteration img{
-	position: relative; 
-	left: 50%;
-	top: -200px;
+	float: right;
+	display: inline-block;
+	transform: translateX(50%);
 }
 
 .final{
