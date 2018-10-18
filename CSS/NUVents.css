@@ -170,21 +170,19 @@ hr{
 	margin-right: auto;
 	font-family: "Lato", sans-serif;
 	font-weight: lighter;
-	position: relative;
 	transform: translateY(70%);
-	width: 100%;
+	width: 50%;
 	font-size: 16px;
 }
 
 #contd p{
 	position: relative;
 	left: 25%;
-	width: 100%;
 }
 #contd li{
 	position: relative;
 	left: 25%;
-	line-height: 25px;
+	line-height: 5px;
 	font-weight: lighter;
 	font-size: 14px;
 }
