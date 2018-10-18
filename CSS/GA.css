@@ -292,6 +292,7 @@ hr{
 .iteration img{
 	float: right;
 	transform: translateX(-50%);
+	padding-right: 150px;
 }
 
 .it2 p{
