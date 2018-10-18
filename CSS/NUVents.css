@@ -148,6 +148,7 @@ hr{
 
 .synthesis{
 	padding: 50px 0px 50px 0px;
+	height: 60%;
 }
 
 .synthesis li{
@@ -171,18 +172,18 @@ hr{
 	margin-right: auto;
 	font-family: "Lato", sans-serif;
 	font-weight: lighter;
-	transform: translateY(-50%);
-	width: 70%;
+	width: 100%;
 	font-size: 16px;
 }
 
 #contd p{
-	position: relative;
+	display: inline-block;
 	left: 25%;
 }
 #contd li{
 	position: relative;
 	left: 25%;
+	transform: translateY(50%);
 	line-height: 5px;
 	font-weight: lighter;
 	font-size: 14px;
