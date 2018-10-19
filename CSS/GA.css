@@ -236,12 +236,6 @@ hr{
 	
 }
 
-.testing ol, li{
-	font-size: 14px;
-	left: 0%;
-	width: 100%;
-}
-
 .testing p{
 	width: 50%;
 }
@@ -282,6 +276,7 @@ hr{
 	width: 100%;
 	height: 100%;
 	float: left;
+	padding-bottom: 50px;
 }
 .iteration::after{
    	content: " ";
@@ -319,6 +314,7 @@ hr{
 .it2 p{
 	float: left;
 	width: 40%;
+	padding-top: 50px;
 }
 
 .it2 img{
@@ -337,7 +333,7 @@ hr{
 
 .it3 img{
 	float: right;
-	transform: translateX(-20%);
+	transform: translateX(-10%);
 }
 	
 .final{
