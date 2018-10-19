@@ -294,17 +294,33 @@ hr{
 	display: inline-block;
 }
 
-.iteration img{
+.iteration1 img{
 	float: right;
 	transform: translateX(-50%);
-	padding-right: 150px;
 }
 
 .it2 p{
+	float: left;
 	width: 40%;
 	transform: translate(50%);
 	padding-top: 30px;
 }
+
+.it2 img{
+	float: right;
+	transform: translateX(-50%);
+}
+
+.it3 p{
+	float: left;
+	width: 40%;
+}
+
+.it3 img{
+	float: right;
+	transform: translateX(-50%);
+}
+	
 .final{
 	padding-top: 30px;
 	padding-bottom: 30px;
