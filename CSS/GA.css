@@ -299,6 +299,10 @@ hr{
 	transform: translateX(-50%);
 }
 
+.it2 {
+	display: inline-block;
+}
+
 .it2 p{
 	float: left;
 	width: 40%;
@@ -309,6 +313,9 @@ hr{
 .it2 img{
 	float: right;
 	transform: translateX(-50%);
+}
+.it3 {
+	display: inline-block;
 }
 
 .it3 p{
