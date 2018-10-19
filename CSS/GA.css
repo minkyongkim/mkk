@@ -277,6 +277,10 @@ hr{
 	width: 50%;
 }
 
+.iteration{
+	display: inline-block;
+}
+
 .iteration h3{
 	position: relative;
 	left: 0;
@@ -327,7 +331,7 @@ hr{
 
 .it3 img{
 	float: right;
-	transform: translateX(-50%);
+	transform: translateX(-20%);
 }
 	
 .final{
