@@ -277,6 +277,10 @@ hr{
 	width: 50%;
 }
 
+.iteration{
+	display: inline-block;
+	float: left;
+}
 .iteration::after{
    	content: " ";
    	display: block; 
@@ -297,7 +301,6 @@ hr{
 	transform: translateX(30%);
 	
 }
-
 .iteration1 {
 	display: inline-block;
 }
@@ -308,7 +311,6 @@ hr{
 }
 
 .it2 {
-	display: inline-block;
 	position: relative;
 	transform: translateY(20%);
 	overflow-y: hidden;
@@ -324,8 +326,8 @@ hr{
 	transform: translateX(-30%);
 }
 .it3 {
-	display: inline-block;
 	transform: translateY(20%);
+	float: left;
 }
 
 .it3 p{
