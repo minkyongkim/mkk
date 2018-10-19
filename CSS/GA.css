@@ -301,13 +301,14 @@ hr{
 
 .it2 {
 	display: inline-block;
+	position: relative;
+	transform: translateY(20%);
+	overflow-y: hidden;
 }
 
 .it2 p{
 	float: left;
 	width: 40%;
-	transform: translate(50%);
-	padding-top: 30px;
 }
 
 .it2 img{
@@ -316,6 +317,7 @@ hr{
 }
 .it3 {
 	display: inline-block;
+	transform: translateY(20%);
 }
 
 .it3 p{
