@@ -277,8 +277,12 @@ hr{
 	width: 50%;
 }
 
-.iteration{
-	display: inline-block;
+.iteration::after{
+   	content: " ";
+   	display: block; 
+   	height: 0; 
+   	clear: both;
+	padding: 0px 0px 50px 0px;
 }
 
 .iteration h3{
@@ -317,7 +321,7 @@ hr{
 
 .it2 img{
 	float: right;
-	transform: translateX(-50%);
+	transform: translateX(-30%);
 }
 .it3 {
 	display: inline-block;
