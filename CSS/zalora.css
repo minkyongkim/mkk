@@ -117,7 +117,7 @@ hr{
 	width: 50%;
 }
 
-.checkout, .membership, .wallet{
+.checkout img, .membership img, .wallet img{
 	max-width: 500px;
 	position: relative;
 	left: 50%;
