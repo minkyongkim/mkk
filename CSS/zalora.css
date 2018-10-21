@@ -75,8 +75,7 @@ span#initials{
 }
 
 .overview p{
-	text-align: center;
-	transform: translateY(-50%);
+	line-height: 20px;
 }
 
 h2 {
@@ -119,7 +118,7 @@ hr{
 
 .scenario img {
 	position: relative;
-	left: 30%;
+	left: 20%;
 }
 
 .feedback img, .iteration img {
