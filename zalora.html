@@ -6,9 +6,6 @@
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
 
-	<link href="https://cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.min.css" type="text/css" rel="stylesheet" />
-	<link href="https://cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.gallery.min.css" type="text/css" rel="stylesheet" />
-
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 	
@@ -44,10 +41,15 @@
 <div class="znow">
 	<p>Having spent most of my internship period working on conceptualizing and designing for ZALORA's renewing subscription module ZNOW, I will dedicate this page solely to the project. Please reach out for more details on the other projects I have listed above.</p>
 
+
+<hr> 
+
 	<div class="goals">
 		<h2>BUSINESS GOALS</h2>
 		<p>As a one-year free express shipping subscription program, ZNOW had allowed members to receive free shipping service with one-time payment of S$14.90. However, upon expiry of the program, customers needed to repurchase their membership manually. Since this can potentially hinder retainment of ZNOW members, ZALORA sought to change its subscription program to an automatically recurring one where customers would be charged the payment method used to initially purchase the program to retain their membership.</p>
 	</div>
+
+<hr> 
 
 	<div class="requirements">
 		<h2>REQUIREMENTS ANALYSIS</h2>
@@ -77,6 +79,7 @@
 
 
 
+
 <div class="requirements2">
 		<p>Lastly, we targeted both <b>current members and non-members</b>. One of our key goals was to particularly design in such a way that non-members would be "enticed" to purchase the membership, while smoothly transitioning current members into an auto-renewing program. Because goals and user flows were different for each group, we needed to distinguish various use cases apart by user group to help create designs. Combined with competitive analysis, we decided that the following flow and features for each user group.</p>
 
@@ -92,6 +95,7 @@
 
 </div>
 
+<hr>
 
 
 	<div class="stakeholder">
@@ -115,10 +119,10 @@
 			<u1>
 				<li>Customers should be notified early in the user flow that 1) they will be charged on multiple cards, and 2) that they can always disable the auto-renew toggle under "My Memberships"</li>
 				<li>There will always be customers who fail to view their reminder emails and make decisions in time. We should therefore accomodate by creating designs that clearly communicate the option of disabling auto-renew any time they wish in the purchase flow.</li>
-				<li>E</li>
 			</u1>
 	</div>
 	
+	<hr>
 
 	<div class="prototypes">
 		<h2>PROTOTYPES</h2>
@@ -143,7 +147,10 @@
 			</div>
 
 			<script type="text/javascript">
-				$('.checkout').slick();
+				$('.checkout').slick({
+					dots: true,
+					slidesToShow: 1
+				]);
 			</script>
 
 		<h3>My Memberships Module</h3>
@@ -177,6 +184,7 @@
 
 					<img src="Images/Zalora/walletafter3.png">
 					<div class="text">My Wallet module with no saved cards</div>
+				</div>
 				
 			</div>
 
@@ -186,6 +194,7 @@
 
 	</div>
 
+<hr>
 	<div class="feedback">
 
 		<h2>STAKEHOLDER FEEDBACK</h2>
@@ -204,7 +213,7 @@
 
 			<p>It was also unclear in the current design that customers, either those who had chosen to disable mid-cycle or those who were simply not opted in having paid with a non-credit card method, could enable auto-renew again. There was no clear display indicating this affordance, as once disabled, the toggle was just greyed out. This was a crucial issue as this could be potentially confusing for some customers who are less tech savvy.</p>
 
-				<img src="Images/Zalora/membershipbefore">
+				<img src="Images/Zalora/membershipbefore.jpg">
 			<p>In addition, a confirmation message for disabling auto-renew was missing. Creating one was critical for error prevention.</p>
 
 
@@ -218,6 +227,8 @@
 		</div>
 
 	</div>
+
+<hr>
 
 	<div class="iteration">
 		
