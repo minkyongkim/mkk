@@ -112,13 +112,17 @@ hr{
 	padding: 50px 0px 50px 0px;
 }
 
-.requirements img, .competitor img, .scenario img{
-	height: 50%;
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
+.requirements img, .competitor img, .flowchart img{
+	position: relative;
+	left: 25%;
 }
+
+.scenario img {
+	position: relative;
+	left: 30%;
+}
+
+
 
 .checkout, .membership, .wallet {
 	max-width: 500px;
