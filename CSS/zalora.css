@@ -112,7 +112,7 @@ hr{
 	padding: 50px 0px 50px 0px;
 }
 
-.requirements, .competitor, .scenario img{
+.requirements img, .competitor img, .scenario img{
 	height: 50%;
 	width: 50%;
 }
