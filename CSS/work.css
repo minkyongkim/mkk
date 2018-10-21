@@ -116,10 +116,10 @@ div[class*="projectitem"] .overlay:hover {
 .projectitem-4{
 	grid-column: 3 / 4;
 	grid-row: 3 / 3;
-	justify-self: end;
+	justify-self: start;
 	align-self: start;
 	position: relative;
-	background-image: url("../Images/Work Images/zalora.jpeg");
+	background-image: url("../Images/Work Images/zalorasg.jpg");
 	background-size: cover;
 }
 
