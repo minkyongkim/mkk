@@ -122,7 +122,13 @@ hr{
 	left: 30%;
 }
 
-
+.feedback img, .iteration img {
+	height: 50%;
+	width: 50%;
+	position: relative;
+	left: 25%;
+	padding: 30px 0px 30px 0px;
+}
 
 .checkout, .membership, .wallet {
 	max-width: 500px;
@@ -141,6 +147,11 @@ hr{
 	right: 0;
 	border-radius: 3px 0 0 3px;
 }
+
+.prev:hover, .next:hover {
+	background-color: white;
+}
+
 
 .footer{
 	width: 100%;
