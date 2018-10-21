@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ZALORA Internship</title>
+
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+	<link href="https://cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+	<link href="https://cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.gallery.min.css" type="text/css" rel="stylesheet" />
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="CSS/GiftGuru.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+</head>
+<body>
+
+<div class="navbar">
+		<a href="index.html">HOME</a>
+		<a href="About.html">ABOUT</a>
+		<a href="Resume.html">RESUME</a>
+		<span id="initials">MK</span>
+</div>
+
+<div class="overview">
+	<h2>Overview</h2>
+	<p>ZALORA Group is a online fashion e-commerce company based in Singapore as well as a presence throughout Southeast Asia - in Malaysia, Indonesia, Philippines, Hong Kong, and Taiwan. ZALORA offers both a wide range of international and local brands in addition to its in-house labels for mens and womens' apparel, shoes, and accessories. ZALORA is a part of Global Fashion Group, which operates e-commerce fashion sites in emerging markets.</p>
+	<h3>Role:</h3><p>UX Design Intern (within the product management team)<br />Duration: May - September 2018</p>
+	<h3>Key Projects:</h3>
+		<li>ZALORA's renewing subscription module (ZALORA NOW)</li>
+		<li>API integration</li>
+		<li>Wishlist redesign</li>
+		<li>Order cancellation module redesign</li>
+	<h3>Skills:</h3>
+		<p>Interviews, surveys, usability testing, affinity diagramming, wireframing/prototyping, competitive analysis, stakeholder management</p>
+	<h3>Tools:</h3>
+		<p>Figma, Sketch, inVision</p>
+	<h3>Platforms:</h3>
+		<p>Desktop, Web Mobile, App</p>
+</div>
+
+<div class="znow">
+	<p>Having spent most of my internship period working on conceptualizing and designing for ZALORA's renewing subscription module ZNOW, I will dedicate this page solely to the project. Please reach out for more details on the other projects I have listed above.</p>
+
+	<div class="goals">
+		<h2>BUSINESS GOALS</h2>
+		<p>As a one-year free express shipping subscription program, ZNOW had allowed members to receive free shipping service with one-time payment of S$14.90. However, upon expiry of the program, customers needed to repurchase their membership manually. Since this can potentially hinder retainment of ZNOW members, ZALORA sought to change its subscription program to an automatically recurring one where customers would be charged the payment method used to initially purchase the program to retain their membership.</p>
+	</div>
+
+	<div class="requirements">
+		<h2>REQUIREMENTS ANALYSIS</h2>
+
+		<p>In order to better define the scope of the project, I first worked closely with the product manager for ZNOW, my primary stakeholder, to establish some of the basic requirements.</p>
+
+		<h3>Constraints and Assumptions</h3>
+
+		<p>One major constraint we were aware of from the start was that this feature would only work easily for credit/debit card and Paypal purchases (out of the three payment methods including cash-on-delivery), as we need to store some type of payment information in order to recurringly charge customers.</p>
+
+		<p>Another was that a integral goal of this feature was to make the relevant modifications and enhancements needed for an user-friendly recurring membership purchase and post-purchase experience. Put differently, it was critical not to disrupt the existing flow, but to build on top of it with affordances to accomodate this change.</p>
+
+		<img src="Images/Zalora/existingflow.jpg">
+			<!--existing flowchart of buying znow goes here-->
+
+		<p> With this in mind, we examined data to check if credit card purchases for ZNOW account for a considerable portion of ZNOW purchases in  SG, MY, and (eventually) PH - the only countries available for ZNOW.</p>
+
+		<p>We found that <b>82%</b> and <b>48%</b> of ZNOW purchases in Singapore (SG) and Malaysia (MY) respectively came from credit/debit cards, and just <b>15%</b> and <b>6%</b> came from Paypal. Though we could technically implement the feature for Paypal, the percentage share of Paypal was too small for both countries. We agreed to leave out Paypal for the iteration at the time. As a result, we decided to focus on designing for <b>current ZNOW members who had paid for their initial membership with a credit/debit card in SG and MY.</b></p>
+
+	</div>
+
+	<div class="competitor">
+		<h2>COMPETITIVE ANALYSIS</h2>
+		<p>To further my understanding of some conventional user journeys for recurring subscriptions, I conducted a competitor analysis specifically examining when, where, and how information about auto-renewals are communicated.</p>
+		<img src="Images/Zalora/competitor.jpg">
+	</div>
+
+
+
+<div class="requirements2">
+		<p>Lastly, we targeted both <b>current members and non-members</b>. One of our key goals was to particularly design in such a way that non-members would be "enticed" to purchase the membership, while smoothly transitioning current members into an auto-renewing program. Because goals and user flows were different for each group, we needed to distinguish various use cases apart by user group to help create designs. Combined with competitive analysis, we decided that the following flow and features for each user group.</p>
+
+	<div class="scenario">
+		<h3>User flow based on membership status</h3>
+		<img src="Images/Zalora/scenario.jpg">
+	</div>
+
+	<div class="flowchart">
+		<p>Purchase flow of non-members and members</p>
+		<img src="Images/Zalora/flowchart.jpg">
+	</div>
+
+</div>
+
+
+
+	<div class="stakeholder">
+		<h2>SECONDARY STAKEHOLDER INTERVIEWS</h2>
+		<p>In order to learn more about how secondary stakeholders felt about these requirements, I discussed these flows with the three secondary stakeholders involved in this project: legal, marketing, and UI. I met with various people from these teams to better understand their expectations and consequently adjust design requirements as appropriate before proceeding further. Some of the questions I asked included:</p>
+		<h3>Legal</h3>
+			<p><b>When</b> and <b>how</b> do we need to communicate the message about auto-renewals to the customers?</p>
+
+		<h3>CRM/Marketing</h3>
+			<p>When should we send reminder emails about expiring memberships and how should we construct the email?</p>
+
+			<p>How should we craft and cater emails to customers who decide not to purchase with a credit card or disable auto-renew during their membership period?</p>
+	
+			<p>What banners onsite need to be edited to reflect this change?</p>
+
+		<h3>UI Design</h3>
+			<p>How can we leverage the membership module as a space to advertise ZNOW to non-members?</p>
+
+			<p>Once complete, it was clear that:</p>
+
+			<u1>
+				<li>Customers should be notified early in the user flow that 1) they will be charged on multiple cards, and 2) that they can always disable the auto-renew toggle under "My Memberships"</li>
+				<li>There will always be customers who fail to view their reminder emails and make decisions in time. We should therefore accomodate by creating designs that clearly communicate the option of disabling auto-renew any time they wish in the purchase flow.</li>
+				<li>E</li>
+			</u1>
+	</div>
+	
+
+	<div class="prototypes">
+		<h2>PROTOTYPES</h2>
+		<p>Due to tight deadlines and stakeholder expectations, a lo-fi prototype was not developed. Instead, Figma was used to build one from the start and quickly presented to stakeholders. In an ideal scenario, however, we would have formally tested this on our end-users as well for the <b>usability</b>of the website.
+
+		<h3>Checkout Pages (re-designed)</h3>
+
+			<div class="checkout">
+
+				<div class="checkoutv1">
+
+					<img src="Images/Zalora/checkoutbefore2.png" style="height: 50%; width: 50%;">
+					<div class="text">Payment method section of checkout</div>
+
+					<img src="Images/Zalora/checkoutbefore.jpg">
+					<div class="text">Add card modal in checkout with "remember card details" toggle removed</div>
+
+					<img src="Images/Zalora/checkoutbefore3.jpg">
+					<div class="text">Disclaimer about auto-renewal shown in review order section of checkout</div>
+
+				</div>
+			</div>
+
+			<script type="text/javascript">
+				$('.checkout').slick();
+			</script>
+
+		<h3>My Memberships Module</h3>
+
+			<div class="membership">
+				<div class="modulev1">
+
+					<img src="Images/Zalora/membershipbefore2.jpg">
+					<div class="text">Membership module with auto-renew enabled</div>
+
+	
+					<img src="Images/Zalora/membershipbefore.png">
+					<div class="text">Membership module with auto-renew <b>disabled</b></div>
+
+				</div>
+			</div>
+
+			<script type="text/javascript">
+				$('.membership').slick();
+			</script>
+
+		<h3>My Wallet (re-designed)</h3>
+
+			<div class="wallet">
+				<div class="walletv1"></div>
+					<img src="Images/Zalora/walletafter.png">
+					<div class="text">Add card functionality added to My Wallet module</div>
+
+					<img src="Images/Zalora/walletafter2.png">
+					<div class="text">Add card modal in My Wallet module</div>
+
+					<img src="Images/Zalora/walletafter3.png">
+					<div class="text">My Wallet module with no saved cards</div>
+				
+			</div>
+
+			<script type="text/javascript">
+				$('.wallet').slick();
+			</script>
+
+	</div>
+
+	<div class="feedback">
+
+		<h2>STAKEHOLDER FEEDBACK</h2>
+
+		<h3>Checkout</h3>
+
+		<div class="checkoutfeedback">
+			<p>In terms of the checkout flow, we received feedback that the current flow did not clearly communicate that whichever credit card used for first purchasing the membership could be changed for subsequent renewals by going to their memberships module. For example, though we did include this in the message shown in the 'review order' (the last) section of checkout, we did not in the 'payment method' section, where we had removed the 'remember card details' toggle. Because the current checkout structure was configured in a way that each section collapsed and expanded progressively when clicked on, we needed to make sure this message was visible <b>at every step</b>. 
+		</div>
+
+
+		<div class="modulefeedback">
+			<h3>Memberships Module</h3>
+
+			<h4>Credit Card Members</h4>
+
+			<p>It was also unclear in the current design that customers, either those who had chosen to disable mid-cycle or those who were simply not opted in having paid with a non-credit card method, could enable auto-renew again. There was no clear display indicating this affordance, as once disabled, the toggle was just greyed out. This was a crucial issue as this could be potentially confusing for some customers who are less tech savvy.</p>
+
+				<img src="Images/Zalora/membershipbefore">
+			<p>In addition, a confirmation message for disabling auto-renew was missing. Creating one was critical for error prevention.</p>
+
+
+			<h4>Non-Members</h4>
+			<p>It was initially planned that the module would be unavailable for non-members. Yet, this would provide an inconsistent experience for customers. One of our key goals was to also entice them as much to join ZNOW and figured that creating a version tailored to non-members could help achieve that.</p>
+		</div>
+
+		<div class="walletfeedback">
+			<h3>My Wallet</h3>
+			<p>No major issues were raised by stakeholders regarding the enhanced "add card" functionality in My Wallet.</p>
+		</div>
+
+	</div>
+
+	<div class="iteration">
+		
+		<h2>ITERATIONS</h2>
+
+		<div class="checkout_it">
+
+			<h3>Checkout</h3>
+			<p>To make sure users understood which card they would be charged for auto-renewals and the option to configure this setting, we included the same message in the 'review order' of checkout in Payment Method, which is when customers are selecting/adding the card to pay with. We put this message right below the card to make it more contextually relevant and draw the users' attention.</p>
+
+				<img src="Images/Zalora/checkoutafter.png">
+				<img src="Images/Zalora/checkoutafter2.png" style="height: 50%; width: 50%">
+
+			<h4>Edge Cases</h4>
+			<p>
+				Another issue addressed was that there was a possible edge case of users adding the ZNOW sku from the review order section when asked to specify their delivery option, instead of already having it in their cart prior to checking out. As a result, we made sure that when the sku was added at this point, they would also see the relevant disclaimer.
+
+				<img src="Images/Zalora/checkoutafter3" style="height: 50%; width: 50%">
+			</p>
+		</div>
+
+		<div class="module_it">
+			
+			<h3>Memberships Module</h3>
+
+			<h4>Credit Card Members</h4>
+
+			<p>The text below the auto-renew checkbox in red now is more relevant and clearly explains how the toggle functions and what the consequences of enabling/disabling are.</p>
+				<img src="Images/Zalora/membershipafter.png" style="height: 50%; width:50%">
+			<p>A confirmation message when the user tries to disable auto-renew.</p>
+				<img src="Images/Zalora/autorenewconfirm.jpg" style="height: 50%; width: 50%">
+
+			<h4>Non-Members</h4>
+
+			<p>Making the space more meaningful for non-members:<br />
+			Rather than conceptualizing the module merely as a place for members to manage their membership settings, the UI designer and I decided to create a module for non-members which highlights the various benefits of ZNOW and including a "Join Now" CTA.</p>
+				<img src="Images/Zalora/membershipafter2.png" style="height: 50%; width: 50%">
+		</div>
+	</div>
+
+	<div class="takeaways">
+		
+	</div>
+
+
+</body>
+</html>
+
+
+
+
