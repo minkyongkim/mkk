@@ -97,6 +97,11 @@ h3{
 	font-size: 22px;
 }
 
+h4{
+	position: relative;
+	left: 25%;
+}
+
 p{
 	margin-left: auto;
 	margin-right: auto;
@@ -107,7 +112,7 @@ p{
 	line-height: 25px;
 }
 
-li {
+li{
 	margin-left: auto;
     	margin-right: auto;
    	width: 50%;
@@ -121,8 +126,12 @@ hr{
 	width: 80%;
 }
 
-.znow, .goals, .competitor, .requirements2, .stakeholder, .prototypes, .feedback, .iteration{
+.znow, .goals, .competitor, .stakeholder, .prototypes, .feedback, .iteration{
 	padding: 50px 0px 50px 0px;
+}
+
+.requirements2 {
+	padding-bottom: 50px;
 }
 
 .requirements img, .competitor img, .flowchart img{
