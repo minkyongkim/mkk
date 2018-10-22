@@ -151,7 +151,7 @@ hr{
 	height: 60%;
 }
 
-.synthesis li{
+.synthesis li, .hmw li, .Prototypes li{
 	position: relative;
 	left: 25%;
 	line-height: 25px;
@@ -184,7 +184,6 @@ hr{
 	position: relative;
 	left: 25%;
 	transform: translateY(50%);
-	line-height: 5px;
 	font-weight: lighter;
 	font-size: 14px;
 }
@@ -192,13 +191,6 @@ hr{
 .Prototypes{
 	padding: 50px 0px 50px 0px;
 	
-}
-.Prototypes li{
-	position: relative;
-	left: 25%;
-	line-height: 5px;
-	font-weight: lighter;
-	font-size: 14px;
 }
 
 .blueprint{
