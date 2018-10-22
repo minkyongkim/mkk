@@ -85,7 +85,7 @@ span#initials{
 h2 {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 100;
-	font-size: 24px;
+	font-size: 18px;
 	text-align: center;
 	padding-bottom: 30px;
 	letter-spacing: 2px;
@@ -115,11 +115,10 @@ p{
 li{
 	margin-left: auto;
     	margin-right: auto;
-   	width: 50%;
+   	width: 100%;
     	line-height: 25px;
     	font-size: 14px;
     	position: relative;
-    	left: 5%;
 }
 
 hr{
