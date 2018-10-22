@@ -78,6 +78,10 @@ span#initials{
 	line-height: 20px;
 }
 
+.znow p{
+	padding-bottom: 50px;
+}
+
 h2 {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 100;
