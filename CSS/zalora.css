@@ -129,6 +129,9 @@ hr{
 	padding: 50px 0px 50px 0px;
 }
 
+.requirements{
+	padding-top: 50px;
+}
 .requirements2 {
 	padding-top: 0px;
 	padding-bottom: 50px;
@@ -161,6 +164,11 @@ hr{
 	margin-bottom: 30px;
 }
 
+.text{
+	text-align: center;
+	width: 80%;
+	padding-top: 10px;
+}
 .slick-next:before, .slick-prev:before {
 	color: #4a4a4a;
 }
