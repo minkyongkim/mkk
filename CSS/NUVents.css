@@ -151,7 +151,7 @@ hr{
 	height: 60%;
 }
 
-.synthesis li, .hmw li, .Prototypes li{
+.synthesis li, .hmw li, .Prototypes li, #contd li{
 	position: relative;
 	left: 25%;
 	line-height: 25px;
@@ -179,13 +179,6 @@ hr{
 #contd p{
 	display: inline-block;
 	left: 25%;
-}
-#contd li{
-	position: relative;
-	left: 25%;
-	transform: translateY(50%);
-	font-weight: lighter;
-	font-size: 14px;
 }
 	
 .Prototypes{
