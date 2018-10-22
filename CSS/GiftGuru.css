@@ -94,7 +94,6 @@ h2 {
 	font-size: 24px;
 	text-align: center;
 	padding-bottom: 30px;
-	letter-spacing: 2px;
 }
 
 h3{
@@ -110,6 +109,7 @@ p{
 	font-family: "Lato", sans-serif;
 	font-weight: lighter;
 	font-size: 16px;
+	line-height: 25px;
 }
 
 li{
@@ -117,6 +117,7 @@ li{
 	width: 50%;
 	font-weight: lighter;
 	font-size: 14px;
+	line-height: 25px;
 }
 
 hr{
