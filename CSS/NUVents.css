@@ -161,10 +161,14 @@ hr{
 	font-size: 14px;
 }
 
+.Journey img{
+	padding-left: 70px;
+}
+
 .persona img{
 	display: inline-block;
 	float: right;
-	padding-right: 80px;
+	padding-right: 70px;
 	transform: translateY(-70%);
 }
 
