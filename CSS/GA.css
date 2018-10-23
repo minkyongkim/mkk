@@ -52,8 +52,9 @@ span#initials{
 	letter-spacing: 6px;
 }
 
-
-
+.logo {
+	transform: translate(30%, 60%);
+}
 
 .titletext{
 	display: inline-block;
