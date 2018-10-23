@@ -123,19 +123,11 @@ hr{
 	width: 80%;
 }
 
-.Motivation{
+.Motivation, .Research, .Prototypes, .Testing, .Findings, .FinalPrototype, .takeaways{
 	padding: 50px 0px 50px 0px;
 	
 }
 
-.Research{
-	padding: 50px 0px 50px 0px;
-	
-}
-
-.Prototypes{
-	padding: 50px 0px 50px 0px;
-}
 
 .PrototypeV1{
 	padding: 50px 0px 50px 0px;
@@ -221,17 +213,11 @@ hr{
 	text-align: center;
 }
 
-.Testing{
-	padding: 40px 0px 50px 0px;
-}
 
 .task {
 	margin-left: 80px;
 }
 
-.Findings{
-	padding: 40px 0px 50px 0px;
-}
 
 ol{
 	margin-left: auto;
@@ -259,9 +245,7 @@ ul {
 	margin-top: -12.5px;
 	color: #fff;
 }
-.FinalPrototype{
-	padding: 50px 0px 50px 0px;
-}
+
 
 .footer{
 	width: 100%;
