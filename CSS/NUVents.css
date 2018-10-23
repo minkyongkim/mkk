@@ -121,29 +121,31 @@ ol{
 	font-weight: lighter;
 	font-size: 14px;
 }
+ul{
+	position: relative;
+	left: 25%;
+	width: 50%;
+	line-height: 25px;
+	font-family: "Lato", sans-serif;
+	font-weight: lighter;
+	font-size: 14px;
+}
+
 
 hr{
 	width: 80%;
 }
 
-.Problem{
+.Problem, .hmw, .Research, .Prototypes, .iteration, .blueprint, .iterations{
 	padding: 50px 0px 50px 0px;
 }
 
-.hmw{
-	padding: 50px 0px 50px 0px;
 }
 
 .Journey{
 	padding-top: 40px;
 	float: left;
 	padding-left: 80px;
-}
-
-
-.Research{
-	padding: 50px 0px 50px 0px;
-	width: 100%;
 }
 
 
@@ -181,11 +183,6 @@ hr{
 	left: 25%;
 }
 	
-.Prototypes{
-	padding: 50px 0px 50px 0px;
-	
-}
-
 .blueprint{
 	padding: 0px 0px 50px 0px;
 }
@@ -196,9 +193,6 @@ hr{
 	left: 50%;
 	transform: translateX(-50%);
 	margin-bottom: 30px;
-}
-.iterations{
-	padding: 50px 0px 50px 0px;
 }
 
 .screens{
