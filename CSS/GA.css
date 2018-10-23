@@ -147,7 +147,7 @@ hr{
 }
 	
 
-.findings li, .testing li, .Prototypes, .CA li{
+.testing li, .Prototypes li, .CA li{
 	position: relative;
 	left: 25%;
 	line-height: 25px;
