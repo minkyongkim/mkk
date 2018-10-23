@@ -129,13 +129,6 @@ p{
 	line-height: 25px;
 }
 
-li{
-	transform: translateX(50%);
-	width: 50%;
-	font-weight: lighter;
-	font-size: 14px;
-}
-
 ol{
 	margin-left: auto;
 	margin-right: auto;
@@ -147,22 +140,13 @@ hr{
 	width: 80%;
 }
 
-.Motivation{
+.Motivation, .Research, .CA, .Prototypes, .testing, .Results, .{
 	padding: 50px 0px 50px 0px;
 	
 }
-
-.Research{
-	padding: 50px 0px 50px 0px;
-	
-}
-
-.Research p{
-	line-height: 30px;
-}
 	
 
-.findings li{
+.findings li, .Research li, .testing li{
 	position: relative;
 	left: -45%;
 	line-height: 25px;
@@ -186,16 +170,6 @@ hr{
 	padding-top: 10px;
 }
 
-
-.CA{
-	padding: 50px 0px 50px 0px;
-}
-
-
-.Prototypes{
-	padding: 50px 0px 50px 0px;
-
-}
 
 .flowchart{
 	margin-left: auto;
@@ -231,11 +205,6 @@ hr{
 }
 
 
-.testing{
-	padding: 50px 0px 50px 0px;
-	
-}
-
 .testing p{
 	width: 50%;
 }
@@ -261,15 +230,6 @@ hr{
 	left: -30px;
 }
 
-.Results{
-	padding: 50px 0px 50px 0px;
-	
-}
-
-
-.Results p, li{
-	width: 50%;
-}
 
 .iteration{
 	display: inline-block;
@@ -293,7 +253,6 @@ hr{
 }
 
 .iteration p{
-	line-height: 25px;
 	float: left;
 	transform: translateX(30%);
 	
@@ -301,7 +260,10 @@ hr{
 .iteration1 {
 	display: inline-block;
 }
-
+.iteration1 p{
+	position: relative;
+	left: -20px;
+}
 .iteration1 img{
 	float: right;
 	transform: translateX(-50%);
