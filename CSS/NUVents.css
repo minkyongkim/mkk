@@ -140,7 +140,6 @@ hr{
 	padding: 50px 0px 50px 0px;
 }
 
-}
 
 .Journey{
 	padding-top: 100px;
@@ -150,6 +149,7 @@ hr{
 
 
 .synthesis{
+	display: inline-block;
 	padding: 50px 0px 0px 0px;
 	height: 100%;
 }
@@ -172,7 +172,7 @@ hr{
 	transform: translateY(-50%);
 }
 
-#contd{
+.contd{
 	margin-left: auto;
 	margin-right: auto;
 	font-family: "Lato", sans-serif;
@@ -183,7 +183,7 @@ hr{
 	padding-bottom: 50px;
 }
 
-#contd p{
+.contd p{
 	position: relative;
     	left: 25%;
    	width: 100%;
