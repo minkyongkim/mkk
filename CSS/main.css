@@ -62,12 +62,17 @@ p {
 }
 
 
-span#dp{
-	position: absolute;
-	left: 10%;
-	top: 20%;
+.dp{
+	display: inline-block;
+	transform: translate(5%, 10%);
+	width: 100%
 }
-
+.icons{
+	position: relative;
+	transform: translateY(85%);
+	width: 50%;
+	left: 5%;
+}
 .footer{
 	width: 100%;
 	color: #3b4358;
