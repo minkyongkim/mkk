@@ -114,8 +114,6 @@ p{
 }
 
 li{
-	transform: translateX(50%);
-	width: 50%;
 	font-weight: lighter;
 	font-size: 14px;
 	line-height: 25px;
