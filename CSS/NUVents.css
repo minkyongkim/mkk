@@ -151,7 +151,7 @@ hr{
 .synthesis{
 	display: inline-block;
 	padding: 50px 0px 0px 0px;
-	height: 100%;
+	width: 100%;
 }
 
 .synthesis li, .Prototypes li, #contd li{
@@ -161,15 +161,15 @@ hr{
 	font-size: 14px;
 }
 
-.Journey img{
-	padding-left: 50px;
+.persona{
+	display: inline-block;
 }
 
 .persona img{
 	display: inline-block;
 	float: right;
 	padding-right: 50px;
-	transform: translateY(-50%);
+	transform: translateY(-55%);
 }
 
 .contd{
@@ -179,14 +179,11 @@ hr{
 	font-weight: lighter;
 	width: 100%;
 	font-size: 16px;
-	padding-top: 50%;
 	padding-bottom: 50px;
 }
 
 .contd p{
 	position: relative;
-    	left: 25%;
-   	width: 100%;
 }
 	
 .blueprint{
