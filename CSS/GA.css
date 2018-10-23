@@ -156,9 +156,12 @@ hr{
 	width: 100%;
 }
 
-.findings p{
-	line-height: 20px;
+.findings p, .Research p, .testing p, .CA p{
+	margin-left: auto;
+	margin-right: auto;
 	width: 50%;
+	font-size: 14px;
+	line-height: 25px;
 }
 
 .findings{
