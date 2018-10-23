@@ -151,7 +151,7 @@ hr{
 	height: 60%;
 }
 
-.synthesis li, .hmw li, .Prototypes li, #contd li{
+.synthesis li, .Prototypes li, #contd li{
 	position: relative;
 	left: 25%;
 	line-height: 25px;
