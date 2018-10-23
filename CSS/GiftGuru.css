@@ -244,6 +244,13 @@ ol{
 	font-size: 14px;
 }
 
+ul {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	font-size: 14px;
+}
+
 .featherlight-gallery .featherlight-next:hover,
 .featherlight-gallery .featherlight-previous:hover{
 	background-color: #4a4a4a;
