@@ -75,11 +75,11 @@ span#initials{
 .overview h4{
 	font-family: "Montserrat", sans-serif;
 	font-weight: lighter;
-	text-align: center;
+	position: relative;
+	left: 25%
 }
 
 .overview p{
-	text-align: center;
 	transform: translateY(-50%);
 }
 
