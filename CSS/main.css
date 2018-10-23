@@ -49,6 +49,7 @@ span#initials{
 .description{
 	font-family: "Lato", sans-serif;
 	font-weight: lighter;
+	line-height: 25px;
 	position: absolute;
 	left: 75%;
 	top: 20%;
