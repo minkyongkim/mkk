@@ -84,12 +84,9 @@ span#initials{
 .overview h4{
 	font-family: "Montserrat", sans-serif;
 	font-weight: lighter;
-	text-align: center;
-	left: 0%;
 }
 
 .overview p{
-	text-align: center;
 	transform: translateY(-50%);
 }
 
@@ -116,7 +113,6 @@ h3{
 h4{
 	position: relative;
     	font-size: 18px;
-   	font-weight: 600;
     	left: 25%;
 }
 
@@ -148,7 +144,7 @@ hr{
 }
 	
 
-.testing li, .Prototypes li, .CA li{
+.testing li, .Prototypes li, .CA li, .Results li{
 	position: relative;
 	line-height: 25px;
 	font-weight: lighter;
@@ -265,7 +261,7 @@ ul{
 }
 .iteration1 p{
 	position: relative;
-	left: -20px;
+	width: 40%;
 }
 .iteration1 img{
 	float: right;
