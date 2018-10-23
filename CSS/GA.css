@@ -149,11 +149,11 @@ hr{
 
 .findings li, .Research li, .testing li, .CA li{
 	position: relative;
-	left: 5%;
+	left: 25%;
 	line-height: 25px;
 	font-weight: lighter;
 	font-size: 14px;
-	width: 50%;
+	width: 100%;
 }
 
 .findings p{
