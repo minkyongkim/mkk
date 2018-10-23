@@ -78,6 +78,11 @@ span#initials{
 	line-height: 20px;
 }
 
+.overview li{
+	position: relative;
+	left: 5%;
+}
+
 .znow p{
 	padding-bottom: 50px;
 }
