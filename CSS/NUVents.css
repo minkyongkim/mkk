@@ -162,14 +162,14 @@ hr{
 }
 
 .Journey img{
-	padding-left: 70px;
+	padding-left: 50px;
 }
 
 .persona img{
 	display: inline-block;
 	float: right;
-	padding-right: 70px;
-	transform: translateY(-70%);
+	padding-right: 50px;
+	transform: translateY(-50%);
 }
 
 #contd{
