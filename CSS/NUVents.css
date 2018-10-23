@@ -136,7 +136,7 @@ hr{
 	width: 80%;
 }
 
-.Problem, .hmw, .Research, .Prototypes, .iteration, .blueprint, .iterations, .takeaways{
+.Problem, .hmw, .Research, .Prototypes, .iteration, .blueprint, .iterations, .demo, .takeaways{
 	padding: 50px 0px 50px 0px;
 }
 
@@ -248,7 +248,6 @@ hr{
 }
 
 .demo{
-	padding: 50px 0px 50px 0px;
 	height: 500px;
 	width: 80%;
 	position: relative;
