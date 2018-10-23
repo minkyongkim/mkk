@@ -52,6 +52,7 @@ span#initials{
 	position: absolute;
 	left: 75%;
 	top: 20%;
+	display: inline-block;
 	width: 30%;
 	transform: translate(-50%, 0);
 }
@@ -61,10 +62,12 @@ p {
 }
 
 
-#dp{
+.dp{
 	display: inline-block;
+	position: absolute;
+	top:15%;
+	left:5%;
 	transform: translate(5%, 10%);
-	width: 100%
 }
 .icons{
 	position: relative;
