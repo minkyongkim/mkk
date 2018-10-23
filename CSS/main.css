@@ -78,10 +78,11 @@ p {
 }
 .footer{
 	position: absolute;
-	width: 100%;
-	color: #3b4358;
-	text-align: center;
-	font-size: 14px;
-	padding: 15px;
-	bottom: -200px;
+    	width: 100%;
+   	color: #3b4358;
+   	display: inline-block;
+    	text-align: center;
+    	font-size: 14px;
+    	padding: 15px;
+    	transform: translateX(-70%);
 }
