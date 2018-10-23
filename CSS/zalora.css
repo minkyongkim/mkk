@@ -129,6 +129,16 @@ hr{
 	padding: 50px 0px 50px 0px;
 }
 
+.prototypes img{
+	padding-top: 50px;
+}
+
+.prototypes h3{
+	position: relative;
+	left: 0%;
+	text-align: center;
+}
+
 .requirements{
 	padding-top: 50px;
 }
