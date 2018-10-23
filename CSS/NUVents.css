@@ -150,7 +150,7 @@ hr{
 
 
 .synthesis{
-	padding: 50px 0px 50px 0px;
+	padding: 50px 0px 0px 0px;
 	height: 80%;
 }
 
@@ -176,6 +176,7 @@ hr{
 	font-weight: lighter;
 	width: 100%;
 	font-size: 16px;
+	padding-bottom: 50px;
 }
 
 #contd p{
