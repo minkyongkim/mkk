@@ -180,7 +180,9 @@ hr{
 }
 
 #contd p{
-	left: 25%;
+	position: relative;
+    	left: 25%;
+   	width: 100%;
 }
 	
 .blueprint{
