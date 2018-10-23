@@ -134,6 +134,7 @@ ol{
 	margin-right: auto;
 	width: 50%;
 	font-size: 14px;
+	line-height: 25px;
 }
 
 hr{
@@ -146,9 +147,9 @@ hr{
 }
 	
 
-.findings li, .Research li, .testing li{
+.findings li, .Research li, .testing li, .CA li{
 	position: relative;
-	left: -45%;
+	left: 5%;
 	line-height: 25px;
 	font-weight: lighter;
 	font-size: 14px;
