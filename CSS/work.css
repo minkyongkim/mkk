@@ -76,12 +76,13 @@ div[class*="projectitem"] {
 .text{
 	font-family: "lato";
 	color: #2d2d2d;
-	font-size: 16px;
+	font-size: 18px;
 	padding-bottom: 10px;
+	text-align: center;
 }
 .content{
 	position: relative;
-	width: 80%;
+	width: 100%;
 	margin: auto;
 	overflow: hidden;
 }
@@ -135,6 +136,14 @@ div[class*="projectitem"] {
   opacity: 1;
 }
 
+.content-details h2{
+	color: #fff;
+	font-weight: 500;
+	letter-spacing: 1px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+}
+	
 .content-details p{
 	color: #fff;
 	font-size: 14px;
@@ -147,8 +156,7 @@ div[class*="projectitem"] {
 .projectitem-2{
 	grid-column: 3 / 4;
 	grid-row: 2 / 3;
-	background-image: url("../Images/Work Images/GiftGuru mockup.jpeg");
-	background-size: cover;
+	
 }
 
 .projectitem-3{
@@ -157,8 +165,7 @@ div[class*="projectitem"] {
 	justify-self: end;
 	align-self: start;
 	position: relative;
-	background-image: url("../Images/Work Images/textbook compare mockup.jpeg");
-	background-size: cover;
+	
 }
 
 .projectitem-4{
@@ -167,8 +174,6 @@ div[class*="projectitem"] {
 	justify-self: start;
 	align-self: start;
 	position: relative;
-	background-image: url("../Images/Zalora/zalorasg.jpg");
-	background-size: cover;
 }
 
 
