@@ -69,7 +69,7 @@ body, html {
 
 div[class*="projectitem"] {
 	height: 350px;
-	width: 80%;
+	width: 100%;
 }
 
 
@@ -83,6 +83,7 @@ div[class*="projectitem"] {
 .content{
 	position: relative;
 	width: 100%;
+	height: 97%
 	margin: auto;
 	overflow: hidden;
 }
@@ -91,7 +92,7 @@ div[class*="projectitem"] {
 	background: rgba(0, 0, 0, 0.5);
 	position: absolute;
 	 position: absolute;
-  	height: 99%;
+  	height: 97%;
   	width: 100%;
   	left: 0;
   	top: 0;
