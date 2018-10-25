@@ -52,7 +52,7 @@ body, html {
 .container{
 	display: grid;
 	grid-template-columns: 50px calc(50% - 72.5px) calc(50% - 72.5px) 50px;
-	grid-template-rows: 400px 350px 350px 100px;
+	grid-template-rows: 400px 365px 365px 100px;
 	grid-gap: 15px;
 	margin-top: -350px;
 
@@ -62,8 +62,6 @@ body, html {
 .projectitem-1{
 	grid-column: 2 / 3;
 	grid-row: 2 / 3;
-	justify-self: end;
-	align-self: center;
 	position: relative;
 }
 
@@ -83,8 +81,8 @@ div[class*="projectitem"] {
 }
 .content{
 	position: relative;
-	width: 95%;
-	height: 95%;
+	width: 97%;
+	height: 97%;
 	margin: auto;
 	overflow: hidden;
 }
@@ -94,7 +92,7 @@ div[class*="projectitem"] {
 	position: absolute;
 	 position: absolute;
   	height: 97%;
-  	width: 100%;
+  	width: 97%;
   	left: 0;
   	top: 0;
   	bottom: 0;
@@ -110,7 +108,8 @@ div[class*="projectitem"] {
 }
 	
 .content-image{
-	width: 100%;
+	width: 97%;
+	height: 97%;
 }
 
 .content-details{
@@ -149,6 +148,10 @@ div[class*="projectitem"] {
 	color: #fff;
 	font-size: 14px;
 	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 70%;
 }
 
 .fadeIn-top{
