@@ -152,6 +152,7 @@ div[class*="projectitem"] {
 	font-weight: 500;
 	letter-spacing: 1px;
 	margin-bottom: 5px;
+	text-transform: uppercase;
 }
 	
 .content-details p{
