@@ -29,6 +29,14 @@
 	
 }
 
+.navbar a:hover{
+	color: #2f4788;
+}
+
+.navbar a.active{
+	color: #2f4788;
+}
+
 span#initials{
 	position: absolute;
 	right: 7%;
