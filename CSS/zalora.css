@@ -38,6 +38,14 @@ body, html{
 	font-family: "Lato", sans-serif;
 }
 
+.navbar a:hover{
+	color: #2f4788;
+}
+
+.navbar a.active{
+	color: #2f4788;
+}
+
 span#initials{
 	position: absolute;
 	right: 7%;
@@ -48,6 +56,7 @@ span#initials{
 	font-weight: 700;
 	letter-spacing: 6px;
 }
+
 
 .titletext{
 	display: inline-block;
