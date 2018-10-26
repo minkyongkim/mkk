@@ -48,6 +48,14 @@ body, html {
 
 }
 
+.navbar a:hover{
+	color: #2f4788;
+}
+
+.navbar a.active{
+	color: #2f4788;
+}
+
 
 .container{
 	display: grid;
