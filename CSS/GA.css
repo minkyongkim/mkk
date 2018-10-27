@@ -23,7 +23,7 @@ body, html{
 	position: fixed;
 	z-index: 100;
 	width: 100%;
-	padding: 20px;
+	padding: 10px;
 	background-color: #fff;
 }
 
@@ -42,6 +42,8 @@ body, html{
 
 .navbar a:hover{
 	color: #2f4788;
+	border-bottom-style: solid;
+    	border-bottom-color: #2f4788;
 }
 
 .navbar a.active{
