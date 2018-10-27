@@ -37,6 +37,8 @@ body {
 
 .navbar a:hover{
 	color: #2f4788;
+	border-bottom-style: solid;
+    	border-bottom-color: #2f4788;
 }
 
 .navbar a.active{
