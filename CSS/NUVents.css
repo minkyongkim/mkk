@@ -188,7 +188,7 @@ hr{
 	width: 100%;
 }
 
-#synthesis li, #Prototypes li, #contd li{
+#synthesis li, #Prototypes li, .contd li{
 	position: relative;
 	line-height: 25px;
 	font-weight: lighter;
