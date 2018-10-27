@@ -166,7 +166,7 @@ hr{
 	width: 80%;
 }
 
-#Problem, .hmw, .Research, .Prototypes, .iteration, .blueprint, .iterations, .demo, .takeaways{
+#Problem, #hmw, #Research, #Prototypes, #iteration, .blueprint, #iterations, #demo, #takeaways{
 	padding: 50px 0px 50px 0px;
 }
 
@@ -178,13 +178,13 @@ hr{
 }
 
 
-.synthesis{
+#synthesis{
 	display: inline-block;
 	padding: 50px 0px 0px 0px;
 	width: 100%;
 }
 
-.synthesis li, .Prototypes li, #contd li{
+#synthesis li, #Prototypes li, #contd li{
 	position: relative;
 	line-height: 25px;
 	font-weight: lighter;
@@ -277,7 +277,7 @@ hr{
 	top: 0;
 }
 
-.demo{
+#demo{
 	height: 500px;
 	width: 80%;
 	position: relative;
