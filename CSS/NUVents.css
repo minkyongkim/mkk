@@ -63,10 +63,11 @@ span#initials{
 	left: 10%;
 }
 
-.sidenav ul {
+.sidenav a{
 	list-style-type: none;
 	font-family: "Montserrat", sans-serif;
 	left: 0%;
+	text-decoration: none;
 }
 
 body, html{
