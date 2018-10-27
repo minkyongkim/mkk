@@ -22,7 +22,7 @@ body, html{
 	z-index: 100;
 	width: 100%;
 	background-color: #ffffff;
-	padding: 20px;
+	padding: 10px;
 }
 
 
@@ -40,10 +40,14 @@ body, html{
 
 .navbar a:hover{
 	color: #2f4788;
+	border-bottom-style: solid;
+    	border-bottom-color: #2f4788;
 }
 
 .navbar a.active{
 	color: #2f4788;
+	border-bottom-style: solid;
+    	border-bottom-color: #2f4788;
 }
 
 span#initials{
@@ -133,7 +137,7 @@ li{
 }
 
 hr{
-	width: 80%;
+	width: 70%;
 }
 
 .znow, .goals, .competitor, .stakeholder, .prototypes, .feedback, .iteration, .takeaways{
