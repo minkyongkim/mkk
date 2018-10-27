@@ -50,14 +50,14 @@ span#initials{
 	letter-spacing: 6px;
 }
 
-.sidenav, .process{
+.sidenav{
 	width: 25%;
 	position: absolute;
 	top: 50%;
 	padding-left: 20px;
 }
 
-.button ul {
+.sidenav ul {
 	list-style-type: none;
 	font-family: "Montserrat", sans-serif;
 }
