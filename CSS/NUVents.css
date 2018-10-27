@@ -35,6 +35,8 @@
 
 .navbar a.active{
 	color: #2f4788;
+	border-bottom-style: solid;
+    	border-bottom-color: #2f4788;
 }
 
 span#initials{
