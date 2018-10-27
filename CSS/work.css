@@ -32,7 +32,7 @@ body, html {
 	top: 0;
 	z-index: 100;
 	width: 100%;
-	padding: 20px;
+	padding: 10px;
 	background-color: #ffffff;
 }
 
@@ -42,6 +42,7 @@ body, html {
 	color: #3c2f2f;
 	text-align: right;
 	padding: 14px 16px;
+	margin-right: 10px;
 	font-weight: 700;
 	text-decoration: none;
 	letter-spacing: 3px;
@@ -50,6 +51,8 @@ body, html {
 
 .navbar a:hover{
 	color: #2f4788;
+	border-bottom-style: solid;
+    	border-bottom-color: #2f4788;
 }
 
 .navbar a.active{
@@ -57,7 +60,6 @@ body, html {
 	border-bottom-style: solid;
     	border-bottom-color: #2f4788;
 }
-
 
 .container{
 	display: grid;
