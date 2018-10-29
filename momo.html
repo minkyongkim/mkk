@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MOMO</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+	
+	<link href="https://cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+	<link href="https://cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.gallery.min.css" type="text/css" rel="stylesheet" />
+	
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="CSS/momo.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+</head>
+<body>
+
+<div class="navbar">
+		<a href="index.html">DESIGN</a>
+		<a href="research.html">RESEARCH</a>
+		<a href="About.html">ABOUT</a>
+		<a href="Resume.html">RESUME</a>
+	</div>
+	
+	<div class="sidenav">
+		<h3>Process</h3>
+		<ul>
+			<li><a href="#motivation">Motivation</a></li>
+			<li><a href="#process">Process</a></li>
+			<li><a href="#design">Synthesis</a></li>
+			<li><a href="#ut">Usability Testing</a></li>
+			<li><a href="#findings">Findings</a></li>
+			<li><a href="#recommendations">Recommendations</a></li>
+			<li><a href="#takeaways">Takeaways</a></li>
+		</ul>
+</div>
+
+	<div class="overview">
+		<h2>OVERVIEW</h2>
+		<p>ZALORA Group is a online fashion e-commerce company based in Singapore as well as a presence throughout Southeast Asia - in Malaysia, Indonesia, Philippines, Hong Kong, and Taiwan. ZALORA offers both a wide range of international and local brands in addition to its in-house labels for mens and womens' apparel, shoes, and accessories. ZALORA is a part of Global Fashion Group, which operates e-commerce fashion sites in emerging markets.</p>
+		<h4>DESCRIPTION</h4>
+		<p>Redesigning ZALORA's order tracking module</p>
+		<h4>ROLE</h4>
+		<p>Usability testing, including planning, execution, and findings synthesis</p>
+		<h4>DURATION</h4>
+		<p>August - September 2018</p>
+		<h4>METHODS</h4>
+		<p>Task scenarios, usability metrics (task completion success rate, time, number of errors), BERT</p> 
+		<h4>TOOLS</h4>
+		<p>Quicktime player (for recording), Excel</p>
+	</div>
+
+	<div id="motivation">
+		<p>ZALORA customers often change their minds or make mistakes when submitting <b>return requests</b> for their purchases via the company's Returns and Exchanges (REMO) module on desktop. As a result, ZALORA's customer experience (CX) team receives the most queries about returns tracking, which can be further defined as:</p>
+		<ul>
+			<li>tracking returned items</li>
+			<li>refund status inquiries</li>
+			<li>exchange status inquiries</li>
+		</ul> 
+		<p>As of July 2017, such inquiries accounted for the following volumes of CS contacts across markets:</p>
+		<ul>
+			<li>Hong Kong (HK) - 30%</li>
+			<li>Singapore (SG) - 27%</li>
+			<li>Malaysia (MY) - 21%</li>
+			<li>Taiwan (TW) - 18%</li>
+			<li>Indonesia (ID) - 10%</li>
+			<li>Philippines (PH) - 10%</li>
+		</ul>
+
+		<p>The CS team found that NPS scores decreased and contact ratios increased particularly because of returns related issues.</p>
+		
+		<center><a href="Images/Zalora/graph.png" data-featherlight="image"><img src="Images/Zalora/graph.png"></a></center>
+
+		<p>By allowing customers to correct such mistakes and assuming a adoption rate of 50%, returns-related customer contacts would decrease, with a potential cost savings of <b>15,000 EUR/year</b>.</p>
+
+		<p>Based on this, our <b>project goal was</b> to allow customers to self-serve in cancelling their returns.</p>
+	</div>
+
+	<div id="process">
+		<h2>Process</h2>
+		<p>The following process was followed leading up to testing</p><br />
+		<center><a href="Images/Zalora/process.png" data-featherlight="image"><img src="Images/Zalora/process.png"></a></center>
+	</div>
+
+
+	<div id="design">
+		<h2>Prototype</h2>
+		<p>The following prototype was used for usability testing. I was personally not involved at this stage of the design process.</p>
+
+		<div class="prototype">
+
+			<div class="momo">
+				<div class="num">1 / 6</div>
+				<img src="Images/Zalora/momo1.png">
+					<div class="cap">Users were asked to cancel a return request on this screen</div>
+			</div>
+
+
+			<div class="momo">
+				<div class="num">2 / 6</div>
+				<img src="Images/Zalora/momo2.png">
+					<div class="cap">Message below "confirm cancellation" notifies users that return requests cannot be cancelled if items are already dropped off</div>
+			</div>
+
+
+			<div class="momo">
+				<div class="num">3 / 6</div>
+				<img src="Images/Zalora/momo6.png">
+					<div class="cap">Note below "successfully cancelled" informs users that they can submit another return request if they change their mind</div>
+			</div>
+
+
+			<div class="momo">
+				<div class="num">4 / 6</div>
+				<img src="Images/Zalora/momo3.png">
+				<div class="cap">The screen users saw following a cancellation submission</div>
+			</div>
+
+
+			<div class="momo">
+				<div class="num">5 / 6</div>
+				<img src="Images/Zalora/momo4.png">
+				<div class="cap">"Delivered" indicates a successfully processed cancellation request</div>
+			</div>
+
+			<div class="momo">
+				<div class="num">6 / 6</div>
+				<img src="Images/Zalora/momo5.png">
+				<div class="cap">"Exchange/return requested" indicates an unsuccessful cancellation request</div>
+			</div>
+
+		</div>
+		<script type="text/javascript">$('.prototype').slick();</script>
+	</div>
+
+	<div id="ut">
+		<h2>Usability Testing</h2>
+		<h3>Participants</h3>
+		<p>4 participants, ranging from new to frequent ZALORA shoppers</p>
+		<p>All were pre-screened for eligibility based on ZALORA's target age group (25-34 y/o), prior study participation experience, and usage of the existing module that enables customers to return items. Participants were compensated SGD $30 for their time.</p>
+
+		<h3>Procedure</h3>
+		<p>Each usability testing session lasted approximately 60 min. In each session, participants were asked to spend the first 30 minutes with a clickable prototype and perform tasks while thinking out loud. After the test, participants were asked to rate and describe their overall experience in using the prototype on a 7-point bipolar emotional response testing (BERT) scale.</p>
+		
+
+		<h3>Test Plan and Measures</h3>
+		<p>Our main goal with this usability testing was to see if customers could manage their return requests and understand statuses, including whether or not their returns have been successfully processed. As such, we developed a testing plan consisting of the following task scenarios:</p>
+			
+			<center><a href="Images/Zalora/testplan.jpg" data-featherlight="image"><img src="Images/Zalora/testplan.jpg" style="height: 50%; width: 50%;"></a></center>
+
+		<p>The first three tasks were designed to assess the usability of the interface, whereas the latter three questions tested to see if users understood the copy presented in context. For Task 1, 1a, and 2, the following quantitative metrics were collected to evaluate the usability of the feature in addition to qualitative data:</p>
+		<ol>
+			<li>Task completion success<br /> Indication of whether a user successfully completed a given task</li>
+			<li>Task completion time<br />The time it takes a user to perform a task from start to finish</li>
+			<li>Number of errors<br />The number of times an error occurred per user while performing a given task</li>
+		</ol>
+		<p>Only success rate was measured for Task 3.</p>
+
+	</div>
+	<div id="findings">
+		<h2>Findings</h2>
+		<h3>Quantitative</h3>
+
+		<p>The charts below show the success rate, completion times, and average number of errors made for each high-level task.</p>
+
+		<center>
+			<a href="Images/Zalora/chart1.png" data-featherlight="image"><img src="Images/Zalora/chart1.png" style="height: 50%; width: 50%;"></a>
+			<a href="Images/Zalora/chart2.png" data-featherlight="image"><img src="Images/Zalora/chart2.png" style="height: 50%; width: 50%;"></a>
+			<a href="Images/Zalora/chart3.png" data-featherlight="image"><img src="Images/Zalora/chart3.png" style="height: 50%; width: 50%;"></a>
+		</center>
+
+
+		<h3>Qualitative</h3>
+		<p>Qualitative findings were sythesized using affinity diagramming as shown below. Observations were organized by different screens.</p>
+
+		<center><a href="Images/Zalora/diagram.jpg" data-featherlight="image"><img src="Images/Zalora/diagram.jpg" style="height: 50%; width: 50%;"></center>
+
+	</div>
+	<div id="recommendations">
+		<h2>Recommendations</h2>
+
+		<table>
+			<tr>
+				<th>Task</th>
+				<th>Recommendations</th>
+			</tr>
+			<tr>
+				<td>Task 1: Cancelling a return request</td>
+				<td>CTA is clear; no changes needed.</td>
+			</tr>
+			<tr>
+				<td>Task 1a: What do you understand from the cancellation process throughout?</td>
+				<td>Most skipped reading the message about how return requests cannot be cancelled if items are already dropped off and how to resubmit a cancellation request. Reconsider entry points for such messages in emails or app notifications. The copy can also be revised to be more clear.<br />In addition, consider giving in-app or email feedback upon cancellation confirmation.</td>
+			</tr>
+			<tr>
+				<td>Task 2: Raising a new request</td>
+				<td>Most did not know to click the "Return Items" CTA to resubmit a cancellation request because the CTA did not reflect any of their most recent actions, i.e. cancelling a return request. Consider creating a separate CTA to differentiate it from the main one and re-position it near the "last updated" text. Also re-organize multiple CTAs to reduce confusion for users.</td>
+			</tr>
+			<tr>
+				<td>Task 3a: Understanding the status of a successful cancellation</td>
+				<td>Participants failed to interpret the "Delivered" status as successful cancellation. The status change needs to reflect that a cancellation request has been attempted and successfully processed, e.g. provide feedback message that reads "cancellation successful"</td>
+			</tr>
+			<tr>
+				<td>
+					Task 3b: Understanding the status of an unsuccessful cancellation
+				</td>
+				<td>
+					Similar to the case above, participants failed to interpret "Exchange/Refund Requested" as an unsuccessful cancellation and wanted to know <b>why</b> it was unsuccessful. The current status is not an accurate reflection of the actions taken on the order, as the user had attempted to cancel the refund request. Provide feedback message that reads "cancellation unsuccessful" instead along with an explanation. <br />In addition, provide users with a way out of this failure state, i.e. next steps they can take.
+				</td>
+			</tr>
+		</table>
+
+		<h3>BERT Results</h3>
+		<center><a href="Images/Zalora/bertscores.png" data-featherlight="image"><img src="Images/Zalora/bertscores.png" style="height: 50%; width: 50%;"></a></center>
+
+		<p>The post-test feedback shows that the overall experience was pretty <b>stressful</b> for users. They felt that the number of steps involved or information to be processed was overwhelming. As such, content layout should be adjusted in a more readable manner and amount/length of information reduced.</p>
+	</div>
+	<div id="takeaways">
+		<p><b>Clear copy is often a critical part of good UX</b></p><br />
+		<p>Copy is often dismissed when designing for the users' experience, but is actually essential and should be prioritized. Copy should align with users' mental models and be as accurate as possible, as system feedback is mostly communicated through words.</p>
+
+		<p><b>Test users from extreme ends of the spectrum for usability</b></p>
+
+		<p>Testing both old/avid and new/distant customers may help bring to surface behavioral patterns of interest and corresponding issues to consider that might have otherwise gone unnoticed. For assessing usability, it always helps to involve a diverse pool as we want to make a product usable for all types of users.</p>
+	</div>
+
+
+
+<script src="https://code.jquery.com/jquery-latest.js"></script>
+<script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+
+	<div class="footer">
+		<p>&#169; Copyright 2018 Minkyong Kim</p>
+	</div>
+</body>
+</html>
