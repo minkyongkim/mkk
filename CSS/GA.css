@@ -183,16 +183,16 @@ ol{
 }
 
 hr{
-	width: 80%;
+	width: 70%;
 }
 
-.Motivation, .Research, .CA, .Prototypes, .testing, .Results, .hifiprototype, .takeaways{
+#Motivation, #Research, #CA, #Prototypes, #testing, #Results, #hifititle, #final, #takeaways{
 	padding: 50px 0px 50px 0px;
 	
 }
 	
 
-.testing li, .Prototypes li, .CA li, .Results li{
+#testing li, #Prototypes li, #CA li, #Results li{
 	position: relative;
 	line-height: 25px;
 	font-weight: lighter;
@@ -256,7 +256,7 @@ span#hifititle{
 }
 
 
-.testing p{
+#testing p{
 	width: 50%;
 }
 
@@ -348,10 +348,6 @@ span#hifititle{
 	transform: translateX(-10%);
 }
 	
-.final{
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
 
 .demo{
 	margin-right: auto;
