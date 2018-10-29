@@ -223,12 +223,16 @@ hr{
 }
 
 table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 50%;
+	padding: 15px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.rec td{
-	width: 50%;
+td .rec{
+	width: 70%;
 }
 
 .footer{
