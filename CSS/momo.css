@@ -1,0 +1,222 @@
+
+.navbar {
+	overflow: hidden;
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+	background-color: #ffffff;
+	padding: 10px;
+}
+
+.navbar a {
+	float: left;
+	display: block;
+	color: #3c2f2f;
+	text-align: right;
+	padding: 14px 16px;
+	margin-right: 10px;
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+	text-decoration: none;
+	letter-spacing: 3px;
+	
+}
+
+.navbar a:hover{
+	color: #2f4788;
+	border-bottom-style: solid;
+    	border-bottom-color: #2f4788;
+}
+
+.navbar a.active{
+	color: #2f4788;
+	border-bottom-style: solid;
+    	border-bottom-color: #2f4788;
+}
+
+span#initials{
+	position: absolute;
+	right: 7%;
+	top: 30%;
+	font-family: "mayton";
+	color: #d0826f;
+	font-size: 60px;
+	font-weight: 700;
+	letter-spacing: 6px;
+}
+
+.sidenav{
+	width: 30%;
+	position: absolute;
+	top: 30%;
+	font-family: "Montserrat", sans-serif;
+}
+
+.sidenav h3{
+	position: absolute;
+	left: 5%;
+	top: 25%;
+	text-transform: uppercase;
+}
+
+.sidenav ul{
+	list-style-type: none;
+	position: absolute;
+	transform: translateY(20%);
+	left: 0%;
+	min-width: 100%;
+}
+
+.sidenav li{
+	margin: 5px;
+}
+
+.sidenav a{
+	font-family: "Montserrat", sans-serif;
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+}
+
+.sidenav a:visited{
+	color: black;
+}
+
+.sidenav a:hover{
+	background-color: #fffaf1;
+}
+
+body, html{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #ffffff;
+	font-family:"Lato", sans-serif;
+	overflow-x: hidden;
+	
+}
+
+.overview{
+	padding: 100px 0px 50px 0px;
+}
+
+.overview h2{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.overview h4{
+	font-family: "Montserrat", sans-serif;
+	font-weight: lighter;
+	position: relative;
+	left: 25%;
+	line-height:15px;
+}
+
+h2{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 100;
+	font-size: 18px;
+	text-align: center;
+	padding-bottom: 30px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+h3{
+	position: relative;
+	left: 25%;
+	font-family: "Lato", sans-serif;
+	font-size: 22px;
+}
+
+h4{
+	position: relative;
+	left: 25%;
+}
+
+p{
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Lato", sans-serif;
+	font-weight: lighter;
+	width: 50%;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+ol{
+	position: relative;
+	width: 50%;
+	left: 25%;
+	line-height: 25px;
+	font-family: "Lato", sans-serif;
+	font-weight: lighter;
+	font-size: 14px;
+}
+ul{
+	position: relative;
+	width: 50%;
+	left: 25%;
+	line-height: 25px;
+	font-family: "Lato", sans-serif;
+	font-weight: lighter;
+	font-size: 14px;
+}
+
+
+hr{
+	width: 70%;
+}
+
+
+#motivation, #process, #design, #ut, #findings, #recommendations, #takeaways{
+	padding: 50px 0px 50px 0px;
+}
+
+.momo {
+	max-width: 500px;
+	position: relative;
+	left: 50%;
+    	transform: translateX(-50%);
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.num{
+	color: "black";
+	font-size: 14px;
+	padding-bottom: 8px;
+	top: 0;
+	
+}
+
+.cap{
+	text-align: center;
+	padding-top: 10px;
+}
+
+.slick-next:before, .slick-prev:before {
+	color: #4a4a4a;
+}
+
+.next{
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+	background-color: white;
+}
+
+
+
+.footer{
+	width: 100%;
+	color: #3b4358;
+	text-align: center;
+	font-size: 14px;
+	padding: 15px;
+}
