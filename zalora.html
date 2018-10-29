@@ -6,6 +6,10 @@
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
 
+	
+	<link href="https://cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+	<link href="https://cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.gallery.min.css" type="text/css" rel="stylesheet" />
+	
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 	
@@ -76,7 +80,7 @@
 
 		<p>Another was that a integral goal of this feature was to make the relevant modifications and enhancements needed for an user-friendly recurring membership purchase and post-purchase experience. Put differently, it was critical not to disrupt the existing flow, but to build on top of it with affordances to accomodate this change.</p>
 
-		<img src="Images/Zalora/existingflow.jpg" style="height: 50%; width: 50%;">
+		<a href="Images/Zalora/existingflow.jpg" data-featherlight="image"><img src="Images/Zalora/existingflow.jpg" style="height: 50%; width: 50%;"></a>
 			<!--existing flowchart of buying znow goes here-->
 
 		<p> With this in mind, we examined data to check if credit card purchases for ZNOW account for a considerable portion of ZNOW purchases in Singapore (SG), Malaysia (MY), and eventually Philippines (PH) - the only countries available for ZNOW.</p>
@@ -88,7 +92,7 @@
 	<div class="competitor">
 		<h2>COMPETITIVE ANALYSIS</h2>
 		<p>To further my understanding of some conventional user journeys for recurring subscriptions, I conducted a competitor analysis specifically examining when, where, and how information about auto-renewals are communicated.</p>
-		<img src="Images/Zalora/competitor.jpg" style="height: 50%; width: 50%;">
+		<a href="Images/Zalora/competitor.jpg" data-featherlight="image"><img src="Images/Zalora/competitor.jpg" style="height: 50%; width: 50%;"></a>
 	</div>
 
 
@@ -99,12 +103,12 @@
 
 	<div class="scenario">
 		<h4>User flow based on membership status</h4>
-		<img src="Images/Zalora/scenario.jpg" style="height: 60%; width: 60%;">
+		<a href="Images/Zalora/scenario.jpg" data-featherlight="image"><img src="Images/Zalora/scenario.jpg" style="height: 60%; width: 60%;"></a>
 	</div>
 
 	<div class="flowchart">
 		<h4>Finalized <b>purchase</b> flow of non-members and members</h4>
-		<img src="Images/Zalora/flowchart.png" style="height: 50%; width: 50%;">
+		<a href="Images/Zalora/flowchart.jpg" data-featherlight="image"><img src="Images/Zalora/flowchart.png" style="height: 50%; width: 50%;"></a>
 	</div>
 
 </div>
@@ -232,8 +236,8 @@
 
 			<p>It was also unclear in the current design that customers, either those who had chosen to disable mid-cycle or those who were simply not opted in having paid with a non-credit card method, could enable auto-renew again. There was no clear display indicating this affordance, as once disabled, the toggle was just greyed out. This was a crucial issue as this could be potentially confusing for some customers who are less tech savvy.</p>
 
-				<img src="Images/Zalora/membershipbefore.jpg">
-			<p>In addition, a confirmation message for disabling auto-renew was missing. Creating one was critical for error prevention.</p>
+				<a href="Images/Zalora/membershipbefore.jpg" data-featherlight="image"><img src="Images/Zalora/membershipbefore.jpg"></a>
+			<br /><p>In addition, a confirmation message for disabling auto-renew was missing. Creating one was critical for error prevention.</p>
 
 
 			<h4>Non-Members</h4>
@@ -258,14 +262,14 @@
 			<h3>Checkout</h3>
 			<p>To make sure users understood which card they would be charged for auto-renewals and the option to configure this setting, we included the same message in the 'review order' of checkout in Payment Method, which is when customers are selecting/adding the card to pay with. We put this message right below the card to make it more contextually relevant and draw the users' attention.</p>
 
-				<img src="Images/Zalora/checkoutafter.png">
-				<img src="Images/Zalora/checkoutafter2.png" style="height: 50%; width: 50%">
+				<a href="Images/Zalora/checkoutafter.png" data-featherlight="image"><img src="Images/Zalora/checkoutafter.png"></a>
+				<a href="Images/Zalora/checkoutafter2.png" data-featherlight="image"><img src="Images/Zalora/checkoutafter2.png" style="height: 50%; width: 50%"></a>
 
 			<h4>Edge Cases</h4>
 			<p>
-				Another issue addressed was that there was a possible edge case of users adding the ZNOW sku from the review order section when asked to specify their delivery option, instead of already having it in their cart prior to checking out. As a result, we made sure that when the sku was added at this point, they would also see the relevant disclaimer.</p>
+				Another issue addressed was that there was a possible edge case of users adding the ZNOW sku from the review order section when asked to specify their delivery option, instead of already having it in their cart prior to checking out. As a result, we made sure that when the sku was added at this point, they would also see the relevant disclaimer.</p><br />
 
-				<img src="Images/Zalora/checkoutafter3.png" style="height: 35%;">
+				<a href="Images/Zalora/checkoutafter3.png" data-featherlight="image"><img src="Images/Zalora/checkoutafter3.png" style="height: 35%;"></a>
 		</div>
 
 		<div class="module_it">
@@ -274,16 +278,16 @@
 
 			<h4>Credit Card Members</h4>
 
-			<p>The text below the auto-renew checkbox in red now is more relevant and clearly explains how the toggle functions and what the consequences of enabling/disabling are.</p>
-				<img src="Images/Zalora/membershipafter.png" style="height: 50%; width:50%">
-			<p>A confirmation message when the user tries to disable auto-renew.</p>
-				<img src="Images/Zalora/autorenewconfirm.png" style="height: 50%; width: 50%">
+			<p>The text below the auto-renew checkbox in red now is more relevant and clearly explains how the toggle functions and what the consequences of enabling/disabling are.</p><br />
+			<a href="Images/Zalora/membershipafter.png" data-featherlight="image"><img src="Images/Zalora/membershipafter.png" style="height: 50%; width:50%"></a>
+			<br /><br /><p>A confirmation message when the user tries to disable auto-renew.</p>
+		<a href="Images/Zalora/autorenewconfirm.png" data-featherlight="image"><img src="Images/Zalora/autorenewconfirm.png" style="height: 50%; width: 50%"></a>
 
 			<h4>Non-Members</h4>
 
 			<p><b>Making the space more meaningful for non-members:</b><br /><br />
 			Rather than conceptualizing the module merely as a place for members to manage their membership settings, the UI designer and I decided to create a module for non-members which highlights the various benefits of ZNOW and including a "Join Now" CTA.</p>
-				<img src="Images/Zalora/membershipafter2.png" style="height: 50%; width: 50%">
+				<a href="Images/Zalora/membershipafter2.png" data-featherlight="image"><img src="Images/Zalora/membershipafter2.png" style="height: 50%; width: 50%"></a>
 		</div>
 	</div>
 <hr>
@@ -294,7 +298,13 @@
 		<p><b>When redesigning something, start by mapping out the existing flow and identifying which areas would be affected by the redesign</b><br /><br />
 			Introducing a new feature of this scale and complexity was probably one of the most challenging aspects about this project. It was extremely important to familiarize myself with the existing designs and flow of the membership purchase process in order to make sure that anything I redesigned would not disrupt the status quo for users.</p>
 	</div>
-
+	
+	
+	
+<script src="https://code.jquery.com/jquery-latest.js"></script>
+<script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.9/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+	
 	<div class="footer">
 		<p>&#169; Copyright 2018 Minkyong Kim</p>
 	</div>
