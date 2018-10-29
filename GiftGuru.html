@@ -37,6 +37,20 @@
 		<a href="Resume.html">RESUME</a>
 		<span id="initials">MK</span>
 	</div>
+	
+	<div class="sidenav">
+		<h3>Process</h3>
+		<ul>
+			<li><a href="#Motivation">Motivation</a></li>
+			<li><a href="#Research">Research</a></li>
+			<li><a href="#Prototypes">Prototypes</a></li>
+			<li><a href="#Testing">Usability Testing</a></li>
+			<li><a href="#Findings">Findings</a></li>
+			<li><a href="#iteration">Iterations</a></li>
+			<li><a href="#FinalPrototype">Final Prototype</a></li>
+			<li><a href="#takeaways">Takeaways</a></li>
+		</ul>
+	</div>
 
 
 	<div class="logo">
@@ -214,6 +228,15 @@
 		<script type="text/javascript">
 			$('.Sketches').slick();
 		</script>
+		
+		<h4>Takeaways from Paper Prototyping</h4>
+		<p>We first paper prototyped the designs to visualize screen functionality and navigation process. Through this, we identified the following changes to be made for the mid-fi iteration:</p>
+		<ol>
+			<li>A hamburger menu with condensed options was necessary (My Orders, Wishlist, etc.)</li>
+			<li>Tabbed display for Wishlist is more efficient</li>
+			<li>Addition of 'Add Interests' page would allow users to add more specific user details</li>
+			<li>Feedback needs to be displayed when user adds an item to cart and when order has been confirmed</li>
+		</ol>
 
 		<br /><h3>Prototype Version 1</h3>
 
@@ -303,8 +326,8 @@
 			<ul>
 				<li>Simple, uncluttered design</li>
 				<li>Relatively intuitive navigation</li>
-				<li>Broader options for various trait/interest/occasion categories beyond the built-in ones</li>
-				<li>Button functionality (e.g. difficulty in clicking certain buttons)</li>
+				<li>Suggestions for options for various trait/interest/occasion categories beyond the built-in ones</li>
+				<li>Button functionality could be improved (e.g. difficulty in clicking certain buttons)</li>
 			</ul>
 			<br />
 			
@@ -338,20 +361,23 @@
 
 
 	<hr>
-
-	<div id="FinalPrototype">
-		
-		<h2>FINAL PROTOTYPE</h2>
-		
-		<h3>Changes for Final Iteration</h3>
+	
+	<div id="iteration">
+		<h2>ITERATIONS</h2>
 	
 		<p>Based on our findings, we identified four major areas for improvement and implemented changes accordingly:
 		<ol><li>More feedback from user actions - Actions such as selecting description and interests had no feedback. When users tapped an icon, they were not sure whether it was registered by the system. <br />
-				To give them clear feedback, we decided to grey out buttons when clicked.</li>
+			To give them clear feedback, we decided to grey out buttons when clicked.</li>
 			<li>Added error prevention - Instead of immediately removing items from cart upon tapping the 'x', we added a popup asking the user to confirm their action.</li>
 			<li>Increased button sizes - Because users had trouble tapping on buttons in the hamburger menu, we increased the size.</li>
 			<li>Onboarding process added - Meaning of symbols such as the heart or $ on the gift feed was unclear. Instruction bubbles were added to clear confusion.</li>
 		</ol>
+	</div>
+
+<hr>
+	<div id="FinalPrototype">
+		
+		<h2>FINAL PROTOTYPE</h2>
 		
 		<center><video width="900" height="550" controls>
 			<source src="Images/GiftGuru Images/giftgurudemo.mp4" type="video/mp4"></center>
