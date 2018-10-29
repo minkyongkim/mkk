@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Undergraduate Honors Thesis</title>
+</head>
+<body>
+	<link rel="stylesheet" type="text/css" href="CSS/thesis.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+<div class="overview">
+		<h2>OVERVIEW</h2>
+		<h4>TITLE</h4>
+		<p>Communicating with Reactions: The role of self-presentational concerns in disclosing emotional reactions via Reactions on Facebook</p>
+		<h4>DESCRIPTION</h4>
+			<p>A mixed-methods research study on the self-presentational concerns of Facebook users in using Reactions</p>
+		<h4>ROLE</h4>
+			<p>Independent undergraduate researcher</p>
+		<h4>METHODS</h4>
+			<p>Surveys, qualitative coding/analysis, synthesis, write-up</p>
+		<h4>TOOLS</h4>
+			<p>JMP, R, Qualtrics, Excel</p>
+</div>
+
+<hr> 
+
+<div id="motivation">
+	<h2>Motivation</h2>
+	<p>Many social media platforms afford <b>lightweight interactions</b>, or one-click tools that enable users to <b /><b />1) communicate with others, and more broadly<b />2) visibly show interest towards content.</p>
+	<p class=example>For example:<img src="Images/Thesis/like1.jpg"></p>
+	<p>On Facebook, roughly 1/2 of users "like" their friends' content at least once a day (Scissors et al, 2016). With <b>Reactions</b> users can be express their feelings with even more granularity towards content. According to existing literature, however, users are cautious about emotional disclosure, especially on SNS, as it exposes what is considered a much "private" and self-revealing process. As a result, users may shy away from  being more expressive, or choose to share emotions more selectively.</p>
+	<p>How might we then better support this experience?</p>
+<div id="background">
+	<h2>Background</h2>
+	<h3>Formulating Hypotheses<h3>
+	<p>What we know from existing literature</p>
+	<ul>
+		<li>Sharing and talking about emotional events in face-to-face contexts is a private, interpersonal process. Valence matters - negative emotions are often tied to sensitive information.</li><br />
+		<li>Because users have less accurate ideas of who can actually see their activity in online contexts, they decide how they share their emotions and hold varying degrees of self-presentational concerns (i.e. anxiety about their online image).</li>
+
+		<li>Two key factors play a role in this decision-making process: <b>network density</b> and <b>who the sharing is directed towards</b>.</li>
+
+		<li class="factors">Users generally share more emotions, with less negative than positive in dense networks or a network with mostly strong ties</li>
+		<li class="factors">If the sharing is directed toward a specific person (e.g. via private messaging) rather than a large group of people, users express more. In private messaging, the conversation in which sharing occurs is also more likely to be about the other person and therefore less self-disclosing.</li>
+	</ul>
+
+	<p>Based on this information, I hypothesized the following for Reactions:</p>
+	<ol>
+		<li>Although Reactions are not particularly descriptive, they publicly disclose to the network. As such, users express positive Reactions more <b>frequently</b> than negative. </li>
+		<li>Reactions can be used to respond to content posted by those inside or outside the users' network. Negative reactions will be expressed more often for friends' content because the perceived relational closeness is greater.</li>
+		<li>Observed self-presentational concerns will be higher for negative than for positive Reactions.</li>
+		<li>When reacting to friends' content, self-presentational concerns will diminish.</li>
+		<li>Even in situations where users react to friends' content, emotional valence will have an effect on self-presentational concerns, as all behavior is still public.</li>
+		<li></li>
+	</ul>
+</div>
+
+<div id="methods">
+	<h2>Methods</h2>
+
+	<h3>The Study</h3>
+	<p><b>Study participants (pre-screened for eligibility):</b>Facebook users (18 y/o and above) who both use Facebook and the Reactions feature at least once a week</p>
+	<p>Sample size: n = 62</p>
+	<h3>Procedure</h3>
+	<p>Eligible participants completed a <b>survey</b> via Qualtrics consisting of two sections.<br />The first aimed to measure how <b>frequently participants used each of the five emotions (love, haha, sad, angry, wow) in Reactions</b>They were instructed to log into their Facebook and view their Activity Log to search for the <b>10 most recent instances of using a one-click interaction (e.g. "Like"/"Reactions")</b> to respond to content. All participants were compensated $15 for their participation in the study.</p> 
+		<img src="Images/thesis/survey1.png">
+	<p>The second section aimed to capture how the participants used Reactions for each of the five different Reaction emotions. They were asked to report two instances of using each of the five, totaling 10 instances. For each, they briefly described the content in their own words and copy/pasted content, attaching photos/videos if any.They also indicated whether the content poster was a friend/mutual friend/not a friend.</p>
+	<p>Following these contextual questions, participants answered questions about perceived relational closeness with the content poster and level of online self-consciousness, both measured on a Likert scale.</p>
+
+	<img src="Images/thesis/survey2.png">
+
+	<h3>Data Analysis</h3>
+
+	<p>Results from the first section of the survey were analyzed for descriptive statistics. Data from the second were analyzed for stastically significant effects of relational closeness and self-presentational concerns using mixed model regression, with participant modeled as the random effect.</p>
+
+	<p>To answer whether participants use different Reactions based on content, a one-level, four-category coding scheme was developed to capture contextual information. Two coders coded a random sample (n=51) chosen from an entire data set of 476 instances until agreement was reached (Cohen's kappa = 0.84).</p>
+</div>
+	
+<div id="findings">
+	<h2>Findings</h2>
+	<h3>Data Preparation</h3>
+	<p>Prior to data analyses, each Reaction type was evaluated for its degree of sentiment (positive/neutral/negative) using Stanford NLP's sentiment analysis model. Such characterization by valence is a common way of differentiating different emotion types in emotion literature. It also helped establish a <b>consistent framework</b> for later analyses and discussions.</p>
+	<p>The model has five classes of sentiment classification: very negative, negative, neutral, positive, and very positive. Classification of each emotional word is expressed in terms of posterior probability; each Reaction was classified based on the category with highest corresponding probability.</p>
+
+	<img src="Images/thesis/chart.png">
+		
+	<br /><br />
+
+	<h3>Positive vs. Negative Reactions</h3>
+
+	<p>Position Reactions are used more frequently than negative Reactions. 'Love' accounted for 50% of total Reactions uses in contrast to 6.7% for 'angry'. However, 'sad' was used a bit more frequently than 'wow'.</p>
+
+	<img src="Images/thesis/findings-chart.png">
+
+	<h3>Self-Presentational Concerns & Relational Closeness across Reactions</h3>
+	<p>Regression analyses showed that relational closeness and Reactions valence only have a marginally significant relationship. Negative Reactions are therefore not necessarily used more with strong ties compared to positive ones. More intense emotions, however, such as 'angry' and 'love' are used more with closer ties than other Reactions.</p>
+
+	<p>In addition, users are more concerned with their online image when they react with positive Reactions such as 'love' in comparison to neutral ones, e.g. 'haha' or 'wow'. Self-presentational concerns are, however, not necessarily higher for negative Reactions when compared to 'love'. </p>
+
+	<img src="Images/thesis/figure2.png">
+
+	<p>Lastly, although self-presentational concerns are greater when perceived relational closeness is lower, there is no interaction effect. Reacting with 'Love' to a friend's content as opposed to a more relationally distant person did not change levels of self-presentational concerns.</p>
+
+	<h3>Contexts in using different Reactions</h3>
+
+	<p>Post content was described according to four different categories - entertainment, information/discovery, self-identification, and bonding. Categories are defined as below.</p>
+	<p>Negative Reactions ('angry', 'sad') were mostly used for entertainment, information/discovery, and bonding. In other words, they were used sparsely for self-identifying content.</p>
+	<p>Positive Reactions ('love', 'wow') were mostly used to respond to content by network members. 'Haha' was used primarily for entertaining posts.</p>
+
+	<img src="Images/thesis/content-graph.png">
+</div>
+
+
+<div id="implications">
+	<h2>Design Implications</h2>
+
+	<p>Unlike 'Likes', Reactions may be appropriated more faithfully in response to the emotions elicited by the content, as shown by the liberal usage of negative Reactions. Self-presentational concerns for each Reaction also did not differ depending on relational closeness.</p>
+
+	<p>A key insight is that self-presentational concerns are prevalent when using the feature and that they vary depending on emotional valence. <b>People seem to be
+	concerned with how showing interest in one piece of individual content will impact their online image.</b></p>
+
+	<p>These observations suggest that one-click tools such as Reactions can potentially be designed in ways to help support self-presentational concerns. This is important because Reactions can often be used between friends. If self-presentational concerns undermine usage, this could affect interpersonal relationships online. As such, Reactions, for example, might be designed so that they are less visible to the network or only seen by certain groups within a network.</p>
+</div>
+<div id="limitations">
+	<h2>Limitations & Next Steps</h2>
+		<p>This study highlights how Reactions should be included in the larger discourse of online self-presentation, but does not explore what aspect of self-presentation is particularly relevant. This could be further probed through qualitative research. In addition, the types of content that are likely to stimulate usage are explored, but motivations behind using Reactions still remain unclear. In particular, what motivates people to react to content posted by others outside their network?</p>
+</div>
+<div id="takeaways">
+	<h2>Takeaways</h2>
+	<h3>Do not overlook pilot testing</h3>
+	<h3></h3>
+</div>
+</body>
+</html>
