@@ -95,7 +95,7 @@
 			<div class="momo">
 				<div class="num">1 / 6</div>
 				<img src="Images/Zalora/momo1.png">
-					<div class="cap">Users were asked to cancel a return request on this screen</div>
+				<div class="cap">Users were asked to cancel a return request on this screen</div>
 			</div>
 
 
@@ -109,7 +109,7 @@
 			<div class="momo">
 				<div class="num">3 / 6</div>
 				<img src="Images/Zalora/momo6.png">
-					<div class="cap">Note below "successfully cancelled" informs users that they can submit another return request if they change their mind</div>
+				<div class="cap">Note below "successfully cancelled" informs users that they can submit another return request if they change their mind</div>
 			</div>
 
 
@@ -161,6 +161,9 @@
 		<p>Only success rate was measured for Task 3.</p>
 
 	</div>
+	
+	<hr>
+	
 	<div id="findings">
 		<h2>Findings</h2>
 		<h3>Quantitative</h3>
@@ -168,16 +171,16 @@
 		<p>The charts below show the success rate, completion times, and average number of errors made for each high-level task.</p>
 
 		<center>
-			<a href="Images/Zalora/chart1.png" data-featherlight="image"><img src="Images/Zalora/chart1.png" style="height: 50%; width: 50%;"></a>
-			<a href="Images/Zalora/chart2.png" data-featherlight="image"><img src="Images/Zalora/chart2.png" style="height: 50%; width: 50%;"></a>
-			<a href="Images/Zalora/chart3.png" data-featherlight="image"><img src="Images/Zalora/chart3.png" style="height: 50%; width: 50%;"></a>
+			<a href="Images/Zalora/chart1.png" data-featherlight="image"><img src="Images/Zalora/chart1.png" style="height: 50%; width: 33%;"></a>
+			<a href="Images/Zalora/chart2.png" data-featherlight="image"><img src="Images/Zalora/chart2.png" style="height: 50%; width: 33%;"></a>
+			<a href="Images/Zalora/chart3.png" data-featherlight="image"><img src="Images/Zalora/chart3.png" style="height: 50%; width: 33%;"></a>
 		</center>
 
 
 		<h3>Qualitative</h3>
 		<p>Qualitative findings were sythesized using affinity diagramming as shown below. Observations were organized by different screens.</p>
 
-		<center><a href="Images/Zalora/diagram.jpg" data-featherlight="image"><img src="Images/Zalora/diagram.jpg" style="height: 50%; width: 50%;"></a></center>
+		<center><a href="Images/Zalora/diagram.jpg" data-featherlight="image"><img src="Images/Zalora/diagram.jpg" style="height: 50%; width: 80%;"></a></center>
 
 	</div>
 		
@@ -192,26 +195,26 @@
 				<th>Recommendations</th>
 			</tr>
 			<tr>
-				<td>Task 1: Cancelling a return request</td>
-				<td>CTA is clear; no changes needed.</td>
+				<td class="task">Task 1: Cancelling a return request</td>
+				<td class="rec">CTA is clear; no changes needed.</td>
 			</tr>
 			<tr>
-				<td>Task 1a: What do you understand from the cancellation process throughout?</td>
-				<td>Most skipped reading the message about how return requests cannot be cancelled if items are already dropped off and how to resubmit a cancellation request. Reconsider entry points for such messages in emails or app notifications. The copy can also be revised to be more clear.<br />In addition, consider giving in-app or email feedback upon cancellation confirmation.</td>
+				<td class="task">Task 1a: What do you understand from the cancellation process throughout?</td>
+				<td class="rec">Most skipped reading the message about how return requests cannot be cancelled if items are already dropped off and how to resubmit a cancellation request. Reconsider entry points for such messages in emails or app notifications. The copy can also be revised to be more clear.<br />In addition, consider giving in-app or email feedback upon cancellation confirmation.</td>
 			</tr>
 			<tr>
-				<td>Task 2: Raising a new request</td>
-				<td>Most did not know to click the "Return Items" CTA to resubmit a cancellation request because the CTA did not reflect any of their most recent actions, i.e. cancelling a return request. Consider creating a separate CTA to differentiate it from the main one and re-position it near the "last updated" text. Also re-organize multiple CTAs to reduce confusion for users.</td>
+				<td class="task">Task 2: Raising a new request</td>
+				<td class="rec">Most did not know to click the "Return Items" CTA to resubmit a cancellation request because the CTA did not reflect any of their most recent actions, i.e. cancelling a return request. Consider creating a separate CTA to differentiate it from the main one and re-position it near the "last updated" text. Also re-organize multiple CTAs to reduce confusion for users.</td>
 			</tr>
 			<tr>
-				<td>Task 3a: Understanding the status of a successful cancellation</td>
-				<td>Participants failed to interpret the "Delivered" status as successful cancellation. The status change needs to reflect that a cancellation request has been attempted and successfully processed, e.g. provide feedback message that reads "cancellation successful"</td>
+				<td class="task">Task 3a: Understanding the status of a successful cancellation</td>
+				<td class="rec">Participants failed to interpret the "Delivered" status as successful cancellation. The status change needs to reflect that a cancellation request has been attempted and successfully processed, e.g. provide feedback message that reads "cancellation successful"</td>
 			</tr>
 			<tr>
-				<td>
+				<td class="task">
 					Task 3b: Understanding the status of an unsuccessful cancellation
 				</td>
-				<td>
+				<td class="rec">
 					Similar to the case above, participants failed to interpret "Exchange/Refund Requested" as an unsuccessful cancellation and wanted to know <b>why</b> it was unsuccessful. The current status is not an accurate reflection of the actions taken on the order, as the user had attempted to cancel the refund request. Provide feedback message that reads "cancellation unsuccessful" instead along with an explanation. <br />In addition, provide users with a way out of this failure state, i.e. next steps they can take.
 				</td>
 			</tr>
@@ -224,7 +227,9 @@
 	</div>
 	
 	<hr>
+	
 	<div id="takeaways">
+		<h2>Takeaways</h2>
 		<p><b>Clear copy is often a critical part of good UX</b></p><br />
 		<p>Copy is often dismissed when designing for the users' experience, but is actually essential and should be prioritized. Copy should align with users' mental models and be as accurate as possible, as system feedback is mostly communicated through words.</p>
 
