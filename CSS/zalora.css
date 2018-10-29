@@ -61,7 +61,46 @@ span#initials{
 	font-weight: 700;
 	letter-spacing: 6px;
 }
+.sidenav{
+	width: 30%;
+	position: absolute;
+	top: 30%;
+	font-family: "Montserrat", sans-serif;
+}
 
+.sidenav h3{
+	position: absolute;
+	left: 5%;
+	top: 25%;
+	text-transform: uppercase;
+}
+
+.sidenav ul{
+	list-style-type: none;
+	position: absolute;
+	transform: translateY(20%);
+	left: 0%;
+	min-width: 100%;
+}
+
+.sidenav li{
+	margin: 5px;
+}
+
+.sidenav a{
+	font-family: "Montserrat", sans-serif;
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+}
+
+.sidenav a:visited{
+	color: black;
+}
+
+.sidenav a:hover{
+	background-color: #fffaf1;
+}
 
 .titletext{
 	display: inline-block;
