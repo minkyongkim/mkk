@@ -185,6 +185,11 @@ hr{
 	margin-bottom: 30px;
 }
 
+.momo img{
+	height: 30%;
+	width: 30%;
+}
+
 .num{
 	color: "black";
 	font-size: 14px;
