@@ -54,6 +54,7 @@ span#initials{
 
 .sidenav h3{
 	position: absolute;
+	font-family: "Lato", sans-serif;
 	left: 5%;
 	top: 25%;
 	text-transform: uppercase;
