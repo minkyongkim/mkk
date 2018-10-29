@@ -174,10 +174,10 @@ li{
 }
 
 hr{
-	width: 80%;
+	width: 70%;
 }
 
-.Motivation, .Research, .Prototypes, .Testing, .Findings, .FinalPrototype, .takeaways{
+#Motivation, #Research, #Prototypes, #Testing, #Findings, #iteration, #FinalPrototype, #takeaways{
 	padding: 50px 0px 50px 0px;
 	
 }
