@@ -180,27 +180,31 @@ hr{
 	width: 70%;
 }
 
-.znow, .goals, .competitor, .stakeholder, .prototypes, .feedback, .iteration, .takeaways{
+#goals, .competitor, #stakeholder, #prototypes, #feedback, #iteration, #takeaways{
 	padding: 50px 0px 50px 0px;
 }
 
+.znow{
+	padding-bottom: 50px;
+}
 
-.prototypes h3{
+#prototypes h3{
 	position: relative;
 	left: 0%;
 	text-align: center;
 	padding-top: 50px;
 }
 
-.requirements{
+#requirements{
 	padding-top: 50px;
 }
+
 .requirements2 {
 	padding-top: 0px;
 	padding-bottom: 50px;
 }
 
-.requirements img, .competitor img, .flowchart img{
+#requirements img, .competitor img, .flowchart img{
 	position: relative;
 	left: 25%;
 }
@@ -218,7 +222,7 @@ hr{
 	left: 0%
 }
 
-.feedback img, .iteration img {
+#feedback img, #iteration img {
 	height: 50%;
 	width: 50%;
 	position: relative;
