@@ -145,7 +145,6 @@ p{
 
 ol{
 	position: relative;
-	left: 25%;
 	width: 50%;
 	line-height: 25px;
 	font-family: "Lato", sans-serif;
@@ -154,7 +153,6 @@ ol{
 }
 ul{
 	position: relative;
-	left: 25%;
 	width: 50%;
 	line-height: 25px;
 	font-family: "Lato", sans-serif;
