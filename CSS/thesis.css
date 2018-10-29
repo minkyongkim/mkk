@@ -57,6 +57,7 @@ span#initials{
 	left: 5%;
 	top: 25%;
 	text-transform: uppercase;
+	font-family: "Lato", sans-serif;
 }
 
 .sidenav ul{
