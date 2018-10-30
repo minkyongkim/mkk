@@ -120,8 +120,8 @@ div[class*="projectitem"] {
 }
 	
 .content-image{
-	width: 97%;
-	height: 97%;
+	width: 100%;
+	min-height: 97%;
 }
 
 .content-details{
