@@ -127,10 +127,13 @@ body, html{
 	font-weight: lighter;
 	position: relative;
 	left: 25%;
+	width: 50%;
+	line-height: 0px;
 }
 
 .overview p{
-	transform: translateY(-50%);
+	width: 50%;
+   	padding-bottom: 20px
 }
 
 
