@@ -94,7 +94,7 @@ div[class*="projectitem"] {
 .content{
 	position: relative;
 	width: 97%;
-	height: 97%;
+	height: 98%;
 	margin: auto;
 	overflow: hidden;
 }
@@ -103,7 +103,7 @@ div[class*="projectitem"] {
 	background: rgba(0, 0, 0, 0.5);
 	position: absolute;
 	 position: absolute;
-  	height: 97%;
+  	height: 98%;
   	width: 97%;
   	left: 0;
   	top: 0;
@@ -120,8 +120,8 @@ div[class*="projectitem"] {
 }
 	
 .content-image{
-	width: 100%;
-	min-height: 97%;
+	width: 97%;
+	height: 98%;
 }
 
 .content-details{
