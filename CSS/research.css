@@ -5,6 +5,10 @@
 	src: url("../Mayton.woff") format("woff");
 }
 
+.name img{
+	position: relative;
+	top: 80px;
+}
 
 #header{
 	font-family: "mayton";
