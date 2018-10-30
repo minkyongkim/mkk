@@ -170,6 +170,16 @@ p{
 	line-height: 25px;
 }
 
+ul{
+	position: relative;
+	width: 50%;
+	left: 25%;
+	line-height: 25px;
+	font-family: "Lato", sans-serif;
+	font-weight: lighter;
+	font-size: 14px;
+}
+
 li{
 	margin-left: auto;
     	margin-right: auto;
