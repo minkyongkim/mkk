@@ -105,21 +105,15 @@ body, html{
 	
 }
 
-.logo {
-	transform: translate(30%, 60%);
+.logo img{
+	width: 40%;
+    	position: relative;
+    	top: 30px;
 }
 
-.titletext{
-	display: inline-block;
-	color: #3c2f2f;
-	font-weight: bolder;
-	font-size: x-large;
-	position: relative;
-	left: 55%;
-}
 
 .overview{
-	padding: 100px 0px 50px 0px;
+	padding: 200px 0px 50px 0px;
 }
 
 .overview h2{
