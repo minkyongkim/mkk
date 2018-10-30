@@ -7,7 +7,7 @@
 
 .name img{
 	position: relative;
-	top: 80px;
+	top: 100px;
 	width: 30%;
 }
 
@@ -71,7 +71,7 @@ body, html {
 	grid-template-columns: 50px calc(50% - 72.5px) calc(50% - 72.5px) 50px;
 	grid-template-rows: 400px 365px 365px 100px;
 	grid-gap: 15px;
-	margin-top: -310px;
+	margin-top: -300px;
 
 }
 
