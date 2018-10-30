@@ -150,11 +150,13 @@ h2 {
 h3{
 	position: relative;
 	left: 25%;
+	width: 50%;
 	font-size: 22px;
 }
 
 h4{
 	position: relative;
+	width: 50%;
 	left: 25%;
 }
 
