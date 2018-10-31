@@ -3,6 +3,12 @@
 <head>
 	<title>NUVents</title>
 	<meta charset="utf-8">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.0/dist/bootstrap-toc.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.0/dist/bootstrap-toc.min.js"></script>
+	
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
 	
@@ -25,7 +31,7 @@
 	</script>
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#toc">
 
 	<div class="navbar">
 		<a href="index.html">DESIGN</a>
@@ -33,21 +39,10 @@
 		<a href="About.html">ABOUT</a>
 		<a href="Resume.html">RESUME</a>
 	</div>
-	
-	<div class="sidenav">
-		<h3>Process</h3>
-		<ul>
-			<li><a href="#Problem">Motivation</a></li>
-			<li><a href="#Research">Research</a></li>
-			<li><a href="#synthesis">Synthesis</a></li>
-			<li><a href="#hmw">Ideation</a></li>
-			<li><a href="#Prototypes">Prototypes</a></li>
-			<li><a href="#iteration">Iteration</a></li>
-			<li><a href="#iterations">Hi-Fi Prototype</a></li>
-			<li><a href="#demo">Pitching the service</a></li>
-			<li><a href="#takeaways">Takeaways</a></li>
-		</ul>
+	<div class="col-sm-3">
+	<nav id="toc" data-toggle="toc" class="sticky-top"></nav>
 	</div>
+	
 
 	<div class="logo">
 		<center><img src="../Images/NUVents Images/logopic.png"></center>
@@ -65,7 +60,7 @@
 	<hr>
 
 	<div id="Problem">
-		<h2>THE PROBLEM</h2>
+		<h2 data-toc-text="MOTIVATION">THE PROBLEM</h2>
 			<p>Northwestern students often struggle to deal with the <b>daily sources of stress</b> in their lives.</p>
 			<p>They see current stress relief programming offered by the university (i.e. Counseling And Psychological Services) as a way of dealing with larger events of mental health problems, but don't feel there is a similar outlet for daily stress. </p>
 			<p>How might we engage the Northwestern community to serve as supportive and active listeners to each other's stresses?</p>
@@ -74,7 +69,7 @@
 	<hr>
 
 	<div id="Research">
-		<h2>RESEARCH METHODOLOGY</h2>
+		<h2 data-toc-text="RESEARCH">RESEARCH METHODOLOGY</h2>
 
 			<h3>Stakeholders</h3>
 				<p>Before conducting our user research, we mapped out our stakeholders to help us guide our decision-making early in the process.</p>
@@ -276,7 +271,7 @@
 	<hr>
 <div id="iterations">
 	<div class="screens">
-		<h2>HIGH-FIDELITY PROTOTYPE</h2>
+		<h2 data-toc-text="HI-FI PROTOTYPE">HIGH-FIDELITY PROTOTYPE</h2>
 		<p>To better visualize how our solution would actually look on an interface, we came up with some quick mock-ups. Though not interactive, they were still able to provide more detail compared to previous versions.</p>
 	
 		<div class="Mockups-container">
@@ -311,7 +306,7 @@
 	<hr>
 
 	<div id="demo">
-		<h2>PITCH</h2>
+		<h2 data-toc-text="PITCHING THE SERVICE">PITCH</h2>
 		<center><video width="70%" height="70%" controls>
 			<source src="Images/NUVents Images/NUVents FINAL.mp4" type="video/mp4"></center>
 			</video>
