@@ -66,12 +66,19 @@ body, html{
 }
 
 nav[data-toggle='toc'] {
-  margin-top: 30px;
+	transform: translateY(70%);
+	width: 25%;
+	position: fixed;
+
 }
 
  nav[data-toggle='toc'] .nav .active .nav {
     display: none;
   }
+
+.navbar-nav{
+	left: 0%;
+}
 
 .logo img{
 	width: 50%;
