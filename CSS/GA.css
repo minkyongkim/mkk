@@ -115,7 +115,7 @@ img.logo{
 }
 
 .overview{
-	padding: 100px 0px 50px 0px;
+	padding: 50px 0px 50px 0px;
 }
 
 .overview h2{
@@ -127,13 +127,17 @@ img.logo{
 .overview h4{
 	font-family: "Montserrat", sans-serif;
 	font-weight: lighter;
+	position: relative;
+	left: 25%;
+	width: 50%;
 	font-size: 16px;
 }
 
-
-h1 {
-	margin-bottom: 60px;
+.overview p{
+	width: 50%;
+   	padding-bottom: 20px
 }
+
 
 h2 {
 	font-family: "Montserrat", sans-serif;
