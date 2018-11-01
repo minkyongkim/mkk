@@ -66,6 +66,14 @@ nav[data-toggle='toc'] {
 	left: 0%;
 }
 
+nav[data-toggle=toc] .nav>li>a {
+	text-transform: uppercase;
+}
+
+nav[data-toggle=toc] .nav>li>a:focus, nav[data-toggle=toc] .nav>li>a:hover {
+	color: #2f4788;
+	border-left: 1px solid #2f4788;
+}
 
 img.logo{
 	text-align: center;
