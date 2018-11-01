@@ -1,4 +1,13 @@
-
+body, html{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #ffffff;
+	font-family:"Lato", sans-serif;
+	overflow-x: hidden;
+	
+}
 .navbar {
 	overflow: hidden;
 	position: fixed;
@@ -49,16 +58,6 @@ nav[data-toggle='toc'] {
 	left: 0%;
 }
 
-body, html{
-	margin: 0;
-	padding: 0;
-	height: 100%;
-	width: 100%;
-	background-color: #ffffff;
-	font-family:"Lato", sans-serif;
-	overflow-x: hidden;
-	
-}
 
 img.logo {
 	text-align: center;
