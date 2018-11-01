@@ -7,6 +7,17 @@
 	src: url("../Mayton.woff") format("woff");
 }
 
+body, html{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #ffffff;
+	font-family:"Lato", sans-serif;
+	overflow-x: hidden;
+	
+}
+
 .navbar {
 	overflow: hidden;
 	position: fixed;
@@ -43,18 +54,6 @@
 }
 
 
-
-body, html{
-	margin: 0;
-	padding: 0;
-	height: 100%;
-	width: 100%;
-	background-color: #ffffff;
-	font-family:"Lato", sans-serif;
-	overflow-x: hidden;
-	
-}
-
 nav[data-toggle='toc'] {
 	transform: translateY(70%);
 	width: 25%;
@@ -70,11 +69,9 @@ nav[data-toggle='toc'] {
 	left: 0%;
 }
 
-
-nav[data-toggle=toc] .nav>.active>a, .nav>li>a:hover{
+nav[data-toggle=toc] .nav>li>a:focus, nav[data-toggle=toc] .nav>li>a:hover {
 	color: #2f4788;
-	border-left-style: solid;
-	border-left-color: #2f4788;
+	border-left: 1px solid #2f4788;
 }
 
 img.logo{
