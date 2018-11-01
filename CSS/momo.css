@@ -204,6 +204,9 @@ hr{
     	width: 35%;
 	padding: 5px;
 }
+#findings h3{
+	padding-top: 15px;
+}
 
 table, th, td {
 	border: 1px solid black;
