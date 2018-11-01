@@ -73,6 +73,7 @@ body, html {
 	grid-template-rows: 400px 365px 365px 100px;
 	grid-gap: 15px;
 	margin-top: -300px;
+	margin-bottom: 40px;
 
 }
 
