@@ -5,6 +5,8 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.0/dist/bootstrap-toc.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.0/dist/bootstrap-toc.min.js"></script>
 	
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
@@ -17,7 +19,7 @@
 	<link rel="stylesheet" type="text/css" href="CSS/momo.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
 </head>
-<body>
+<body data-spy="scroll" data-target="#toc">
 
 <div class="navbar">
 		<a href="index.html">DESIGN</a>
@@ -27,17 +29,18 @@
 	</div>
 	
 	
-	<div class="sidenav">
-		<h3>Process</h3>
-		<ul>
-			<li><a href="#motivation">Motivation</a></li>
-			<li><a href="#process">Process</a></li>
-			<li><a href="#design">Synthesis</a></li>
-			<li><a href="#ut">Usability Testing</a></li>
-			<li><a href="#findings">Findings</a></li>
-			<li><a href="#recommendations">Recommendations</a></li>
-			<li><a href="#takeaways">Takeaways</a></li>
+<div class="col-sm-3">
+	<nav id="toc" data-toggle="toc" class="sticky-top">
+		<ul class="nav navbar-nav">
+			<li><a class="nav-link" href="#motivation">Motivation</a></li>
+			<li><a class="nav-link" href="#process">Process</a></li>
+			<li><a class="nav-link" href="#design">Synthesis</a></li>
+			<li><a class="nav-link" href="#ut">Usability Testing</a></li>
+			<li><a class="nav-link" href="#findings">Findings</a></li>
+			<li><a class="nav-link" href="#recommendations">Recommendations</a></li>
+			<li><a class="nav-link" href="#takeaways">Takeaways</a></li>
 		</ul>
+	</nav>
 </div>
 	
 	<center><img class="logo" src="/Images/Zalora/momobanner.png"></center>
