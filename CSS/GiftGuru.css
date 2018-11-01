@@ -52,46 +52,19 @@ body, html{
 }
 
 
-.sidenav{
-	width: 30%;
-	position: absolute;
-	top: 30%;
-	font-family: "Montserrat", sans-serif;
+nav[data-toggle='toc'] {
+	transform: translateY(70%);
+	width: 25%;
+	position: fixed;
+
 }
 
-.sidenav h3{
-	position: absolute;
-	left: 5%;
-	top: 25%;
-	text-transform: uppercase;
-	font-family: "Lato", sans-serif;
-}
+ nav[data-toggle='toc'] .nav .active .nav {
+    display: none;
+  }
 
-.sidenav ul{
-	list-style-type: none;
-	position: absolute;
-	transform: translateY(20%);
+.navbar-nav{
 	left: 0%;
-	min-width: 100%;
-}
-
-.sidenav li{
-	margin: 5px;
-}
-
-.sidenav a{
-	font-family: "Montserrat", sans-serif;
-	text-decoration: none;
-	color: black;
-	text-transform: uppercase;
-}
-
-.sidenav a:visited{
-	color: black;
-}
-
-.sidenav a:hover{
-	background-color: #fffaf1;
 }
 
 img.logo{
