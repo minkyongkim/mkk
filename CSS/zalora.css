@@ -103,13 +103,11 @@ span#initials{
 	background-color: #fffaf1;
 }
 
-.titletext{
-	display: inline-block;
-	color: #3c2f2f;
-	font-weight: bolder;
-	font-size: x-large;
-	position: relative;
-	left: 55%;
+img.logo{
+	text-align: center;
+	display: flex;
+	width: 50%;
+	margin-top: 100px;
 }
 
 .overview{
