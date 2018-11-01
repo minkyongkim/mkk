@@ -111,7 +111,7 @@ img.logo{
 }
 
 .overview{
-	padding: 100px 0px 50px 0px;
+	padding: 50px 0px 50px 0px;
 }
 
 .overview h2{
@@ -125,6 +125,13 @@ img.logo{
 	font-weight: lighter;
 	position: relative;
 	left: 25%;
+	width: 50%;
+	font-size: 16px;
+}
+
+.overview p{
+	width: 50%;
+   	padding-bottom: 20px
 }
 
 .overview li{
