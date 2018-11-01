@@ -1,4 +1,13 @@
-
+body, html{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #ffffff;
+	font-family:"Lato", sans-serif;
+	overflow-x: hidden;
+	
+}
 .navbar {
 	overflow: hidden;
 	position: fixed;
@@ -34,68 +43,20 @@
     	border-bottom-color: #2f4788;
 }
 
-span#initials{
-	position: absolute;
-	right: 7%;
-	top: 30%;
-	font-family: "mayton";
-	color: #d0826f;
-	font-size: 60px;
-	font-weight: 700;
-	letter-spacing: 6px;
+
+nav[data-toggle='toc'] {
+	transform: translateY(70%);
+	width: 25%;
+	position: fixed;
+
 }
 
-.sidenav{
-	width: 30%;
-	position: absolute;
-	top: 30%;
-	font-family: "Montserrat", sans-serif;
-}
+ nav[data-toggle='toc'] .nav .active .nav {
+    display: none;
+  }
 
-.sidenav h3{
-	position: absolute;
-	left: 5%;
-	top: 25%;
-	text-transform: uppercase;
-	font-family: "Lato", sans-serif;
-}
-
-.sidenav ul{
-	list-style-type: none;
-	position: absolute;
-	transform: translateY(20%);
+.navbar-nav{
 	left: 0%;
-	min-width: 100%;
-}
-
-.sidenav li{
-	margin: 5px;
-}
-
-.sidenav a{
-	font-family: "Montserrat", sans-serif;
-	text-decoration: none;
-	color: black;
-	text-transform: uppercase;
-}
-
-.sidenav a:visited{
-	color: black;
-}
-
-.sidenav a:hover{
-	background-color: #fffaf1;
-}
-
-body, html{
-	margin: 0;
-	padding: 0;
-	height: 100%;
-	width: 100%;
-	background-color: #ffffff;
-	font-family:"Lato", sans-serif;
-	overflow-x: hidden;
-	
 }
 
 img.logo {
