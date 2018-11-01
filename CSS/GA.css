@@ -70,6 +70,10 @@ nav[data-toggle='toc'] {
 	left: 0%;
 }
 
+nav[data-toggle=toc] .nav>li>a {
+	text-transform: uppercase;
+}
+
 
 img.logo{
 	text-align: center;
