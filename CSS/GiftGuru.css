@@ -126,7 +126,13 @@ img.logo{
 	font-weight: lighter;
 	position: relative;
 	left: 25%;
+	width: 50%;
 	font-size: 16px;
+}
+
+.overview p{
+	width: 50%;
+   	padding-bottom: 20px
 }
 
 
