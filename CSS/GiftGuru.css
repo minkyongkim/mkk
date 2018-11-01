@@ -125,12 +125,10 @@ img.logo{
 	font-family: "Montserrat", sans-serif;
 	font-weight: lighter;
 	position: relative;
-	left: 25%
+	left: 25%;
+	font-size: 16px;
 }
 
-.overview p{
-	transform: translateY(-50%);
-}
 
 h1 {
 	margin-bottom: 60px;
