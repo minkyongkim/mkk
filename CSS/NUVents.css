@@ -42,16 +42,6 @@
     	border-bottom-color: #2f4788;
 }
 
-span#initials{
-	position: absolute;
-	right: 7%;
-	top: 30%;
-	font-family: "mayton";
-	color: #d0826f;
-	font-size: 60px;
-	font-weight: 700;
-	letter-spacing: 6px;
-}
 
 
 body, html{
@@ -78,6 +68,13 @@ nav[data-toggle='toc'] {
 
 .navbar-nav{
 	left: 0%;
+}
+
+
+nav[data-toggle=toc] .nav>.active>a, .nav>li>a:hover{
+	color: #2f4788;
+	border-left-style: solid;
+	border-left-color: #2f4788;
 }
 
 img.logo{
