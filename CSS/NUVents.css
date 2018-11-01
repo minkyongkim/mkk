@@ -104,7 +104,7 @@ img.logo{
 	position: relative;
 	left: 25%;
 	width: 50%;
-	line-height: 0px;
+	font-size: 16px;
 }
 
 .overview p{
