@@ -118,6 +118,10 @@ h3{
 	left: 25%;
 	font-size: 22px;
 }
+h4{
+	position: relative;
+	left: 25%;
+}
 
 p{
 	margin-left: auto;
