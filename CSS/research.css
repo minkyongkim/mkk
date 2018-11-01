@@ -190,7 +190,7 @@ div[class*="researchitem"] {
 .footer{
 	width: 100%;
 	left: 0;
-	bottom: 0;
+	bottom: -80%;
 	color: #3b4358;
 	text-align: center;
 	font-size: 14px;
