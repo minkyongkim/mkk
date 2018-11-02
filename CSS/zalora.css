@@ -135,8 +135,9 @@ h3{
 
 h4{
 	position: relative;
-	width: 50%;
-	left: 25%;
+    	width: 50%;
+    	left: 25%;
+    	padding-top: 15px;
 }
 
 p{
