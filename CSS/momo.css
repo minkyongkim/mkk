@@ -212,6 +212,14 @@ hr{
 #findings p{
 	padding-bottom: 15px;
 }
+
+#recommendations h3{
+	padding-top: 25px;
+}
+
+#recommendations p{
+	padding-top: 25px;
+}
 table, th, td {
 	border: 1px solid black;
 	border-collapse: collapse;
