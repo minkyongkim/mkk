@@ -132,6 +132,7 @@ h4{
 	position: relative;
     	font-size: 18px;
     	left: 25%;
+	padding-top: 15px;
 }
 
 p{
@@ -268,8 +269,7 @@ span#hifititle{
 
 .iteration h3{
 	position: relative;
-	left: 0;
-	text-align: center;
+	left: 10%;
 }
 
 .iteration p{
