@@ -191,8 +191,12 @@ hr{
 }
 
 .requirements2 {
-	padding-top: 0px;
+	padding-top: 25px;
 	padding-bottom: 50px;
+}
+
+.requirements2 p{
+	padding-bottom: 20px;
 }
 
 #requirements img, .competitor img, .flowchart img{
@@ -210,6 +214,7 @@ hr{
 	margin-left: auto;
     	margin-right: auto;
     	text-align: center;
+	padding-bottom: 15px;
 	left: 0%
 }
 
