@@ -205,9 +205,13 @@ hr{
 	padding: 5px;
 }
 #findings h3{
-	padding-top: 15px;
+	padding-top: 25px;
+    	padding-bottom: 10px;
 }
 
+#findings p{
+	padding-bottom: 15px;
+}
 table, th, td {
 	border: 1px solid black;
 	border-collapse: collapse;
