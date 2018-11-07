@@ -159,6 +159,8 @@ ul{
 
 hr{
 	width: 70%;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 #Problem, #hmw, #Research, #Prototypes, #iteration, .blueprint, #iterations, #demo, #takeaways{
