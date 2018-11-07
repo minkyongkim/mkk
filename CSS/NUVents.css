@@ -83,7 +83,7 @@ img.logo{
 
 
 .overview{
-	padding: 51px 0px 51px 0px;
+	padding: 50px 0px 50px 0px;
 }
 
 .overview h2{
@@ -163,8 +163,12 @@ hr{
 	margin-bottom: 0px;
 }
 
-#Problem, #hmw, #Research, #Prototypes, #iteration, .blueprint, #iterations, #demo, #takeaways{
-	padding: 50px 0px 50px 0px;
+#Problem {
+	margin-bottom: 1px;
+}
+
+#hmw, #Research, #Prototypes, #iteration, .blueprint, #iterations, #demo, #takeaways{
+	padding: 50px 0px 51px 0px;
 }
 
 
