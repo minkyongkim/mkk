@@ -83,6 +83,11 @@ p {
 	width: 50%;
 	text-align: center;
 }
+
+#research {
+	height: 50%;
+}
+
 .footer{
 	left: -50%;
     	bottom: 0;
