@@ -84,14 +84,13 @@ p {
 	text-align: center;
 }
 .footer{
-	left: -70%;
+	left: -50%;
     	bottom: 0;
    	color: #3b4358;
     	margin-left: auto;
    	margin-right: auto;
-    	text-align: center;
     	font-size: 14px;
-    	position: absolute;
+    	position: relative;
     	height: 0px;
     	width: 100%;
 }
