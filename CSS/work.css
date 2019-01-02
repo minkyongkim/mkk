@@ -80,7 +80,7 @@ body, html {
 
 
 .projectitem-1{
-	grid-column: 2 / 3;
+	grid-column: 3 / 4;
 	grid-row: 2 / 3;
 	position: relative;
 }
@@ -182,7 +182,7 @@ div[class*="projectitem"] {
 }
 
 .projectitem-2{
-	grid-column: 3 / 4;
+	grid-column: 2 / 3;
 	grid-row: 2 / 3;
 	
 }
