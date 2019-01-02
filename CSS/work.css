@@ -81,7 +81,7 @@ body, html {
 
 .projectitem-1{
 	grid-column: 3 / 4;
-	grid-row: 2 / 3;
+	grid-row: 3 / 3;
 	position: relative;
 }
 
@@ -198,7 +198,7 @@ div[class*="projectitem"] {
 
 .projectitem-4{
 	grid-column: 3 / 4;
-	grid-row: 3 / 3;
+	grid-row: 2 / 3;
 	justify-self: start;
 	align-self: start;
 	position: relative;
