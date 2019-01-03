@@ -204,6 +204,13 @@ div[class*="projectitem"] {
 	position: relative;
 }
 
+.projectitem-5{
+	grid-column: 2 / 4;
+	grid-row: 4 / 4;
+	justify-self: start;
+	align-self: start;
+	position: relative;
+}
 
 .footer{
 	width: 100%;
