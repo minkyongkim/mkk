@@ -175,7 +175,7 @@ hr{
 	left: 0%
 }
 
-#research img, #testing img, #final img {
+#research img, #testing img, .flow img {
 	height: 50%;
 	width: 40%;
 	position: relative;
