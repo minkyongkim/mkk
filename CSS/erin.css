@@ -186,10 +186,9 @@ hr{
 
 .prototype, .hifi {
 	max-width: 500px;
-	width: 100%;
-	height: 100%;
+	width: 70%;
 	position: relative;
-	left: 50%;
+	left: 30%;
     transform: translateX(-50%);
 	margin-top: 20px;
 	margin-bottom: 30px;
