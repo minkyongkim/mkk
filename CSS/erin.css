@@ -139,7 +139,7 @@ p{
 	line-height: 25px;
 }
 
-ul{
+ul, ol{
 	position: relative;
 	width: 50%;
 	left: 25%;
