@@ -183,10 +183,13 @@ hr{
 	padding: 10px 0px 30px 0px;
 	display: block;
 }
-.hifi img {
-	width: 50%;
+.prototype img, .hifi img {
+	width: 80%;
 	height: 50%;
+	position: relative;
+	left: 10%;
 }
+
 .prototype, .hifi {
 	max-width: 500px;
 	position: relative;
