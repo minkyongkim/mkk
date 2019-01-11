@@ -149,11 +149,9 @@
 	<hr>
 
 	<div id="prototypes">
-		<h2>PROTOTYPES</h2>
+		<h2>INITIAL PROTOTYPE</h2>
 
-		
-		<h3>Paper Prototype</h3>
-		<p>To help us visualize the user flow for the app, we created an initial prototype based on design requirements we had specified.</p>
+		<p>To help us visualize the user flow for the app, we created a paper prototype based on design requirements we had specified above.</p>
 
 		<br />
 		
@@ -231,30 +229,152 @@
 	<div id="testing">
 		<h2>USABILITY TESTING</h2>
 		
-		<p>We completed a total of two rounds of usability studies and iterations to improve our design. Our usability studies were broken into two parts:<br /><br />
-			<b>Part 1:</b>Use tactile commands to navigate the application to complete tasks<br /><br />
-			<b>Part 2:</b>Use a combination of tactile and voice commands with the prototype<br /><br />
-			Participants were instructed to visualize a hypothetical situation in which they are planning a party. They were then given the prototype displayed on a laptop and asked to complete the following tasks:</p>
+		<h3>Test Plan</h3>
+		<p>We completed a total of two rounds of usability studies and iterations to improve our design, using each to advance to a higher fidelity design. Our usability test plan differed between the first and second rounds.
+		Our first round involved:<br /><br />
+			<b>Part 1:</b> Use tactile commands to navigate the application to complete tasks<br /><br />
+			<b>Part 2:</b> Voice out the vocal commands that would be used to complete the same set of tasks in Part 1<br /><br />
+		Our second round involved:<br /><br />
+			<b>Part 1:</b> Use tactile commands to navigate the application to complete tasks<br /><br />
+			<b>Part 2:</b> Use a combination of tactile and voice commands to complete the same set of tasks in Part 1<br /><br />
+			
+			In both instances, participants were instructed to visualize a hypothetical situation in which they are planning a party. They were then given the prototype displayed on a laptop and asked to complete the following tasks:</p>
 			<a href="Images/Erin Images/task-list.png" data-featherlight="image"><img src="Images/Erin Images/task-list.png"></a>
 		
 
-		<p>Task completion and errors for each task were recorded. After testing, we measured satisfaction levels using open-ended questions (e.g. What would you change about the app?)</p>
+		<p>Task completion and errors for each task were recorded. After testing, we also measured satisfaction levels using open-ended questions (e.g. What would you change about the app?)</p>
 		
 	</div>
 
 	<hr>
 
 	<div id="iteration">
-		<h2>ITERATION</h2>
-		<p>We rated each usability issue discovered for severity, with 1 being most severe and 4 being a minor preference issue to prioritize which changes to make for the subsequent iteration. Based on our results from both sessions, we iterated in four key ways from our initial to hi-fidelity prototype:
-			<ul>
-				<li>Change CTA labels to be more descriptive of what buttons do</li>
-				<li>Include more than one entry points for certain use cases</li>
+		<h2>ITERATIONS</h2>
+		
+		<h3>Key Results</h3>
+		
+		<ol>
+			<li>Terminology used was not clear and did not match participants expectations, e.g. participants had difficulty understanding what the CTA "Execute List" meant.</li>
+			<li>Not enough visual cues and affordances indicated which part of interface is interactive, e.g. no UI to show that they could their reminders could be edited in the calendar screen.</li>
+			<li>Confusion occurred when interaction patterns did not follow conventions, e.g. “saving” selections, automatically saved task lists, etc.</li>
+
+		</ol>
+		
+		<p>To prioritize which areas to fix, we also rated each usability issue discovered for severity, with 1 being most severe and 4 being a minor preference issue. The changes are reflected in the 
+			mid-fi prototype below.</p>
+		
+		<h3>Mid-Fi Prototype</h3>
+		
+		<div class="midfi">
+			<div class="mid">
+				<div class="number">1 / 14</div>
+				<img src="Images/Erin Images/list-main.png">
+				<div class="text">Main to-do list screen</div>
+			</div>
+
+
+			<div class="mid">
+				<div class="number">2 / 14</div>
+				<img src="Images/Erin Images/blank.png">
+				<div class="text">Creating a new to-do list (manually)</div>
+			</div>
+
+			<div class="mid">
+				<div class="number">3 / 14</div>
+				<img src="Images/Erin Images/blank-voice.png">
+				<div class="text">Creating a new to-do list (via voice command)</div>
+			</div>
+
+			<div class="mid">
+				<div class="number">4 / 14</div>
+				<img src="Images/Erin Images/addlocation.png">
+				<div class="text">Setting a location on a to-do list (for route generation)</div>
+			</div>
+
+			<div class="mid">
+				<div class="number">5 / 15</div>
+				<img src="Images/Erin Images/setreminder.png">
+				<div class="text">Setting a time and/or location reminder for to-do list completion</div>
+			</div>
+
+			<div class="mid">
+				<div class="number">6 / 14</div>
+				<img src="Images/Erin Images/updatedlist.png">
+				<div class="text">Updated main to-do list screens with some lists that show reminders and location information (if any)</div>
+			</div>
+
+			<div class="mid">
+				<div class="number">7 / 14</div>
+				<img src="Images/Erin Images/routes.png">
+				<div class="text">Main routes screens where the app generates the most efficient route based on user selection of lists they want to run</div>
+			</div>
+
+			<div class="mid">
+				<div class="number">8 / 14</div>
+				<img src="Images/Erin Images/select.png">
+				<div class="text">User selects lists to generate most efficient route</div>
+			</div>
+
+			<div class="mid">
+				<div class="number">9 / 14</div>
+				<img src="Images/Erin Images/routes2.png">
+				<div class="text">After choosing which lists they want to complete for route generation, users can also specify how much time they plan to spend at each location for more accurate task completion time</div>
+			</div>
+
+			<div class="mid">
+				<div class="number">10 / 14</div>
+				<img src="Images/Erin Images/primaryroute.png">
+				<div class="text">Primary route indicates fastest route based on location information for each to-do list input by user</div>
+			</div>
+
+			<div class="mid">
+				<div class="number">11 / 14</div>
+				<img src="Images/Erin Images/altroute.png">
+				<div class="text">Alternative route indicates faster (than primary) route, but with original locations replaced by similar locations, suggested based on user input preferences</div>
+			</div>
+
+			<div class="mid">
+				<div class="number">12 / 14</div>
+				<img src="Images/Erin Images/reminders-main.png">
+				<div class="text">Main reminders screen with a calendar that shows to-do list reminders with other user imported calendars</div>
+			</div>
+
+			<div class="mid">
+				<div class="number">13 / 14</div>
+				<img src="Images/Erin Images/preferences.png">
+				<div class="text">Preferences screen with a tooltip that explains concept of preferences and ranking them</div>
+			</div>
+
+			<div class="mid">
+				<div class="number">14 / 14</div>
+				<img src="Images/Erin Images/preferences2.png">
+				<div class="text">Users can select preferences and drag selections to rank them for alternative routes the app may suggest</div>
+			</div>
+
+		</div>
+		
+		<script type="text/javascript">
+			$('.hifi').slick();
+		</script>
+		
+		
+		<h3>Results from the Second UT</h3>
+			
+		<p>Compared to our first session, we had relatively fewer changes to make. Nevertheless, we learned that:</p>
+			<ol>
+				<li>Lack of clear UI and visual feedback prevented participants from discovering or fully understanding how to use specific features, e.g. no visual feedback to show speech processing is active.</li>
+				<li>Entry points for certain tasks were unclear, e.g. participants clicked on the to-do list tab in the main nav bar to reschedule reminders, instead of the Reminders tab.</li> 
+			</ol>
+			
+			
+		<p>We iterated in four key ways from our mid to high fidelity prototype:</p>
+			<ol>
+				<li>Create UI for when microphone is actively listening</li>
+				<li>Include more than one entry points for certain use cases, e.g. scheudling/re-scheduling reminders</li>
 				<li>Change trip completion time to show a shorter completion time than primary route</li>
-				<li>Display clearer visual cues/UI for affordances</li>
-				<li>Provide a greater degree of information scent by improving the main navigation</li>
-			</ul>
-		</p>
+				<li>Other minor visual cues/UI tweaks for clearer display of affordances, e.g. inserting placeholder text in the search bar for preferences to indicate what is being searched.</li>
+			</ol>
+		
 
 	</div>
 
