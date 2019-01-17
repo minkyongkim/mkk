@@ -135,7 +135,7 @@ p{
 
 li{
 	font-weight: lighter;
-	font-size: 14px;
+	font-size: 15px;
 	line-height: 25px;
 }
 
@@ -244,14 +244,14 @@ ol{
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
-	font-size: 14px;
+	font-size: 15px;
 }
 
 ul {
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
-	font-size: 14px;
+	font-size: 15px;
 }
 
 .featherlight-gallery .featherlight-next:hover,
