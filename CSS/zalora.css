@@ -171,6 +171,8 @@ li{
 
 hr{
 	width: 70%;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 #goals, .competitor, #stakeholder, #prototypes, #feedback, #iteration, #takeaways{
