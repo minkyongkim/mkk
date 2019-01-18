@@ -77,13 +77,6 @@ body, html {
 
 }
 
-
-.researchitem-1{
-	grid-column: 2 / 3;
-	grid-row: 2 / 3;
-	position: relative;
-}
-
 div[class*="researchitem"] {
 	height: 350px;
 	width: 100%;
@@ -180,13 +173,22 @@ div[class*="researchitem"] {
 	top: 20%;
 }
 
+.researchitem-1{
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
+	position: relative;
+}
+
 .researchitem-2{
 	grid-column: 3 / 4;
 	grid-row: 2 / 3;
 	
 }
-
-
+.researchitem-3{
+	grid-column: 2 / 3;
+	grid-row: 3 / 3;
+	
+}
 .footer{
 	width: 100%;
 	left: 0;
