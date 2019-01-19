@@ -159,6 +159,7 @@ hr{
 
 .chart {
 	display: flex;
+	max-width: 90%;
 }
 
 .notes {
@@ -168,6 +169,11 @@ hr{
 
 .vis {
 	flex: 50%;
+	transform: translateX(35%);
+}
+
+.vis img{
+	width: 80%;
 }
 
 .pics {
