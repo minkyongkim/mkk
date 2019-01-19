@@ -157,9 +157,13 @@ hr{
 	padding: 50px 0px 50px 0px;
 }
 
-
-.chart, .notes {
+.chart {
 	display: flex;
+}
+
+.notes {
+	display: flex;
+	max-width: 85%;
 }
 
 .vis {
@@ -167,13 +171,13 @@ hr{
 }
 
 .pics {
-	transform: translateX(50%);
-	padding: 5px;
+	transform: translateX(60%);
 }
 
 .pics img {
-	height: 100%;
-	width: 100%;
+	height: 95%;
+	width: 90%;
+	margin-left: 5px;
 }
 
 .footer{
