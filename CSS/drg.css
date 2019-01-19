@@ -154,6 +154,10 @@ hr{
 	padding: 50px 0px 50px 0px;
 }
 
+.citation{
+	font-size: 14px;
+}
+
 .chart, .notes {
 	display: flex;
 }
