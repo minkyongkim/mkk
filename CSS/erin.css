@@ -160,6 +160,7 @@ li{
 
 hr{
 	width: 70%;
+	margin: 0;
 }
 
 #motivation, #research, #concept, #prototypes, #testing, #iteration, #final, #takeaways{
