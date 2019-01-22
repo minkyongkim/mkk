@@ -67,6 +67,10 @@ nav[data-toggle=toc] .nav>li>a:focus, nav[data-toggle=toc] .nav>li>a:hover {
 	border-left: 1px solid #2f4788;
 }
 
+.nav>li {
+	margin-bottom: 0;
+}
+
 img.logo{
 	text-align: center;
 	display: flex;
@@ -146,13 +150,14 @@ ul, ol{
 	line-height: 25px;
 	font-family: "Lato", sans-serif;
 	font-weight: lighter;
-	font-size: 14px;
+	font-size: 15px;
 }
 
 li{
 	margin-left: auto;
-    margin-right: auto;
-   	width: 100%;
+	margin-right: auto;
+	margin-bottom: 10px;
+	width: 100%;
     line-height: 25px;
     font-size: 14px;
     position: relative;
