@@ -188,14 +188,6 @@ div[class*="projectitem"] {
 	
 }
 
-.projectitem-3{
-	grid-column: 3 / 3;
-	grid-row: 3 / 4;
-	justify-self: end;
-	align-self: start;
-	position: relative;
-	
-}
 
 .projectitem-4{
 	grid-column: 3 / 4;
