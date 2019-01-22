@@ -177,8 +177,8 @@ div[class*="projectitem"] {
 
 
 .projectitem-1{
-	grid-column: 2 / 3;
-	grid-row: 4 / 4;
+	grid-column: 3 / 3;
+	grid-row: 3 / 4;
 	position: relative;
 }
 
