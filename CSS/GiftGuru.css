@@ -63,6 +63,10 @@ nav[data-toggle='toc'] {
     display: none;
   }
 
+.nav>li {
+	margin-bottom: 0;
+}
+
 .navbar-nav{
 	left: 0%;
 }
@@ -135,8 +139,9 @@ p{
 
 li{
 	font-weight: lighter;
-	font-size: 15px;
+	font-size: 14px;
 	line-height: 25px;
+	margin-bottom: 10px;
 }
 
 hr{
