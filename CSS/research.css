@@ -189,6 +189,13 @@ div[class*="researchitem"] {
 	grid-row: 3 / 3;
 	
 }
+
+.researchitem-4{
+	grid-column: 3 / 4;
+	grid-row: 3 / 3;
+	
+}
+
 .footer{
 	width: 100%;
 	left: 0;
