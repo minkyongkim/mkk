@@ -1,0 +1,67 @@
+body, html{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #ffffff;
+	font-family:"Lato", sans-serif;
+	overflow-x: hidden;
+	
+}
+.navbar {
+	overflow: hidden;
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+	background-color: #ffffff;
+	padding: 10px;
+}
+
+.navbar a {
+	float: left;
+	display: block;
+	color: #3c2f2f;
+	text-align: right;
+	padding: 14px 16px;
+	margin-right: 10px;
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+	text-decoration: none;
+	letter-spacing: 3px;
+	
+}
+
+.navbar a:hover{
+	color: #2f4788;
+	border-bottom-style: solid;
+    	border-bottom-color: #2f4788;
+}
+
+.navbar a.active{
+	color: #2f4788;
+	border-bottom-style: solid;
+    	border-bottom-color: #2f4788;
+}
+.overview{
+	padding: 50px 0px 50px 0px;
+}
+
+.overview h2{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.overview h4{
+	font-family: "Montserrat", sans-serif;
+	font-weight: lighter;
+	position: relative;
+	left: 25%;
+	width: 50%;
+	font-size: 16px;
+}
+
+.overview p{
+	width: 50%;
+   	padding-bottom: 20px
+}
